@@ -71,7 +71,8 @@ def build_blog_index():
         for post in posts:
             with open(post_md_dir + post, 'r') as post_file:
                 title = post_file.readline()[2:-1]
-                blog_index.write('* [%s](%s) \n' % (title, post[:-2] + 'html'))
+                date = post_file.readline()[:-1]
+                blog_index.write('* [%s](%s) - %s \n' % (title, post[:-2] + 'html', date))
     comd = '%s %s %s' % (pandoc_base, out_dir + 'blog_index.html', blog_index_file)
     os.system(comd)
 
