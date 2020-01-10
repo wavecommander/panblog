@@ -21,14 +21,27 @@ comments_html = res_dir + 'foot.html'
 pandoc_base = 'pandoc -s -t html5 -c %s -H %s -o ' % (css_file, head_file)
 base_md_dir = md_dir + 'base/'
 
+# BLOG INDEX
+blog_index_file = md_dir + 'blog_index.md'
+blog_index_start = '% Blog Index'
+
 # POSTS
 pandoc_post = 'pandoc -s -t html5 -c %s -H %s -A %s -o ' % (css_file, head_file, comments_html)
 post_md_dir = md_dir + 'posts/'
 
 def clean_build():
+    quick_build()
+    build_blog_index()
+
+def quick_build():
+    delete_out_dir()
     build_res()
     build_base()
     build_posts()
+
+def delete_out_dir():
+    if os.path.exists(out_dir):
+        shutil.rmtree(out_dir)
 
 def build_res():
     build_head()
@@ -50,7 +63,17 @@ def build_base():
     for base_file in base_files:
         comd = '%s %s %s' % (pandoc_base, out_dir + base_file[:-2] + 'html', base_md_dir + base_file)
         os.system(comd)
-    #build_blog_index()
+
+def build_blog_index():
+    with open(blog_index_file, 'w+') as blog_index:
+        blog_index.write(blog_index_start + '\n\n')
+        posts = os.listdir(post_md_dir)
+        for post in posts:
+            with open(post_md_dir + post, 'r') as post_file:
+                title = post_file.readline()[2:-1]
+                blog_index.write('* [%s](%s) \n' % (title, post[:-2] + 'html'))
+    comd = '%s %s %s' % (pandoc_base, out_dir + 'blog_index.html', blog_index_file)
+    os.system(comd)
 
 def build_posts():
     Path(out_dir).mkdir(parents=True, exist_ok=True)
@@ -59,4 +82,5 @@ def build_posts():
         comd = '%s %s %s' % (pandoc_post, out_dir + post[:-2] + 'html', post_md_dir + post)
         os.system(comd)
 
-clean_build()
+if __name__ == '__main__':
+    clean_build()
