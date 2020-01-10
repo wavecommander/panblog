@@ -6,7 +6,6 @@ import shutil
 md_dir = './md/'
 out_dir = './site/'
 res_out_dir = out_dir + 'res/'
-post_out_dir = out_dir + 'blog/'
 
 # RES
 res_dir = './res/'
@@ -29,6 +28,7 @@ post_md_dir = md_dir + 'posts/'
 def clean_build():
     build_res()
     build_base()
+    build_posts()
 
 def build_res():
     build_head()
@@ -53,10 +53,10 @@ def build_base():
     #build_blog_index()
 
 def build_posts():
-    Path(post_out_dir).mkdir(parents=True, exist_ok=True)
+    Path(out_dir).mkdir(parents=True, exist_ok=True)
     posts = os.listdir(post_md_dir)
     for post in posts:
-        comd = '%s %s %s' % (pandoc_base, out_dir + post[:-2] + 'html', post_md_dir + post)
+        comd = '%s %s %s' % (pandoc_post, out_dir + post[:-2] + 'html', post_md_dir + post)
         os.system(comd)
 
 clean_build()
