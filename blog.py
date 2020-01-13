@@ -118,8 +118,7 @@ def build_blog_index():
         for post in posts:
             with open(post_md_dir + post, 'r') as post_file:
                 title = post_file.readline()[2:-1]
-                date = post_file.readline()[:-1]
-                date = date.split()
+                date = post_file.readline()[:-1].split()
                 date = datetime.date(
                     int(date[2]), abbr_to_num[date[1]], int(date[0]))
                 post_list.append((post[:-2] + 'html', title, date))
