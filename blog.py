@@ -95,7 +95,7 @@ def build_base():
 
 
 def append_message_to_home():
-    print('Appending Home Page Message ...')
+    print('Appending Homepage Message ...')
     post = post_list[0]
 
     with open(base_homepage_file, 'r') as file:
