@@ -20,6 +20,9 @@ comments_html = res_dir + 'foot.html'
 # BASE
 pandoc_base = 'pandoc -s -t html5 -c %s -H %s -o ' % (css_file, head_file)
 base_md_dir = md_dir + 'base/'
+base_homepage_file = md_dir + 'base_index.md'
+homepage_file = base_md_dir + 'index.md'
+home_msg_begin = 'My latest blog post is: '
 
 # BLOG INDEX
 blog_index_file = md_dir + 'blog_index.md'
@@ -58,12 +61,28 @@ def copy_css():
     shutil.copyfile(src=res_dir + css_filename, dst=css_out_file)
 
 def build_base():
-    base_files = os.listdir(base_md_dir)
+    if len(post_list) > 0:
+        append_message_to_home()
+
     print('Building Base Files ...')
+    base_files = os.listdir(base_md_dir)
     for base_file in base_files:
-        comd = '%s %s %s' % (pandoc_base, out_dir + base_file[:-2] + 'html', base_md_dir + base_file)
+        comd = '%s %s %s' % (pandoc_base, out_dir +
+                             base_file[:-2] + 'html', base_md_dir + base_file)
         os.system(comd)
 
+def append_message_to_home():
+    print('Appending Home Page Message ...')
+    post = post_list[0]
+
+    with open(base_homepage_file, 'r') as file:
+        filedata = file.read()
+
+    filedata = filedata.replace('#####', home_msg_begin +
+                                ('[%s](%s)' % (post[1], post[0])))
+
+    with open(homepage_file, 'w+') as file:
+        file.write(filedata)
 def build_blog_index():
     with open(blog_index_file, 'w+') as blog_index:
         blog_index.write(blog_index_start + '\n\n')
