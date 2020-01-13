@@ -3,8 +3,6 @@
 
 ![](./images/stthomas.jpg)
 
-asdlk
-
 It has been a long time since I have contributed anything to this page. I have some plans to replace this website with a much simpler page and have a comment section.
 
 In the meantime, I may write another piece to share here if I can think of something interesting and make the time.
