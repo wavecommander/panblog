@@ -6,6 +6,6 @@ pagetitle: Ben Boyle
 
 I am a 3rd Year Bachelor of Science student majoring in Computer Science at [UPEI](https://upei.ca).
 
-I like working with computers and dicussing ideas.
+I like working with computers and discussing ideas.
 
 #####
