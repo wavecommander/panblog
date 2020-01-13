@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Chromebooks for Serious Use Finally Makes Sense</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="./res/site.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <!DOCTYPE html>
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>header</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+    </style>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <h1 id="ben-boyle">
+  <a style="text-decoration: none;" href="index.html">Ben Boyle</a>
+  </h1>
+  <p><a href="mailto:me@benboyle.ca">me@benboyle.ca</a></p>
+  <table>
+  <colgroup>
+  <col style="width: 24%" />
+  <col style="width: 25%" />
+  <col style="width: 25%" />
+  <col style="width: 25%" />
+  </colgroup>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;"><a href="https://benboyle.ca/resume">Resume</a></td>
+  <td style="text-align: center;"><a href="https://github.com/benbdevd">GitHub</a></td>
+  <td style="text-align: center;"><a href="blog_index.html">Blog Index</a></td>
+  <td style="text-align: center;"><a href="about.html">About</a></td>
+  </tr>
+  </tbody>
+  </table>
+  </body>
+  </html>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Chromebooks for Serious Use Finally Makes Sense</h1>
+</header>
+<p>10 Nov 2018</p>
+<p><img src="./images/chromebook.jpg" /></p>
+<p>For a very long time, I’ve criticized Chromebooks as a serious option for a laptop.</p>
+<p>I still partially feel this way to most new laptops because of how easy it is to acquire cheap second-hand laptops with equivalent or better specs for the same price. I know this because I have purchased lots of cheap Thinkpads on eBay (<a href="https://www.truefla.me/free-stuff/used-thinkpad-buyers-guide">Useful Price Guide</a>).</p>
+<p>And similarly, this is where most of my loathing for MacBooks comes from: comparably poor price-to-performance efficiency.</p>
+<p>For day-to-day productivity, cheaper cost efficient laptops are great. I used a Thinkpad, that was at least 7 years old with SSD and RAM upgrades as my daily driver since the start of Grade 10 up until last month in my second year of university.</p>
+<p>The primary reason I switched was that I wanted a machine that could play video games really well and increase my local power for running virtual machines and compute heavy programming environments since we started using RAM heavy IDEs such as IntelliJ and Android Studio.</p>
+<p>These reasons guided my purchasing decision, but if I didn’t care as much about gaming use, and even then, there may have been a better option.</p>
+<h3 id="enter-cloud-computing">Enter Cloud Computing</h3>
+<h3 id="section"><img src="./images/gcp.png" /></h3>
+<p>Funnily enough, I stumbled upon it when looking to see if there was a way to offload a video game’s GPU demand to a powerful computer and stream the result (<a href="https://nexus.vert.gg/gaming-on-amazon-s-ec2-83b178f47a34">Gaming on an EC2 Blog Post</a>).</p>
+<p>Now what if you wanted to offload, everything; your whole desktop environment? VNC/SSH into a cloud desktop with just enough cores and RAM from any PC including your low-power laptop.</p>
+<p>Obviously you don’t need cloud computing to do this; you could own a powerful PC and use it as a server and VNC over the internet etc. But cloud computing platforms make it more accessible and (possibly) more cost-effective.</p>
+<p>The biggest drawback to this is the always online requirement to achieve most of the functionality on your low-power client.</p>
+<p>Maybe, you get a low power laptop with a decent amount storage space to backup your most essential work folders so you can at least do some things offline like editing, and when you gain re-connection, you can push it for compiling, etc.</p>
+<h3 id="cost-efficient">Cost efficient?</h3>
+<p>Just for a quick cost comparison, let’s say you have a $1600 CAD budget for a new laptop and you want to be able to do some medium-heavy computation with it. At this price point, you should be able to get an i7 8750H 6 core CPU with 16GiB and probably a decent GPU as well.</p>
+<p>At the time of writing, an 8 core 30GiB RAM VM instance on Google Cloud Platform costs ~$0.267 CAD per hour (not counting extra disks and storage).</p>
+<p>At 6 hours a day (generous) * 7 days a week (also generous) * 4 weeks * 12 months = ~2000 hrs/yr of compute time, or ~534 CAD/yr.</p>
+<p>And if you make it preemptible, meaning that you are put into a lower priority and can get booted off by other higher paying customers, you can take that price down to ~$0.081 CAD per hour or ~$162/yr</p>
+<p>Not bad.</p>
+<p>Some major benefits to the cloud computing option are:</p>
+<ul>
+<li>uptime</li>
+<li>reliability/redundancy options</li>
+<li>easy to drop into more advanced cloud computing activity</li>
+<li>encouragement to gain cloud platform experience</li>
+</ul>
+<p>The major con is of course that an internet connection is always required.</p>
+<h3 id="should-you-give-it-a-try">Should you give it a try?</h3>
+<p>Google Cloud Platform offers $300 USD of credit that expires after 12 months with every new account that signs up.</p>
+<p>That is far more than enough to run an powerful preemptible VM for ~2000 hrs.</p>
+<p>So, no matter what kind of PC you have, go and try it.</p>
+<p>And don’t stop there. Check out aws and Azure, though GCP has become my personal go-to and favorite.</p>
+<p>Maybe you can put off spending a lump sum on a flashy new laptop, <em>and</em> still get serious work done!</p>
+<!-- begin wwww.htmlcommentbox.com -->
+<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com"></a> is loading comments...</div>
+<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1578679084978");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+</body>
+</html>
