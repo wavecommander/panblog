@@ -1,7 +1,7 @@
 % Chromebooks for Serious Use Finally Makes Sense
 10 Nov 2018
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ncbb5B85sd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](./images/chromebook.jpg)
 
 For a very long time, I've criticized Chromebooks as a serious option for a laptop.
 
@@ -17,7 +17,7 @@ These reasons guided my purchasing decision, but if I didn't care as much about 
 
 ### Enter Cloud Computing
 
-### ![](/uploads/gcp.png)
+### ![](./images/gcp.png)
 
 Funnily enough, I stumbled upon it when looking to see if there was a way to offload a video game's GPU demand to a powerful computer and stream the result ([Gaming on an EC2 Blog Post](https://nexus.vert.gg/gaming-on-amazon-s-ec2-83b178f47a34)).
 
@@ -48,7 +48,7 @@ Some major benefits to the cloud computing option are:
 * easy to drop into more advanced cloud computing activity
 * encouragement to gain cloud platform experience
 
-The major cons is an internet connection is always required.
+The major con is of course that an internet connection is always required.
 
 ### Should you give it a try?
 
