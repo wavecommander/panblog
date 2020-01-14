@@ -126,7 +126,7 @@ def build_blog_index():
             date = post[2]
             date = '%s %s %s' % (
                 str(date.day), calendar.month_name[date.month][:3], str(date.year))
-            blog_index.write('* [%s](%s) - %s \n' % (post[1], post[0], date))
+            blog_index.write('* %s - [%s](%s) \n' % (date, post[1], post[0]))
 
     comd = '%s %s %s' % (pandoc_base, out_dir +
                          'blog_index.html', blog_index_file)
