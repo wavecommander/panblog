@@ -54,10 +54,10 @@ The major con is of course that an internet connection is always required.
 
 Google Cloud Platform offers $300 USD of credit that expires after 12 months with every new account that signs up.
 
-That is far more than enough to run an powerful preemptible VM for ~2000 hrs.
+That is far more than enough to run a powerful preemptible VM for ~2000 hrs.
 
 So, no matter what kind of PC you have, go and try it.
 
-And don't stop there. Check out aws and Azure, though GCP has become my personal go-to and favorite.
+And don't stop there. Check out AWS and Azure, though GCP has become my personal go-to and favorite.
 
 Maybe you can put off spending a lump sum on a flashy new laptop, _and_ still get serious work done!
