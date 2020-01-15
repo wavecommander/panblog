@@ -32,5 +32,3 @@ And instead of scrutinizing and further probing his responses, "Let's poke fun a
 Obviously, it is a good idea to make sure that legislators understand what they are attempting to legislate. But from my perspective, all of the questions in this video are valuable to have answered in the context of legislating Facebook and protecting user privacy on the internet.
 
 Videos like this that propagate all kinds of malformed assumptions and misinformation are common on all social media platforms, and I believe that it is important to point them out and challenge the often blind reaction and acceptance of the misinformation they spread.
-
-I really would like to hear other opinions about the Zuckerberg Congress hearing, advertising on the internet, or really anything! So feel free to comment and share your thoughts.
