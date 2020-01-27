@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: benboyle.ca
-Token: d7f40cba972360cbdeb20ac4155e10fdd04aec75a4d25d812b94cb9568fa59bf
