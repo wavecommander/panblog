@@ -1,5 +1,5 @@
 ---
-pagetitle: "header"
+pagetitle: header
 ---
 
 <h1 id="ben-boyle"><a style="text-decoration: none;" href="index.html">Ben Boyle</a></h1>
