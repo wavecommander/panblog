@@ -1,7 +1,7 @@
 % Mark Zuckerberg Owns Boomer Senators, Like and Share!
 5 Dec 2018
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ncbb5B85sd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ncbb5B85sd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Not too long ago, I saw this video being shared on Facebook and published to many other popular social media platforms with general positive support and reaction.
 
