@@ -1,8 +1,3 @@
-@font-face {
-  font-family: octicons-link;
-  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
-}
-
 body {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -193,27 +188,6 @@ body pre {
   font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
-body .select::-ms-expand {
-  opacity: 0;
-}
-
-body .octicon {
-  font: normal normal normal 16px/1 octicons-link;
-  display: inline-block;
-  text-decoration: none;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-body .octicon-link:before {
-  content: '\f05c';
-}
-
 body:before {
   display: table;
   content: "";
@@ -238,16 +212,6 @@ body a:not([href]) {
   text-decoration: none;
 }
 
-body .anchor {
-  display: inline-block;
-  padding-right: 2px;
-  margin-left: -18px;
-}
-
-body .anchor:focus {
-  outline: none;
-}
-
 body h1,
 body h2,
 body h3,
@@ -260,17 +224,6 @@ body h6 {
   line-height: 1.4;
 }
 
-body h1 .octicon-link,
-body h2 .octicon-link,
-body h3 .octicon-link,
-body h4 .octicon-link,
-body h5 .octicon-link,
-body h6 .octicon-link {
-  color: #000;
-  vertical-align: middle;
-  visibility: hidden;
-}
-
 body h1:hover .anchor,
 body h2:hover .anchor,
 body h3:hover .anchor,
@@ -278,15 +231,6 @@ body h4:hover .anchor,
 body h5:hover .anchor,
 body h6:hover .anchor {
   text-decoration: none;
-}
-
-body h1:hover .anchor .octicon-link,
-body h2:hover .anchor .octicon-link,
-body h3:hover .anchor .octicon-link,
-body h4:hover .anchor .octicon-link,
-body h5:hover .anchor .octicon-link,
-body h6:hover .anchor .octicon-link {
-  visibility: visible;
 }
 
 body h1 {
@@ -444,32 +388,6 @@ body img {
   background-color: #fff;
 }
 
-body code {
-  padding: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  font-size: 85%;
-  background-color: rgba(0,0,0,0.04);
-  border-radius: 3px;
-}
-
-body code:before,
-body code:after {
-  letter-spacing: -0.2em;
-  content: "\00a0";
-}
-
-body pre>code {
-  padding: 0;
-  margin: 0;
-  font-size: 100%;
-  word-break: normal;
-  white-space: pre;
-  background: transparent;
-  border: 0;
-}
-
 body .highlight {
   margin-bottom: 16px;
 }
@@ -482,10 +400,6 @@ body pre {
   line-height: 1.45;
   background-color: #f7f7f7;
   border-radius: 3px;
-}
-
-.sourceCode {
-  background-color: #f7f7f7;
 }
 
 body .highlight pre {
@@ -526,136 +440,4 @@ body kbd {
   border-bottom-color: #bbb;
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 #bbb;
-}
-
-body .pl-c {
-  color: #969896;
-}
-
-body .pl-c1,
-body .pl-s .pl-v {
-  color: #0086b3;
-}
-
-body .pl-e,
-body .pl-en {
-  color: #795da3;
-}
-
-body .pl-s .pl-s1,
-body .pl-smi {
-  color: #333;
-}
-
-body .pl-ent {
-  color: #63a35c;
-}
-
-body .pl-k {
-  color: #a71d5d;
-}
-
-body .pl-pds,
-body .pl-s,
-body .pl-s .pl-pse .pl-s1,
-body .pl-sr,
-body .pl-sr .pl-cce,
-body .pl-sr .pl-sra,
-body .pl-sr .pl-sre {
-  color: #183691;
-}
-
-body .pl-v {
-  color: #ed6a43;
-}
-
-body .pl-id {
-  color: #b52a1d;
-}
-
-body .pl-ii {
-  background-color: #b52a1d;
-  color: #f8f8f8;
-}
-
-body .pl-sr .pl-cce {
-  color: #63a35c;
-  font-weight: bold;
-}
-
-body .pl-ml {
-  color: #693a17;
-}
-
-body .pl-mh,
-body .pl-mh .pl-en,
-body .pl-ms {
-  color: #1d3e81;
-  font-weight: bold;
-}
-
-body .pl-mq {
-  color: #008080;
-}
-
-body .pl-mi {
-  color: #333;
-  font-style: italic;
-}
-
-body .pl-mb {
-  color: #333;
-  font-weight: bold;
-}
-
-body .pl-md {
-  background-color: #ffecec;
-  color: #bd2c00;
-}
-
-body .pl-mi1 {
-  background-color: #eaffea;
-  color: #55a532;
-}
-
-body .pl-mdr {
-  color: #795da3;
-  font-weight: bold;
-}
-
-body .pl-mo {
-  color: #1d3e81;
-}
-
-body kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb;
-}
-
-body .task-list-item {
-  list-style-type: none;
-}
-
-body .task-list-item+.task-list-item {
-  margin-top: 3px;
-}
-
-body .task-list-item input {
-  margin: 0 0.35em 0.25em -1.6em;
-  vertical-align: middle;
-}
-
-body :checked+.radio-label {
-  z-index: 1;
-  position: relative;
-  border-color: #4078c0;
 }

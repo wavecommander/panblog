@@ -1,9 +1,9 @@
 from pathlib import Path
 import os
-import shutil
-import datetime
-import calendar
 import sys
+import shutil
+import calendar
+import datetime
 import fileinput
 
 abbr_to_num = {name: num for num,
@@ -22,7 +22,7 @@ netlify_out_file = out_dir + netlify_file[2:]
 # RES
 res_dir = './res/'
 pandoc_head = 'pandoc -s -t html5 -o '
-css_filename = 'site.css'
+css_filename = 'min.css'
 css_file = res_dir + css_filename
 css_out_file = res_out_dir + css_filename
 head_file = res_dir + 'head.html'
