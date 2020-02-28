@@ -1,0 +1,13 @@
+to: html5
+
+standalone: true
+self-contained: false
+file-scope: false
+
+variables:
+  lang: en
+
+css: res/min.css
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"

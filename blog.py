@@ -10,6 +10,11 @@ abbr_to_num = {name: num for num,
                name in enumerate(calendar.month_abbr) if num}
 post_list = []
 
+# PANDOC DEFAULT FILES
+def_base = '--defaults ./base.yaml'
+def_content = '--defaults ./content.yaml'
+def_post = '--defaults ./post.yaml'
+
 # SITE
 md_dir = './md/'
 out_dir = './site/'
@@ -21,7 +26,7 @@ netlify_out_file = out_dir + netlify_file[2:]
 
 # RES
 res_dir = './res/'
-pandoc_head = 'pandoc -s -t html5 -o '
+pandoc_head = 'pandoc %s -o ' % (def_base)
 css_filename = 'min.css'
 css_file = res_dir + css_filename
 css_out_file = res_out_dir + css_filename
@@ -30,7 +35,7 @@ head_md_file = res_dir + 'head.md'
 comments_html = res_dir + 'foot.html'
 
 # BASE
-pandoc_base = 'pandoc -s -t html5 -c %s -H %s -o ' % (css_file, head_file)
+pandoc_base = 'pandoc %s %s -o ' % (def_base, def_content)
 base_md_dir = md_dir + 'base/'
 base_homepage_file = md_dir + 'base_index.md'
 homepage_file = base_md_dir + 'index.md'
@@ -41,8 +46,7 @@ blog_index_file = md_dir + 'blog_index.md'
 blog_index_start = '% Blog Index'
 
 # POSTS
-pandoc_post = 'pandoc -s -t html5 -c %s -H %s -A %s -o ' % (
-    css_file, head_file, comments_html)
+pandoc_post = 'pandoc %s %s %s -o ' % (def_base, def_content, def_post)
 post_md_dir = md_dir + 'posts/'
 
 
