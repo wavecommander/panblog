@@ -90,7 +90,7 @@ If people tell you that Macs hold their resale value, and you believe them, then
 
 I acquired a well used Mac myself as previously mentioned. I got it from a friend, and both the keyboard and screen had sustained some damage. I opted to repair the keyboard, which had no working number keys and a broken ‘k’ key since it was getting pretty annoying copy-and-pasting numbers and ‘k’s. I followed an iFixit guide for the MacBook Pro model that was released one year earlier, not thinking much of it.
 
-The process is very lengthy as you have to remove everything from the laptop to even get at the keyboard, unlike a classic ThinkPad, which has marked screws that allow only the keyboard to slip out and be serviced. This ended up in my breaking the logic board of the MacBook because a component that was previously detachable was replaced by a soldered chip in the same spot in this particular design. I mistook it for the connector, and I ripped the solder off.
+The process is very lengthy as you have to remove everything from the laptop to even get at the keyboard, unlike a classic ThinkPad, which has marked screws that allow only the keyboard to slip out and be serviced. This ended up in me breaking the logic board of the MacBook because a component that was previously detachable was replaced by a soldered chip in the same spot in this particular design. I mistook it for the connector, and I ripped the solder off.
 
 It is my fault for not noticing the guide not matching up with the product, but that doesn’t excuse the fact that it is near impossible to user replace the keyboard on a $2000+ “PRO” laptop.
 
