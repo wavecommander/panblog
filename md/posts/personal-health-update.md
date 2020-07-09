@@ -5,7 +5,7 @@ I have had quite the month for a 21 year old young man.
 
 I was hospitalized for two weeks out of family concern that I have Bipolar Disorder, and that I was an immediate harm to myself.
 
-I say that I was never a harm to myself, but I may in fact be Bipolar Type 1, and I have been having a bizarre manic episode.
+I can say that I was never a harm to myself, but I may in fact be Bipolar Type 1 and I was likely experiencing a bizarre manic episode.
 I am happily surrounded by a large and loving support network of friends and family whom I've been seeing often.
 
 I do not take issue with being "labelled" as bipolar, but I do take issue with the treatment I was offered.
