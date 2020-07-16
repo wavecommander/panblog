@@ -113,11 +113,11 @@ def build_blog_index():
     global post_list
     print('Building Blog Index ...')
     Path(out_dir).mkdir(parents=True, exist_ok=True)
-    with open(blog_index_file, 'w+') as blog_index:
+    with open(blog_index_file, 'w+', encoding="utf8") as blog_index:
         blog_index.write(blog_index_start + '\n\n')
         posts = os.listdir(post_md_dir)
         for post in posts:
-            with open(post_md_dir + post, 'r') as post_file:
+            with open(post_md_dir + post, 'r', encoding="utf8") as post_file:
                 title = post_file.readline()[2:-1]
                 date = post_file.readline()[:-1].split()
                 date = datetime.date(
