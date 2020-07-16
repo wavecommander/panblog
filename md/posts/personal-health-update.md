@@ -1,6 +1,8 @@
 % Personal Health Update
 7 Jul 2020
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RvBKfMZiPBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 I have had quite the month for a 21 year old young man.
 
 I was hospitalized for two weeks out of family concern that I have Bipolar Disorder, and that I was an immediate harm to myself.
