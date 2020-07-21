@@ -2,6 +2,7 @@
 20 Jul 2020
 
 This is my life's work so far; the best I can muster.
+
 On Facebook, [I publicly opened up about darkness in my past](https://www.facebook.com/flottolika/posts/3507687969246894), and reached out through the screen to anyone that would listen; I do that again now.
 
 Specifically, I harbored racist ideology during middle school. I picked it up on the internet where people shared skewed perspectives on American "Black Crime Statistics".
