@@ -55,6 +55,8 @@ Tell me how scary is he really?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DGBybzFv_1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I see a man who passionately wants to help change the world, but just doesn't trust the "other" and that the neuroplasticity of the brain surpasses any racial genetic difference. I see an AJ, desperately in need of help and kindness.
+I see a man who passionately wants to help change the world, but just doesn't trust the "other" and that the neuroplasticity of the brain surpasses any racial genetic difference.
+
+I see an AJ, desperately in need of help, kindness, and forgiveness.
 
 But that's just me, I guess.
