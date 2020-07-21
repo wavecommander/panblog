@@ -43,7 +43,7 @@ I was expecting to get kicked/banned immediately; I'm happy to say that did not 
 You may not believe that my intentions are good, they certainly didn't.
 There were many commenters that called me out as being part of a conspiracy despite my plea that this was no [Psyop](https://en.wikipedia.org/wiki/Psychological_warfare).
 
-You can find more images of my exchanges with commenters in this [Google Photos album]().
+You can find more images of my exchanges with commenters in this [Google Photos album](https://photos.app.goo.gl/niFvPXNV7en1CK568).
 
 I want you to imagine a world where instead of offering these people the noose they fear, we offer them an embrace and forgive them.
 
