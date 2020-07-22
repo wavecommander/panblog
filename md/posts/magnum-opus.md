@@ -5,11 +5,11 @@ This is my life's work; the best I can muster. This has been and will be my life
 
 I see myself as attempting to construct my own [Tower of Babel](https://en.wikipedia.org/wiki/Tower_of_Babel) and get people on the same Goddamned page.
 
-Is it somewhat futile? Yes. Are people like yourself going to read this and understand? Probably not.
+Is it somewhat futile? Yes. Are you going to read this and understand? Probably not.
 
 But one must imagine [Sisyphus](https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus) as happy.
 
-You may not believe that my intentions are Good with a capital 'G'; I assure they are. Read on with patience and care.
+You may not believe that my intentions are Good with a capital 'G'; I assure you they are. Read on with patience and care.
 
 On Facebook, [I publicly opened up about darkness in my past](https://www.facebook.com/flottolika/posts/3507687969246894), and reached out through the screen to anyone that would listen; I do that again now.
 
