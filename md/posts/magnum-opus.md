@@ -1,7 +1,7 @@
 % Dealing with "Monsters" - My Magnum Opus
-20 Jul 2020
+22 Jul 2020
 
-This is my life's work so far; the best I can muster. This has been and will be my life-long struggle.
+This is my life's work; the best I can muster. This has been and will be my life-long struggle.
 
 I see myself as attempting to construct my own [Tower of Babel](https://en.wikipedia.org/wiki/Tower_of_Babel) and get people on the same Goddamned page.
 
