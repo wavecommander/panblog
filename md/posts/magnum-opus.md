@@ -68,11 +68,12 @@ I see an anti-vaxxer not wanting to trust doctors and modern medicine.
 
 I see a flat-earther not wanting to trust NASA imagery and research.
 
-I see an AJ, desperately in need of help, kindness, and forgiveness.
+I see an 'AJ', desperately in need of help, kindness, and forgiveness.
 
 I see my own Grandfather, stuck in the vitriolic and fear-mongering US news cycle. 
 
 The real enemy is conspiratorial thinking because it can lead you to distrust your fellow man and misinterpret any kind act as a manipulative one, a PSYOP.
+
 And make no mistake, we are at war, culturally. I'm begging you to be on my side of the war and behave civilly and respectfully so that our cultures may live on.
 
 But I fear it is only me thinking these thoughts.
