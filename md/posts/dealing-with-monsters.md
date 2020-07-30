@@ -1,5 +1,5 @@
 % Dealing with "Monsters"
-22 Jul 2020
+31 Jul 2020
 
 This is the best I can muster. This has been and will be my life-long struggle.
 
