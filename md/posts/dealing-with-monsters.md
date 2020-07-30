@@ -1,7 +1,7 @@
-% Dealing with "Monsters" - My Magnum Opus
+% Dealing with "Monsters"
 22 Jul 2020
 
-This is my life's work; the best I can muster. This has been and will be my life-long struggle.
+This is the best I can muster. This has been and will be my life-long struggle.
 
 I see myself as attempting to construct my own [Tower of Babel](https://en.wikipedia.org/wiki/Tower_of_Babel) and get people on the same Goddamned page.
 
@@ -25,7 +25,7 @@ How can you confront something you cannot name and doesn't want to come out of t
 
 The term "White Fragility" is thrown around, but it is a misnomer.
 There are self-hating Black and Jewish people in these groups; they struggle with their own identity and "accept" that their people are inferior, or that there is a Jewish conspiracy at large.
-The real issue is fragility or insecurity, fear, and distrust in general.
+The real issue is insecurity, fear, and distrust in general.
 
 They are not for or against a specific political party.
 Originally they supported Donald Trump, but when Trump made kind gestures to Israel, and he didn't build the wall, they rejected him and mocked MAGA with MIGA (Make Israel Great Again) to suggest that he was now in on the supposed conspiracy.
@@ -74,6 +74,4 @@ I see my own Grandfather, stuck in the vitriolic and fear-mongering US news cycl
 
 The real enemy is conspiratorial thinking because it can lead you to distrust your fellow man and misinterpret any kind act as a manipulative one, a PSYOP.
 
-And make no mistake, we are at war, culturally. I'm begging you to be on my side of the war and behave civilly and respectfully so that our cultures may live on.
-
-But I fear it is only me thinking these thoughts.
+But I fear it is only me thinking this way.
