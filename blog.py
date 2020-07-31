@@ -54,6 +54,7 @@ def clean_build():
     delete_out_dir()
     quick_build()
     build_blog_index()
+    append_message_to_home()
     copy_images()
     copy_netlify()
 
@@ -87,9 +88,6 @@ def copy_css():
 
 
 def build_base():
-    if len(post_list) > 0:
-        append_message_to_home()
-
     print('Building Base Files ...')
     base_files = os.listdir(base_md_dir)
     for base_file in base_files:
