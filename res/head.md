@@ -2,7 +2,7 @@
 pagetitle: header
 ---
 
-<h1 id="ben-boyle"><a style="text-decoration: none;" href="index.html">Ben Boyle</a></h1>
+<h1 id="ben-boyle"><a style="text-decoration: none;" href="index.html">Ben Boyle</a></h1><h2> Wave Commander</h2>
 
 <p><a href="mailto:me@benboyle.ca">me@benboyle.ca</a></p>
 
