@@ -7,4 +7,4 @@ I made a presentation. I would be most pleased if you gave it just five minutes 
 
 Please also sign-up and read about the [Center for Humane Technology](https://www.humanetech.com/) (not affiliated)
 
-Watch the Social Dilemma on Netflix, or [here](https://drive.google.com/file/d/1QOQ6A1M1YdC1X4NmPI8RVC6WynyOfCZX/view), or [here](https://pirateproxy.buzz/description.php?id=36507937)
+Watch the Social Dilemma on Netflix, or [here](https://drive.google.com/file/d/1QOQ6A1M1YdC1X4NmPI8RVC6WynyOfCZX/view), or [here](https://pirateproxy.buzz/description.php?id=36507937) (not affiliated)
