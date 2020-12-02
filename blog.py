@@ -51,18 +51,15 @@ post_md_dir = md_dir + 'posts/'
 
 
 def clean_build():
+    print('Clean Building ...')
     delete_out_dir()
-    quick_build()
-    build_blog_index()
-    append_message_to_home()
-    copy_images()
-    copy_netlify()
-
-
-def quick_build():
     build_res()
     build_base()
     build_posts()
+    build_blog_index()
+    append_message_to_home()
+    copy_images()
+    copy_netlify()    
 
 
 def delete_out_dir():
@@ -160,9 +157,4 @@ def copy_netlify():
 
 
 if __name__ == '__main__':
-    if len(sys.argv) > 1:
-        print('Clean Building ...')
-        clean_build()
-    else:
-        print('Quick Building ...')
-        quick_build()
+    clean_build()

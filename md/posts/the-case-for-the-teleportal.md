@@ -1,11 +1,11 @@
 % The Case for the Teleportal
 13 Nov 2020
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_Xw_Iw4w-vk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/_Xw_Iw4w-vk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I made a presentation. I would be most pleased if you gave it just five minutes of your time to reflect on the technology that we use today.
 
-[The Case for the Teleportal](https://docs.google.com/presentation/d/1GnLJIWtd3i_BHSivkrFHtqiGtYAzSu8_UbieGmkhVsw/edit?usp=sharing)
+[The Case for the Teleportal slide deck](https://docs.google.com/presentation/d/1GnLJIWtd3i_BHSivkrFHtqiGtYAzSu8_UbieGmkhVsw/edit?usp=sharing)
 
 Please also sign-up and read about the [Center for Humane Technology](https://www.humanetech.com/) (not affiliated)
 
