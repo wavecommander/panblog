@@ -53,7 +53,8 @@ post_md_dir = md_dir + 'posts/'
 def clean_build():
     print('Clean Building ...')
     delete_out_dir()
-    build_res()
+    #build_head()
+    copy_css()
     build_base()
     build_posts()
     build_blog_index()
@@ -65,11 +66,6 @@ def clean_build():
 def delete_out_dir():
     if os.path.exists(out_dir):
         shutil.rmtree(out_dir)
-
-
-def build_res():
-    build_head()
-    copy_css()
 
 
 def build_head():
