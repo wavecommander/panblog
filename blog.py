@@ -55,10 +55,10 @@ def clean_build():
     delete_out_dir()
     #build_head()
     copy_css()
-    build_base()
     build_posts()
     build_blog_index()
     append_message_to_home()
+    build_base()
     copy_images()
     copy_netlify()    
 
