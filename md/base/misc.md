@@ -12,12 +12,17 @@ The two most difficult things in life are:
 
 ***
 
-"As the memories fade, I sit and think.
-What was it I cared about again?"
+"May the gift of consciousness blossom, Ad Infinitum."
+
+"As the memories fade, I sit and think. What was it I cared about again?"
+
+"Music, not Latin, is the language of Gods"
 
 ***
 
 # BLACKNESS
+
+### Drunken Prose from a darker time
 
 I feel;
 
