@@ -21,3 +21,5 @@ It's simply unacceptable.
 Unfortunately, there is no easy way to inform their consumer base. The money will keep being raked in by the hundreds of billions.
 
 When will people learn? When will the camel's back give way?
+
+* [Your Computer Isn't Yours Blog Post](https://sneak.berlin/20201112/your-computer-isnt-yours/)
