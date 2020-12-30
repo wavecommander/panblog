@@ -11,7 +11,7 @@ But one must imagine [Sisyphus](https://en.wikipedia.org/wiki/The_Myth_of_Sisyph
 
 You may not believe that my intentions are Good with a capital 'G'; I assure you they are. Read on with patience and care.
 
-On Facebook, [I publicly opened up about darkness in my past](https://www.facebook.com/flottolika/posts/3507687969246894), and reached out through the screen to anyone that would listen; I do that again now.
+On Facebook, [I publicly opened up about darkness in my past](https://www.facebook.com/wavecommander/posts/3507687969246894), and reached out through the screen to anyone that would listen; I do that again now.
 
 Specifically, I harbored racist ideology during middle school. I picked it up on the internet, where people shared skewed perspectives on American "Black Crime Statistics." Particularly the citation that "African-Americans, approximately 13% of the population, account for over 50% of homicide crimes".
 The people stuck in this line of thinking like to think that these stats prove that Black people are fundamentally different from them and that there is no helping them.
