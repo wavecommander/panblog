@@ -23,3 +23,5 @@ Unfortunately, there is no easy way to inform their consumer base. The money wil
 When will people learn? When will the camel's back give way?
 
 * [Your Computer Isn't Yours Blog Post](https://sneak.berlin/20201112/your-computer-isnt-yours/)
+
+* [My Previous Apple Blog Post](apple-and-their-macintoshes.html)
