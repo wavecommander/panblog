@@ -2,6 +2,14 @@
 
 ***
 
+# The Myth of Sisyphus in Four Shapes
+
+![](./images/sisyphus.png)
+
+"May the gift of consciousness blossom, Ad Infinitum."
+
+***
+
 # Ben's Rules for Life
 
 The two most difficult things in life are:
@@ -11,8 +19,6 @@ The two most difficult things in life are:
 * Reaching understanding through communication; have patience and choose your words carefully
 
 ***
-
-"May the gift of consciousness blossom, Ad Infinitum."
 
 "As the memories fade, I sit and think. What was it I cared about again?"
 
