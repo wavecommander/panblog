@@ -53,14 +53,14 @@ post_md_dir = md_dir + 'posts/'
 def clean_build():
     print('Clean Building ...')
     delete_out_dir()
-    #build_head()
+    # build_head()
     copy_css()
     build_posts()
     build_blog_index()
     append_message_to_home()
     build_base()
     copy_images()
-    copy_netlify()    
+    copy_netlify()
 
 
 def delete_out_dir():
