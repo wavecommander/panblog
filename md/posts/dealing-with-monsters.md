@@ -28,7 +28,7 @@ There are self-hating Black and Jewish people in these groups; they struggle wit
 The real issue is insecurity, fear, and distrust in general.
 
 They are not for or against a specific political party.
-Originally they supported Donald Trump, but when Trump made kind gestures to Israel, and he didn't build the wall, they rejected him and mocked MAGA with MIGA (Make Israel Great Again) to suggest that he was now in on the supposed conspiracy.
+Originally they supported Donald Trump, but when Trump made kind gestures to Israel they rejected him and mocked MAGA with MIGA (Make Israel Great Again) to suggest that he was now in on the supposed conspiracy.
 
 They don't have a united community or meeting place: /pol/, /r9k/, Wiz Chan, Discord.
 They are only united under fear and hatred. They truly are the [Elliot Rodgers](https://en.wikipedia.org/wiki/2014_Isla_Vista_killings), [Brenton Tarrants](https://en.wikipedia.org/wiki/Christchurch_mosque_shootings), and [Dylan Kleybolds](https://en.wikipedia.org/wiki/Columbine_High_School_massacre) waiting to happen.
