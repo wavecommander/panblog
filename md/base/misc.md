@@ -25,6 +25,13 @@ The two most difficult things in life are:
 "Music, not Latin, is the language of Gods"
 
 ***
+#### Face deep in a screen,
+
+#### Drowning in the shallow stream.
+
+#### It doesn't let up; it never will.
+
+***
 
 # BLACKNESS
 
