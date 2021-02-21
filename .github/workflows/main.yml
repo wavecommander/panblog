@@ -4,12 +4,6 @@ name: Pandoc build site
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -36,3 +30,12 @@ jobs:
      - name: execute python blog script
        run: |
          python blog.py
+     - name: Commit changes
+       uses: EndBug/add-and-commit@v7
+       with:
+        author_name: Ben Boyle
+        author_email: me@benboyle.ca
+        message: 'Built site'
+        add: './site/*'
+        push: true
+
