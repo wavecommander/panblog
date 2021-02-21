@@ -25,7 +25,7 @@ jobs:
      - name: checkout repo content
        uses: actions/checkout@v2 # checkout the repository content to github runner.
      - name: setup pandoc
-     - uses: r-lib/actions/setup-pandoc@v1
+       uses: r-lib/actions/setup-pandoc@v1
        with:
          pandoc-version: '2.11.4'
      - name: setup python
