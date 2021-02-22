@@ -1,20 +1,13 @@
 name: Pandoc Build Site
 
-# Controls when the action will run. 
 on:
   push:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build-site:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    outputs:
-      results-file: "./site/"
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
      - name: Checkout repo content
        uses: actions/checkout@v2 # checkout the repository content to github runner.
@@ -25,8 +18,8 @@ jobs:
      - name: Setup python3
        uses: actions/setup-python@v2
        with:
-         python-version: 3.8 #install the python needed
-     - name: Execute python blog script
+         python-version: 3.8
+     - name: Execute blog.py script
        run: |
          python blog.py
      - name: Commit changes
