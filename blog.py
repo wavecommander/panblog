@@ -89,15 +89,14 @@ def build_base():
         os.system(comd)
 
 
-def append_message_to_home():
-    print('Appending Homepage Message ...')
-    latest_post = post_list[0]
-    with open(base_homepage_file, 'r') as file:
-        filedata = file.read()
-    filedata = filedata.replace('#####', home_msg_begin +
-                                ('[%s](%s)' % (latest_post[1], latest_post[0])))
-    with open(homepage_file, 'w+') as file:
-        file.write(filedata)
+def build_posts():
+    print('Building Blog Posts ...')
+    Path(out_dir).mkdir(parents=True, exist_ok=True)
+    posts = os.listdir(post_md_dir)
+    for post in posts:
+        comd = '%s %s %s' % (pandoc_post, out_dir +
+                             post[:-2] + 'html', post_md_dir + post)
+        os.system(comd)
 
 
 def build_blog_index():
@@ -128,14 +127,15 @@ def build_blog_index():
     os.system(comd)
 
 
-def build_posts():
-    print('Building Blog Posts ...')
-    Path(out_dir).mkdir(parents=True, exist_ok=True)
-    posts = os.listdir(post_md_dir)
-    for post in posts:
-        comd = '%s %s %s' % (pandoc_post, out_dir +
-                             post[:-2] + 'html', post_md_dir + post)
-        os.system(comd)
+def append_message_to_home():
+    print('Appending Homepage Message ...')
+    latest_post = post_list[0]
+    with open(base_homepage_file, 'r') as file:
+        filedata = file.read()
+    filedata = filedata.replace('#####', home_msg_begin +
+                                ('[%s](%s)' % (latest_post[1], latest_post[0])))
+    with open(homepage_file, 'w+') as file:
+        file.write(filedata)
 
 
 def copy_images():
