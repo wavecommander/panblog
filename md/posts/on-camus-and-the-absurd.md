@@ -1,5 +1,5 @@
 % On Camus and The Absurd
-99 Jan 9999
+4 Mar 2021
 
 Camus posits that upon breaking the habitual chain of human trivial, there can only be two outcome; suicide or recovery. On this I agree.
 
