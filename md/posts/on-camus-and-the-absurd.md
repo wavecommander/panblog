@@ -5,7 +5,7 @@ I am interested in the intersection of Absurdist and Existentialist philosophy. 
 
 This post will serve as a revisiting of the philosophy that inspired me and as a chance to formalize my ideas surrounding it with words.
 
-I read both *The Myth of Sisyphus* (1955), and *The Stranger* (1942). While *The Myth of Sisyphus* was a much denser read, I feel I actually distilled a lot of the philosophical ideas presented, while I found the entire contents of *The Stranger* can be summed up the first few sections of *The Myth of Sisyphus*.
+I read both *The Myth of Sisyphus* (1955), and *The Stranger* (1942). While *The Myth of Sisyphus* was a much denser read, I feel I actually got a lot more of the philosophical ideas presented, while I found the entire contents of *The Stranger* can be summed up the first few sections of *The Myth of Sisyphus*.
 I believe this is because it was written later and Camus was able to develop his ideas and presentation in this more to-the-point essay.
 
 ## Summary of Absurdism
@@ -15,10 +15,10 @@ I will start by summarizing what I have gathered from my cursory study of the ph
 Absurdism is the acceptance that your life, the lives of others, and the world you live in are all finite. You are playing a game where you a free to make up the rules; there are no judgemental referees. There is no inherent meaning to be found in the universe other than what you make yourself, and even then, time will take that away as well.
 
 The Absurd is the relationship and constant tension between the universe, devoid of inherent meaning, and humans, conscious creatures that impose meaning at every level.
-The Absurd is the acknowledgement that while we hope for a better tomorrow, tomorrow always means one day closer to ultimate death.
 As stated by Werner Herzog "The universe is monstrously indifferent to the existence of man."
+The Absurd is the acknowledgement that while we hope for a better tomorrow, tomorrow always means one day closer to ultimate death.
 
-> The absurd is essentially a divorce. It lies in neither of the elements compared; it is born of their confrontation.
+> The Absurd is essentially a divorce. It lies in neither of the elements compared; it is born of their confrontation.
 
 ## On *The Myth of Sisyphus*
 
@@ -34,13 +34,15 @@ Fundamentally, the argumentation in *The Myth of Sisyphus* deals with the proble
 
 When faced with the realization that there is no inherent meaning to your existence and that everything you know will eventually be obliterated, it is natural to wonder "Why not just quit now?"
 
-But to end your existence short is to deny yourself the opportunity to rebel in the face of The Absurd, to play the game with your own rules anyway.
+But to end your existence short is to deny yourself the opportunity to rebel in the face of The Absurd, to play the game on your own terms.
 
 The level of acceptance required to be an Absurd man is complete. It is to live *without appeal*, without clinging to hope.
 
 ### Philosophical Suicide
 
+Camus argues that competing theistic philosophies commit *Philosophical Suicide*, a sort of throwing up your hands at attempting to reason and just leave at "it must be divine".
 
+I do not know exactly where I stand on this point. I think that it is permissible to theorize about divine planes beyond our own, but perhaps believing that there must exist some divine being is where the *Philosophical Suicide* comes in.
 
 ## Exploration and Extension
 
@@ -49,11 +51,7 @@ I would like to extend and question Absurdism the up-to-date state of affairs as
 
 ### Mathematics and Science
 
-Firstly, I wonder how science and mathematics factor into the relationship between humans and The Absurd.
-The world contains structures and patterns that can be studied and marveled at. In my case, my infatuation with all things relating to computing certainly feels meaningful. 
-
-In the case of mathematics, there exist a world of relationships, structures, and theorems unto its own, completely independent of the physical world. 
-
-
+Firstly, I wonder how mathematics and science factor into the relationship between humans and the universe, the Absurd.
+The world contains structures and patterns that can be studied, reasoned about, and marveled at.
 
 ### Transhumanism
