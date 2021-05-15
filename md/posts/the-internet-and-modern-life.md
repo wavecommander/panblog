@@ -11,4 +11,6 @@
 
 ## The Search Engine as an Oracle
 
+## The Digital Pacifier
+
 # The Problem of Trust Online
