@@ -34,9 +34,13 @@ Fundamentally, the argumentation in *The Myth of Sisyphus* deals with the proble
 
 When faced with the realization that there is no inherent meaning to your existence and that everything you know will eventually be obliterated, it is natural to wonder "Why not just quit now?"
 
-But to end your existence short is to deny yourself the opportunity to rebel in the face of The Absurd, to play the game on your own terms.
+But to end your existence short is to deny yourself the opportunity to rebel in the face of The Absurd, to play the game on your own terms. I will expand on this in the next subsection.
 
 The level of acceptance required to be an Absurd man is complete. It is to live *without appeal*, without clinging to hope.
+
+### Suicide
+
+
 
 ### Philosophical Suicide
 
