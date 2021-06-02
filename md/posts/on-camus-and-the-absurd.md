@@ -16,7 +16,6 @@ Absurdism is the acceptance that your life, the lives of others, and the world y
 
 The Absurd is the relationship and constant tension between the universe, devoid of inherent meaning, and humans, conscious creatures that impose meaning at every level.
 As stated by Werner Herzog "The universe is monstrously indifferent to the existence of man."
-The Absurd is the acknowledgement that while we hope for a better tomorrow, tomorrow always means one day closer to ultimate death.
 
 > The Absurd is essentially a divorce. It lies in neither of the elements compared; it is born of their confrontation.
 
