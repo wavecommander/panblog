@@ -1,7 +1,11 @@
 % On Camus and The Absurd
 10 May 2021
 
+![](./images/sisyphus.png)
+
 I am interested in the intersection of Absurdist and Existentialist philosophy. So much so that I got a tattoo, which I designed, symbolizing Sisyphus and his eternal struggle. I think it was a case of receiving just the right message at just the right time. This past summer has been a very formative experience, and reading the works of Albert Camus kept me afloat in many ways.
+
+![](./images/sisyphus_tattoo.jpg)
 
 This post will serve as a revisiting of the philosophy that inspired me and as a chance to formalize my ideas surrounding it with words.
 
