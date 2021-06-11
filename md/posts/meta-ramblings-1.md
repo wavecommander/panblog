@@ -1,7 +1,11 @@
 % Meta Ramblings
 10 Jun 2021
 
-I am working on two blog posts at the moment. You can see them by visiting [the public repo for this site](https://github.com/benbdevd/panblog/pulls). I am not sure if I will be able to polish them to a level I am happy with for a while. In the meantime, I thought I would indulge in a few thoughts.
+I am working on two blog posts at the moment. You can see them by visiting [the public repo for this site](https://github.com/benbdevd/panblog/pulls). I am not sure if I will be able to polish them to a level I am happy with for a while.
+
+In the meantime, I thought I would explore some thoughts with this post.
+
+Also, I had a conversation with an AI called Steve that I will publish as soon as I get my laptop back from a repair shop.
 
 # Something Substantial
 
@@ -31,12 +35,14 @@ I am in the process of building a business plan with a 'mentor' for lack of a be
 
 The major challenge is seeding the business with initial clients and building reputation on the island. Very doable in our estimation. I like to think I would make my late grandfather, the very definition of an entrepreneur, proud.
 
-# Something Warm
-
 On to something more personal.
+
+# Something Warm
 
 I've been searching for a person to accompany me in this life. There have been a few "would be"s, but specifics always seem to get in the way of actualizing something: no longer wants a relationship, not physically attracted, not romantically interested, no time for someone else.
 
 Sometimes I feel like I went for a spacewalk and got detached from the spacecraft, never to interact with anyone ever again (like [Kars](https://jojo.fandom.com/wiki/Kars)). Realistically, this isn't and has never been true, but it's cold comfort when loneliness stares you in the face.
+
+At this point I am not sure what I am looking for other than something warm.
 
 Upon graduating, I hope move to either Québec or Montréal. This will open up my opportunities for finding someone.
