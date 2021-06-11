@@ -35,8 +35,8 @@ The major challenge is seeding the business with initial clients and building re
 
 On to something more personal.
 
-I've been searching for a person to accompany me in this life. There have been a few "would be"s, but specifics get in the way of actualizing something: no longer wants a relationship, not physically attracted, not romantically interested, no time for someone else.
+I've been searching for a person to accompany me in this life. There have been a few "would be"s, but specifics always seem to get in the way of actualizing something: no longer wants a relationship, not physically attracted, not romantically interested, no time for someone else.
 
 Sometimes I feel like I went for a spacewalk and got detached from the spacecraft, never to interact with anyone ever again (like [Kars](https://jojo.fandom.com/wiki/Kars)). Realistically, this isn't and has never been true, but it's cold comfort when loneliness stares you in the face.
 
-I think I have sat in front of a computer more than I have sat across from another human, and the trends point to this continuing
+Upon graduating, I hope move to either Québec or Montréal. This will open up my opportunities for finding someone.
