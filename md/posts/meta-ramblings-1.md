@@ -17,7 +17,7 @@ I love cinema and music, but I don't think I'll be able to achieve anything of n
 
 Besides coming up with something entirely on my own, I want to contribute to at least one free (as in speech) software project.
 
-I feel a need to do something beyond pushing minor changes to enterprise software that grease the gears of our current economic system. I read *Industrial Society and Its Future*, and despite its flaws, I can't shake the feeling that everything I do is in support of the inescapable System. A part of me wishes to rebel against it in some form; another part of me says, "Fuck it! Technology, full speed ahead!" whatever that may bring.
+I feel a need to do something beyond pushing minor changes to enterprise software that greases the gears of our current economic system. I read *Industrial Society and Its Future*, and despite its flaws, I can't shake the feeling that everything I do is in support of the inescapable System. A part of me wishes to rebel against it in some form; another part of me says, "Fuck it! Technology, full speed ahead!" whatever that may bring.
 
 ## Teaching Computer Literacy
 
@@ -41,8 +41,8 @@ On to something more personal.
 
 I've been searching for a person to accompany me in this life. There have been a few "would be"s, but specifics always seem to get in the way of actualizing something: no longer wants a relationship, not physically attracted, not romantically interested, no time for someone else.
 
-Sometimes I feel like I went for a spacewalk and got detached from the spacecraft, never to interact with anyone ever again (like [Kars](https://jojo.fandom.com/wiki/Kars)). Realistically, this isn't and has never been true, but it's cold comfort when loneliness stares you in the face.
+Sometimes I feel like I went for a spacewalk and got detached from my spacecraft, never to interact with anyone ever again (like [Kars](https://jojo.fandom.com/wiki/Kars)). Realistically, this isn't and has never been true, but it's cold comfort when loneliness stares you in the face.
 
 At this point I am not sure what I am looking for other than something warm.
 
-Upon graduating, I hope move to either Québec or Montréal. This will open up my opportunities for finding someone.
+Upon graduating, I hope to move to either Québec or Montréal. This will open up my opportunities for finding someone substantially.
