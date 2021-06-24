@@ -45,4 +45,4 @@ I've been searching for a person to accompany me in this life. There have been a
 
 Sometimes I feel like I went for a spacewalk and got detached from my spacecraft, never to interact with anyone ever again. Realistically, this isn't and has never been true, but it's cold comfort when loneliness stares you in the face.
 
-At this point I am not sure what I am looking for other than something warm.
+At this point, I am not sure what I am looking for other than something warm.
