@@ -1,5 +1,5 @@
 % On Camus and The Absurd
-10 May 2021
+6 Jul 2021
 
 ![](./images/sisyphus.png)
 
