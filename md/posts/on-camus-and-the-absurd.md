@@ -43,11 +43,17 @@ When faced with the realization that there is no inherent meaning to your existe
 
 But to end your existence short is to deny yourself the opportunity to rebel in the face of The Absurd, to play the game on your own terms. I will expand on this in the next subsection.
 
-The level of acceptance required to be an Absurd man is complete. It is to live *without appeal*, without clinging to hope.
+### Suicide Proper
 
-### Suicide
+During his argumentation, Camus builds the notion that we are isolated from the world with our personal perspective and that we cannot find ultimate meaning in the world.
 
+He deals with suicide directly after much preparation:
 
+> It was previously a question of finding out whether or not life had to have a meaning to be lived. It now becomes clear, on the contrary that it will be lived all the better if it has no meaning.
+
+He argues this acceptance of The Absurd and seizing the opportunity to accept your experience is a form of revolt/rebellion against the human condition; a sort of personal vendetta to keep your consciousness alive and laugh in the face of the cold and indifferent world simply because you feel like it.
+One who accepts the absurd condition concludes that they have ultimate freedom in how they decide to live every second; there are no referees, no rulebook.
+Perhaps this is not enough to convince those that find life to be unbearable suffering, and I would not discount that. Camus is engaging with suicide at an intellectual level: he argues about it as a primarily logical problem that can be reasoned about as a philosopher rather than the terrible last result contemplated by a crushed soul.
 
 ### Philosophical Suicide
 
@@ -63,7 +69,13 @@ I would like to extend and question Absurdism the up-to-date state of affairs as
 
 ### Mathematics and Science
 
-Firstly, I wonder how mathematics and science factor into the relationship between humans and the universe, The Absurd.
-The world contains structures and patterns that can be studied, reasoned about, and marveled at.
+In *The Myth of Sisyphus*, Camus rejects science as a way to learn about the world. He states that it is made up of descriptions and metaphors that are more art than science, and that it offers only hypotheses and theories that approximate the truth but don't embody it completely.
+
+> I realize that if through science I can seize phenomena and enumerate them, I cannot, for all that, apprehend the world.
+
+Clearly, in my mind, Camus missed the mark here entirely. It would appear he has not looked into empirically proven physics, and beyond that, mathematics. All of the sciences have much to teach about the world, and it is in fact ***the real world*** that it is teaching us about.
 
 ### Transhumanism
+
+In his day, it is safe to say that Camus was correct in his conclusion that he would not be able to transcend the human condition and that he was left to deal with its confines.
+I, on the other hand, see the rapid development of modern technology in my day and think that perhaps I, or some decendants of mine, will have the opportunity to shed this evolutionarily developed biological system for something more purpose-built and permissive as well as preserving consciousness well beyond what we consider a normal human lifespan.
