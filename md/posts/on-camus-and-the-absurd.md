@@ -1,5 +1,5 @@
 % On Camus and The Absurd
-6 Jul 2021
+16 Jul 2021
 
 ![](./images/sisyphus.png)
 
@@ -73,7 +73,7 @@ In *The Myth of Sisyphus*, Camus rejects science as a way to learn about the wor
 
 > I realize that if through science I can seize phenomena and enumerate them, I cannot, for all that, apprehend the world.
 
-Clearly, in my mind, Camus missed the mark here entirely. It would appear he has not looked into empirically proven physics, and beyond that, mathematics. All of the sciences have much to teach about the world, and it is, in fact, ***the real-world*** that it is teaching us about.
+Clearly, in my mind, Camus missed the mark here entirely. It would appear he has not looked into empirically proven physics, and beyond that, mathematics. All of the sciences have much to teach about the world, and it is, in fact, ***the real world*** that it is teaching us about.
 
 ### Transhumanism
 
