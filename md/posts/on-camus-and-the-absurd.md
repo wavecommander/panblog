@@ -3,20 +3,22 @@
 
 ![](./images/sisyphus.png)
 
-I am interested in the intersection of Absurdist and Existentialist philosophy. So much so that I got a tattoo, which I designed, symbolizing Sisyphus and his eternal struggle. I think it was a case of receiving just the right message at just the right time. This past summer has been a very formative experience, and reading the works of Albert Camus kept me afloat in many ways.
+I am interested in Absurdist philosophy. So much so that I got a tattoo, which I designed, symbolizing Sisyphus and his eternal struggle. I think it was a case of receiving just the right message at just the right time. This past summer has been a very formative experience, and reading the works of Albert Camus kept me afloat in many ways.
 
 ![](./images/sisyphus_tattoo.jpg)
 
 This post will serve as a revisiting of the philosophy that inspired me and as a chance to formalize my ideas surrounding it with words.
 
-I read both *The Myth of Sisyphus* (1955) and *The Stranger* (1942). While *The Myth of Sisyphus* was a much denser read, I feel I actually got a lot more of the philosophical ideas presented while I found the entire contents of *The Stranger* can be summed up by the first few sections of *The Myth of Sisyphus*.
+I read both *The Myth of Sisyphus* (1955) and *The Stranger* (1942). While *The Myth of Sisyphus* was a much denser read, because of it's more direct and bare logical nature, I feel I actually got a lot more of the philosophical ideas presented. I found the entire contents of *The Stranger* can be summed up by the first few sections of *The Myth of Sisyphus*. I suspect I am missing the significance of *The Stranger* and I don't think I process information in novel form as well as I can follow an argument.
+
+This post will mainly concern Absurdism as it is described from the ground up in *The Myth of Sisyphus*, I do not have much other experience outside of a few Wikipedia pages.
 
 
 ## Summary of Absurdism
 
 I will start by summarizing what I have gathered from my cursory study of the philosophy.
 
-Absurdism is the acceptance that your life, the lives of others, and the world you live in are all finite; the realization and acceptance that you are playing a game where you a free to make up the rules; there are no judgemental referees. There is no inherent meaning to be found in the universe, only what you make yourself, and even then, time will take that away as well.
+A large part of Absurdism is the acceptance that your life, the lives of others, and the world you live in are all finite; the realization and acceptance that you are playing a game where you a free to make up the rules; there are no judgemental referees. There is no inherent meaning to be found in the universe, only what you make yourself, and even then, time will take that away as well.
 
 ### Defining **The Absurd**
 
@@ -80,4 +82,4 @@ Clearly, in my mind, Camus missed the mark here entirely. It would appear he has
 In his day, it is safe to say that Camus was correct in his conclusion that he would not be able to transcend the human condition and that he was left to deal with its confines.
 I, on the other hand, see the rapid development of modern technology in my day and think that perhaps I, or some descendants of mine, will have an opportunity never before available to a human. An opportunity to shed this evolutionarily developed biological system for something more purpose-built and permissive as well as preserving consciousness well beyond what we consider a normal human lifespan.
 
-#### What Does This Mean for The Human Condition and The Absurd Man?
+#### What Do These Additional Perspectives Mean for The Human Condition and The Absurd Man?
