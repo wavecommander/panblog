@@ -9,7 +9,7 @@ I am interested in the intersection of Absurdist and Existentialist philosophy. 
 
 This post will serve as a revisiting of the philosophy that inspired me and as a chance to formalize my ideas surrounding it with words.
 
-I read both *The Myth of Sisyphus* (1955), and *The Stranger* (1942). While *The Myth of Sisyphus* was a much denser read, I feel I actually got a lot more of the philosophical ideas presented, while I found the entire contents of *The Stranger* can be summed up the first few sections of *The Myth of Sisyphus*.
+I read both *The Myth of Sisyphus* (1955) and *The Stranger* (1942). While *The Myth of Sisyphus* was a much denser read, I feel I actually got a lot more of the philosophical ideas presented while I found the entire contents of *The Stranger* can be summed up by the first few sections of *The Myth of Sisyphus*.
 
 
 ## Summary of Absurdism
@@ -35,13 +35,13 @@ Taken from the preface of *The Myth of Sisyphus*:
 
 > Although *The Myth of Sisyphus* poses mortal problems, it sums itself up for me as a lucid invitation to live and to create, in the very midst of the desert.
 
-This interpretation is very much inline with my own. I felt very alone this past summer for a myriad of reasons; I found myself in a desert more than once. Reading this book inspired me to make the most out of every moment, to bathe in the summer sun before winter could take it away, to chase after many mates as a virile male, a ***Don Juan***.
+This interpretation is very much in line with my own. I felt very alone this past summer for a myriad of reasons; I found myself in a desert more than once. Reading this book inspired me to make the most out of every moment, bathe in the summer sun before winter could take it away, and chase after many mates as a virile male, a ***Don Juan***.
 
-Fundamentally, the argumentation in *The Myth of Sisyphus* deals with the problem of suicide, the refutation of contemporary philosohpies, and laying out what it means to be an Absurd man and create Absurd art.
+Fundamentally, the argumentation in *The Myth of Sisyphus* deals with the problem of suicide, the refutation of contemporary philosophies, and laying out what it means to be an Absurd man and create Absurd art.
 
-When faced with the realization that there is no inherent meaning to your existence and that everything you know will eventually be obliterated, it is natural to wonder "Why not just quit now?"
+When faced with the realization that there is no inherent meaning to your existence and that everything you know will eventually be obliterated, it is natural to wonder, "Why not just quit now?"
 
-But to end your existence short is to deny yourself the opportunity to rebel in the face of The Absurd, to play the game on your own terms. I will expand on this in the next subsection.
+But to end your existence short is to deny yourself the opportunity to rebel in the face of The Absurd, to play the game on your own terms. I will expand on this in the following subsection.
 
 ### Suicide Proper
 
@@ -49,15 +49,15 @@ During his argumentation, Camus builds the notion that we are isolated from the 
 
 He deals with suicide directly after much preparation:
 
-> It was previously a question of finding out whether or not life had to have a meaning to be lived. It now becomes clear, on the contrary that it will be lived all the better if it has no meaning.
+> It was previously a question of finding out whether or not life had to have a meaning to be lived. It now becomes clear, on the contrary, that it will be lived all the better if it has no meaning.
 
-He argues this acceptance of The Absurd and seizing the opportunity to accept your experience is a form of revolt/rebellion against the human condition; a sort of personal vendetta to keep your consciousness alive and laugh in the face of the cold and indifferent world simply because you feel like it.
+He argues this acceptance of The Absurd and seizing the opportunity to accept your experience is a form of revolt/rebellion against the human condition, a sort of personal vendetta to keep your consciousness alive and laugh in the face of the cold and indifferent world simply because you feel like it.
 One who accepts the absurd condition concludes that they have ultimate freedom in how they decide to live every second; there are no referees, no rulebook.
 Perhaps this is not enough to convince those that find life to be unbearable suffering, and I would not discount that. Camus is engaging with suicide at an intellectual level: he argues about it as a primarily logical problem that can be reasoned about as a philosopher rather than the terrible last result contemplated by a crushed soul.
 
 ### Philosophical Suicide
 
-Camus argues that competing theistic philosophies commit *Philosophical Suicide*, a sort of throwing up your hands at attempting to reason and just leave at "it must be divine".
+Camus argues that competing theistic philosophies commit *Philosophical Suicide*, a sort of throwing up your hands at attempting to reason and just leave at "it must be divine."
 
 I do not know exactly where I stand on this point. I think that it is permissible to theorize about divine planes beyond our own, but perhaps believing that there must exist some divine being is where the *Philosophical Suicide* comes in.
 
@@ -65,17 +65,19 @@ I do not know exactly where I stand on this point. I think that it is permissibl
 ## Exploration and Extension
 
 I think that Camus' perspective may have been limited by his focus on contemporary philosophy and the decades between our existences.
-I would like to extend and question Absurdism the up-to-date state of affairs as a human on this Earth.
+I would like to extend and question Absurdism, the up-to-date state of affairs as a human on this Earth.
 
 ### Mathematics and Science
 
-In *The Myth of Sisyphus*, Camus rejects science as a way to learn about the world. He states that it is made up of descriptions and metaphors that are more art than science, and that it offers only hypotheses and theories that approximate the truth but don't embody it completely.
+In *The Myth of Sisyphus*, Camus rejects science as a way to learn about the world. He states that it is made up of descriptions and metaphors that are more art than science and that it offers only hypotheses and theories that approximate the truth but don't embody it completely.
 
 > I realize that if through science I can seize phenomena and enumerate them, I cannot, for all that, apprehend the world.
 
-Clearly, in my mind, Camus missed the mark here entirely. It would appear he has not looked into empirically proven physics, and beyond that, mathematics. All of the sciences have much to teach about the world, and it is in fact ***the real world*** that it is teaching us about.
+Clearly, in my mind, Camus missed the mark here entirely. It would appear he has not looked into empirically proven physics, and beyond that, mathematics. All of the sciences have much to teach about the world, and it is, in fact, ***the real-world*** that it is teaching us about.
 
 ### Transhumanism
 
 In his day, it is safe to say that Camus was correct in his conclusion that he would not be able to transcend the human condition and that he was left to deal with its confines.
-I, on the other hand, see the rapid development of modern technology in my day and think that perhaps I, or some decendants of mine, will have the opportunity to shed this evolutionarily developed biological system for something more purpose-built and permissive as well as preserving consciousness well beyond what we consider a normal human lifespan.
+I, on the other hand, see the rapid development of modern technology in my day and think that perhaps I, or some descendants of mine, will have an opportunity never before available to a human. An opportunity to shed this evolutionarily developed biological system for something more purpose-built and permissive as well as preserving consciousness well beyond what we consider a normal human lifespan.
+
+#### What Does This Mean for The Human Condition and The Absurd Man?
