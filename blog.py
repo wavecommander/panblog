@@ -42,7 +42,8 @@ homepage_file = base_md_dir + 'index.md'
 home_msg_begin = 'My latest blog post is: '
 
 # BLOG INDEX
-blog_index_file = md_dir + 'blog_index.md'
+blog_index_md_name = 'blog_index.md'
+blog_index_md_file = md_dir + blog_index_md_name
 blog_index_start = '% Blog Index'
 
 # POSTS
@@ -103,7 +104,7 @@ def build_blog_index():
     global post_list
     print('Building Blog Index ...')
     Path(out_dir).mkdir(parents=True, exist_ok=True)
-    with open(blog_index_file, 'w+', encoding="utf8") as blog_index:
+    with open(blog_index_md_file, 'w+', encoding="utf8") as blog_index:
         blog_index.write(blog_index_start + '\n\n')
         posts = os.listdir(post_md_dir)
         for post in posts:
@@ -123,7 +124,7 @@ def build_blog_index():
             blog_index.write('%s - [%s](%s) \n\n' % (date, post[1], post[0]))
 
     comd = '%s %s %s' % (pandoc_base, out_dir +
-                         'blog_index.html', blog_index_file)
+                         blog_index_md_name[:-2] + 'html', blog_index_md_file)
     os.system(comd)
 
 
