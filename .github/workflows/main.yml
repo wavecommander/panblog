@@ -27,7 +27,7 @@ jobs:
        with:
         author_name: Ben Boyle
         author_email: me@benboyle.ca
-        message: 'Built site'
+        message: 'build site'
         add: './site/*'
         push: true
 
