@@ -84,8 +84,8 @@ def delete_out_dir():
 
 def build_head():
     print('Building Header ...')
-    comd = f'{pandoc_head} {head_file} {head_md_file}'
-    os.system(comd)
+    cmd = f'{pandoc_head} {head_file} {head_md_file}'
+    os.system(cmd)
 
 
 def copy_css():
@@ -98,8 +98,8 @@ def build_base():
     print('Building Base Files ...')
     base_files = os.listdir(base_md_dir)
     for base_file in base_files:
-        comd = f'{pandoc_base} {out_dir + base_file[:-2]}html {base_md_dir + base_file}'
-        os.system(comd)
+        cmd = f'{pandoc_base} {out_dir + base_file[:-2]}html {base_md_dir + base_file}'
+        os.system(cmd)
 
 
 def build_posts(posts_md_dir):
@@ -107,8 +107,8 @@ def build_posts(posts_md_dir):
     Path(out_dir).mkdir(parents=True, exist_ok=True)
     posts = os.listdir(posts_md_dir)
     for post in posts:
-        comd = f'{pandoc_post} {out_dir + post[:-2]}html {posts_md_dir + post}'
-        os.system(comd)
+        cmd = f'{pandoc_post} {out_dir + post[:-2]}html {posts_md_dir + post}'
+        os.system(cmd)
 
 
 def build_blog_index(post_list, post_md_dir, index_md_name, index_md_file, index_start):
@@ -132,8 +132,8 @@ def build_blog_index(post_list, post_md_dir, index_md_name, index_md_file, index
             date = f'{str(date.day)} {calendar.month_name[date.month][:3]} {str(date.year)}'
             index.write(f'{date} - [{post[1]}]({post[0]}) \n\n')
 
-    comd = f'{pandoc_base} {out_dir}{index_md_name[:-2]}html {index_md_file}'
-    os.system(comd)
+    cmd = f'{pandoc_base} {out_dir}{index_md_name[:-2]}html {index_md_file}'
+    os.system(cmd)
 
 
 def append_message_to_home(post_list, to_replace, msg):
