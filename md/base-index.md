@@ -8,4 +8,6 @@ I am a 4th Year Bachelor of Science student majoring in Computer Science at [UPE
 
 I like working with computers and discussing ideas.
 
-#####
+#BLOG#
+
+#RABBIT#

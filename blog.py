@@ -8,7 +8,8 @@ import fileinput
 
 abbr_to_num = {name: num for num,
                name in enumerate(calendar.month_abbr) if num}
-post_list = []
+blog_post_list = []
+rabbit_holes_post_list = []
 
 # PANDOC DEFAULT FILES
 def_base = '--defaults ./base.yaml'
@@ -37,29 +38,40 @@ comments_html = f'{res_dir}foot.html'
 # BASE
 pandoc_base = f'pandoc {def_base} {def_content} -o '
 base_md_dir = f'{md_dir}base/'
-base_homepage_file = f'{md_dir}base_index.md'
+base_homepage_file = f'{md_dir}base-index.md'
 homepage_file = f'{base_md_dir}index.md'
-home_msg_begin = 'My latest blog post is: '
+blog_msg = 'My latest blog post is: '
+rabbit_msg = 'My latest rabbit hole post is: '
 
 # BLOG INDEX
-blog_index_md_name = 'blog_index.md'
-blog_index_file = f'{md_dir}blog_index.md'
+blog_index_md_name = 'blog-index.md'
+blog_index_file = f'{md_dir}blog-index.md'
 blog_index_start = '% Blog Index'
+
+# RABBIT HOLE INDEX
+rabbit_holes_index_md_name = 'rabbit-holes.md'
+rabbit_holes_index_file = f'{md_dir}rabbit-holes.md'
+rabbit_holes_index_start = '% Rabbit Holes'
 
 # POSTS
 pandoc_post = f'pandoc {def_base} {def_content} {def_post} -o '
-post_md_dir = md_dir + 'blog_posts/'
-rabbit_holes_md_dir = f'{md_dir}blog_posts/'
+blog_post_md_dir = f'{md_dir}blog-posts/'
+rabbit_holes_md_dir = f'{md_dir}rabbit-holes/'
 
 
 def clean_build():
     print('Clean Building ...')
     delete_out_dir()
-    # build_head()
+    build_head()
     copy_css()
-    build_posts()
-    build_blog_index()
-    append_message_to_home()
+    build_posts(blog_post_md_dir)
+    build_posts(rabbit_holes_md_dir)
+    build_blog_index(blog_post_list, blog_post_md_dir, blog_index_md_name,
+                     blog_index_file, blog_index_start)
+    build_blog_index(rabbit_holes_post_list, rabbit_holes_md_dir, rabbit_holes_index_md_name,
+                     rabbit_holes_index_file, rabbit_holes_index_start)
+    append_message_to_home(blog_post_list, '#BLOG#', blog_msg)
+    append_message_to_home(rabbit_holes_post_list, '#RABBIT#', rabbit_msg)
     build_base()
     copy_images()
     copy_netlify()
@@ -90,21 +102,20 @@ def build_base():
         os.system(comd)
 
 
-def build_posts():
+def build_posts(posts_md_dir):
     print('Building Blog Posts ...')
     Path(out_dir).mkdir(parents=True, exist_ok=True)
-    posts = os.listdir(post_md_dir)
+    posts = os.listdir(posts_md_dir)
     for post in posts:
-        comd = f'{pandoc_post} {out_dir + post[:-2]}html {post_md_dir + post}'
+        comd = f'{pandoc_post} {out_dir + post[:-2]}html {posts_md_dir + post}'
         os.system(comd)
 
 
-def build_blog_index():
-    global post_list
+def build_blog_index(post_list, post_md_dir, index_md_name, index_md_file, index_start):
     print('Building Blog Index ...')
     Path(out_dir).mkdir(parents=True, exist_ok=True)
-    with open(blog_index_file, 'w+', encoding="utf8") as blog_index:
-        blog_index.write(blog_index_start + '\n\n')
+    with open(index_md_file, 'w+', encoding="utf8") as index:
+        index.write(index_start + '\n\n')
         posts = os.listdir(post_md_dir)
         for post in posts:
             with open(post_md_dir + post, 'r', encoding="utf8") as post_file:
@@ -119,18 +130,21 @@ def build_blog_index():
         for post in post_list:
             date = post[2]
             date = f'{str(date.day)} {calendar.month_name[date.month][:3]} {str(date.year)}'
-            blog_index.write(f'{date} - [{post[1]}]({post[0]}) \n\n')
+            index.write(f'{date} - [{post[1]}]({post[0]}) \n\n')
 
-    comd = f'{pandoc_base} {out_dir}{blog_index_md_name[:-2]}.html {blog_index_file}'
+    comd = f'{pandoc_base} {out_dir}{index_md_name[:-2]}html {index_md_file}'
     os.system(comd)
 
 
-def append_message_to_home():
+def append_message_to_home(post_list, to_replace, msg):
     print('Appending Homepage Message ...')
     latest_post = post_list[0]
-    with open(base_homepage_file, 'r') as file:
+    source_file = base_homepage_file
+    if os.path.isfile(homepage_file):
+        source_file = homepage_file
+    with open(source_file, 'r') as file:
         filedata = file.read()
-    filedata = filedata.replace('#####', f'{home_msg_begin}[{latest_post[1]}]({latest_post[0]})')
+    filedata = filedata.replace(to_replace, f'{msg}[{latest_post[1]}]({latest_post[0]})')
     with open(homepage_file, 'w+') as file:
         file.write(filedata)
 
