@@ -46,12 +46,12 @@ rabbit_msg = 'My latest rabbit hole post is: '
 # BLOG INDEX
 blog_index_md_name = 'blog-index.md'
 blog_index_file = f'{md_dir}blog-index.md'
-blog_index_start = '% Blog Index'
+blog_index_start = '% Blog Index\n\nPosts that have a clear narrative/argument'
 
 # RABBIT HOLE INDEX
 rabbit_holes_index_md_name = 'rabbit-holes.md'
 rabbit_holes_index_file = f'{md_dir}rabbit-holes.md'
-rabbit_holes_index_start = '% Rabbit Holes'
+rabbit_holes_index_start = '% Rabbit Holes\n\nPosts that are more a stream of consciousness'
 
 # POSTS
 pandoc_post = f'pandoc {def_base} {def_content} {def_post} -o '
