@@ -47,7 +47,7 @@ blog_index_start = '% Blog Index'
 
 # POSTS
 pandoc_post = 'pandoc %s %s %s -o ' % (def_base, def_content, def_post)
-post_md_dir = md_dir + 'posts/'
+post_md_dir = md_dir + 'blog_posts/'
 
 
 def clean_build():
