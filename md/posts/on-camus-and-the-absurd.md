@@ -9,7 +9,7 @@ I am interested in Absurdist philosophy. So much so that I got a tattoo, which I
 
 This post will serve as a revisiting of the philosophy that inspired me and as a chance to formalize my ideas surrounding it with words.
 
-I read both *The Myth of Sisyphus* (1955) and *The Stranger* (1942). While *The Myth of Sisyphus* was a much denser read, because of it's more direct and bare logical nature, I feel I actually got a lot more of the philosophical ideas presented. I found the entire contents of *The Stranger* can be summed up by the first few sections of *The Myth of Sisyphus*. I suspect I am missing the significance of *The Stranger* and I don't think I process information in novel form as well as I can follow an argument.
+I read both *The Myth of Sisyphus* (1955) and *The Stranger* (1942). While *The Myth of Sisyphus* was a much denser read, because of its more direct and bare logical nature, I feel I actually got a lot more of the philosophical ideas presented. I found the entire contents of *The Stranger* can be summed up by the first few sections of *The Myth of Sisyphus*. I suspect I am missing the significance of *The Stranger* and I don't think I process information in novel form as well as I can follow an argument.
 
 This post will mainly concern Absurdism as it is described from the ground up in *The Myth of Sisyphus*, I do not have much other experience outside of a few Wikipedia pages.
 
@@ -83,3 +83,10 @@ In his day, it is safe to say that Camus was correct in his conclusion that he w
 I, on the other hand, see the rapid development of modern technology in my day and think that perhaps I, or some descendants of mine, will have an opportunity never before available to a human. An opportunity to shed this evolutionarily developed biological system for something more purpose-built and permissive as well as preserving consciousness well beyond what we consider a normal human lifespan.
 
 #### What Do These Additional Perspectives Mean for The Human Condition and The Absurd Man?
+
+I believe that these additional perspectives do not invalidate one's potential to be an Absurd Man. I couldn't imagine a better revolt than to transcend biology and reject suicide for as long as the being wishes. A person who holds these perspectives is still granted the absolute freedom that is given upon acceptance of The Absurd. As for passion, figuring out the world and all of the things in it is quite a passionate affair.
+
+
+## In Closing
+
+
