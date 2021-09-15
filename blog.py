@@ -62,6 +62,7 @@ rabbit_holes_md_dir = f'{md_dir}rabbit-holes/'
 def clean_build():
     print('Clean Building ...')
     delete_out_dir()
+    delete_temps()
     build_head()
     copy_css()
     build_posts(blog_post_md_dir)
@@ -80,6 +81,15 @@ def clean_build():
 def delete_out_dir():
     if os.path.exists(out_dir):
         shutil.rmtree(out_dir)
+
+
+def delete_temps():
+    if os.path.exists(homepage_file):
+        os.remove(homepage_file)
+    if os.path.exists(blog_index_file):
+        os.remove(blog_index_file)
+    if os.path.exists(rabbit_holes_index_file):
+        os.remove(rabbit_holes_index_file)
 
 
 def build_head():
@@ -138,6 +148,7 @@ def build_blog_index(post_list, post_md_dir, index_md_name, index_md_file, index
 
 def append_message_to_home(post_list, to_replace, msg):
     print('Appending Homepage Message ...')
+    post_list = sorted(post_list, key=lambda x: x[2], reverse=True)
     latest_post = post_list[0]
     source_file = base_homepage_file
     if os.path.isfile(homepage_file):
