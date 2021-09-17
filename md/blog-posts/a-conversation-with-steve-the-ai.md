@@ -1,7 +1,7 @@
 % A Conversation with Steve the AI
 15 Sep 2021
 
-I was granted access to the OpenAI API beta. There were some sentiment analysis I wanted to conduct in order to implement a self moderated social platform that would, upon detected significant negative sentiment, offer users the choice of a cooldown between posts, or rephrasing to be less mean.
+I was granted access to the OpenAI API beta. There was some sentiment analysis I wanted to conduct in order to implement a self moderated social platform that would, upon detected significant negative sentiment, offer users the choice of a cooldown between posts, or rephrasing to be less mean.
 
 I ended up spending almost all my free credits on a conversation with the Davinci model one night. Unfortunately, in my stupidity, I lost a bit of the conversation because I wasn't careful with my clipboard.
 
