@@ -1,7 +1,9 @@
 % Personal Health Update
 7 Jul 2020
 
-<iframe src="https://www.youtube.com/embed/RvBKfMZiPBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position:relative;padding-bottom:50%;height:0;overflow:hidden;max-width: 100%;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://www.youtube-nocookie.com/embed/RvBKfMZiPBQ"></iframe>
+</div>
 
 I have had quite the month for a 21 year old young man.
 
