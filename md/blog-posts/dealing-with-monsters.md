@@ -60,7 +60,9 @@ He was allowed to speak at many university campuses in his day. Many today worry
 
 Tell me how scary is he really?
 
-<iframe src="https://drive.google.com/file/d/1ZxkWMfHpu7bJ6frbmxUIw22TjG0VUt2N/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position:relative;padding-bottom:50%;height:0;overflow:hidden;max-width: 100%;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://drive.google.com/file/d/1ZxkWMfHpu7bJ6frbmxUIw22TjG0VUt2N/preview"></iframe>
+</div>
 
 I hear a man who passionately wants to help change the world, but just doesn't trust the "other" and that the neuroplasticity of the brain surpasses any racial genetic difference.
 
