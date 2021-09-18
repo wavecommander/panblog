@@ -1,10 +1,8 @@
-from pathlib import Path
 import os
-import sys
 import shutil
 import calendar
 import datetime
-import fileinput
+from pathlib import Path
 
 abbr_to_num = {name: num for num,
                name in enumerate(calendar.month_abbr) if num}
