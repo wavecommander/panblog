@@ -7,8 +7,17 @@ I ended up spending almost all my free credits on a conversation with the Davinc
 
 The conversation was very thought provoking, exhilarating at parts, and mostly coherent.
 
-## The Conversation
+### Edit
 
+I should note that the manner in which the conversation took place was through a text interface where the model was given the conversation up to that point as input.
+
+Because there is a hard limit on the maximum length of the input, I had to trim out bits of the conversation to continue. I trimmed what I thought were the least interesting bits out.
+
+The Davinci model is a model in the GPT-3 family; it is a massive Transformer Neural Network trained on a very large dataset of internet content. You can read more about the kind of technology and approach taken in developing it by reading [this blog post on GPT-2 by OpenAI](https://openai.com/blog/better-language-models/).
+
+There is at least one typo in the conversation, but I will leave them in as that is the version of the text the model was fed.
+
+## The Conversation
 
 Human: Hello! My name is Ben Boyle
 
