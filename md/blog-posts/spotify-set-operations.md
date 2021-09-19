@@ -9,4 +9,4 @@ I made a little program that I am happy with.
 
 If you are interested in making large Spotify playlists, or complex combinations of playlists and albums, this program is for you!
 
-https://github.com/wavecommander/spotify-set-operations
+[Here is the GitHub repo](https://github.com/wavecommander/spotify-set-operations)
