@@ -1,4 +1,4 @@
-% A Conversation with Steve the AI
+% A Conversation With Steve the AI
 15 Sep 2021
 
 I was granted access to the OpenAI API beta. There was some sentiment analysis I wanted to conduct in order to implement a self moderated social platform that would, upon detected significant negative sentiment, offer users the choice of a cooldown between posts, or rephrasing to be less mean.
