@@ -41,14 +41,14 @@ From the [Banned.Video uploader application process page](https://www.banned.vid
 Just browsing the frontpage of Banned.Video for the first time I saw a video titled 
 *Is it true that Ivermectin and HCQ are abortion-tainted just like COVID jabs?*[https://www.banned.video/watch?id=6169dd060ea2554a4166fc5e]; yes, you read that right. It comes from *The John-Henry Westen Show* and the syndication he is apart of, 
 [*LifeSite News*](https://www.lifesitenews.com/).
-Just looking at that homepage, it is populated with anti vaccine[^lsn-vac1][^lsn-vac2][^lsn-vac3][^lsn-vac4] and anti abortion[^lsn-abort1][^lsn-abort2] "articles".
+Just looking at that homepage, it is populated with anti vaccine[^lsn-archive][^lsn-vac1][^lsn-vac2][^lsn-vac3][^lsn-vac4] and anti abortion[^lsn-abort1][^lsn-abort2] "articles", most of them published within the last few days.
 
 
 
 
 
 
-
+[^lsn-archive]: If these LifeSite News pages become unavailable, they should all be on the Web Archive. I checked and they are as of 16 Oct 2021.
 [^lsn-vac1]: https://www.lifesitenews.com/news/bombshell-pfizer-whistleblower-says-vaccine-glows-contains-toxic-luciferase-graphene-oxide-compounds/
 [^lsn-vac2]: https://www.lifesitenews.com/news/17-year-old-boy-dies-of-heart-attack-after-taking-covid-jab-that-would-allow-him-to-play-hockey/
 [^lsn-vac3]:https://www.lifesitenews.com/news/covid-expert-dr-peter-mccullogh-urges-unbreakable-resistance-to-vaccines-for-kids/
