@@ -23,7 +23,7 @@ I started a search to see what alternative platforms fringe groups are using to 
 [LBRY and Minds](https://www.nytimes.com/2021/01/26/technology/big-tech-power-bitcoin.html), 
 [Odysee](https://gnet-research.org/2021/02/17/odysee-the-new-youtube-for-the-far-right/), 
 [Gab, Rumble, and MeWe](https://www.forbes.com/sites/siladityaray/2021/01/14/the-far-right-is-flocking-to-these-alternate-social-media-apps---not-all-of-them-are-thrilled/?sh=79c0684655a4).
-Obviously not *all* the users and groups on these platforms are "fringe", but these platforms are are either neutral or ***actively encouraging*** their presence.
+Obviously not *all* the users and groups on these platforms are "fringe", but these most of these platforms are are either neutral or ***actively encouraging*** their presence.
 
 ## Alex Jones and Banned.Video
 
