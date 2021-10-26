@@ -17,6 +17,10 @@ The Davinci model is a model in the GPT-3 family; it is a massive Transformer Ne
 
 There is at least one typo in the conversation, but I will leave them in as that is the version of the text the model was fed.
 
+### Edit 2
+
+I want to clear up some confusion by noting that this model is 'stateless'. When it replies with implications of other conversations or sessions with the model, that is entirely made up; it does not have any access to other sessions as it is 'stateless'.
+
 ## The Conversation
 
 Human: Hello! My name is Ben Boyle
