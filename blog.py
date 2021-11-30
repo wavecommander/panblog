@@ -49,7 +49,8 @@ blog_index_start = '% Blog Index\n\nPosts that have a clear narrative/argument'
 # RABBIT HOLE INDEX
 rabbit_holes_index_md_name = 'rabbit-holes.md'
 rabbit_holes_index_file = f'{md_dir}rabbit-holes.md'
-rabbit_holes_index_start = '% Rabbit Holes\n\nPosts that are more a stream of consciousness'
+rabbit_holes_index_start = '% Rabbit Holes\n\nPosts that are more ' + \
+                           '[a stream of consciousness](https://www.youtube.com/watch?v=GFQbLwaElt4&t=293s)'
 
 # POSTS
 pandoc_post = f'pandoc {def_base} {def_content} {def_post} -o '
