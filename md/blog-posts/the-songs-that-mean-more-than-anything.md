@@ -1,6 +1,14 @@
 % The Songs That Mean More Than Anything
 18 Nov 2021
 
+# The Songs
+
+In writing this, I assume that you have listened to the songs and will make frequent reference to lyrics and features of the songs. You won't regret it.
+
+[American Pie by Don McLean](https://www.youtube.com/watch?v=iX_TFkut1PM)
+[Komm Süsser Tod sung by Arianne](https://www.youtube.com/watch?v=rQiHzcdUPAU)
+
+
 # American Pie
 
 I am thankful to be in the same universe this song was written. I don't know if I can fully put into words everything that it means to me; some of it probably sounds crazy.
