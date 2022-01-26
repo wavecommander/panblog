@@ -1,11 +1,5 @@
 % Miscellanea
 
-***
-
-### Warning: You are entering the pretentious zone.
-
-***
-
 # The Myth of Sisyphus in Four Shapes
 
 ![](./images/sisyphus.png)
@@ -34,6 +28,16 @@ The two most difficult things in life are:
 #### Drowning in the shallow stream.
 
 #### It doesn't let up; it never will.
+
+***
+
+#### In the dead of winter
+
+#### Late at night
+
+#### I was warm
+
+#### I saw light
 
 ***
 
