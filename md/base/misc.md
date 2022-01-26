@@ -1,5 +1,7 @@
 % Miscellanea
 
+***
+
 # The Myth of Sisyphus in Four Shapes
 
 ![](./images/sisyphus.png)
