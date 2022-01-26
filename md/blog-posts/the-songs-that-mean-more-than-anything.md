@@ -24,8 +24,11 @@ I've said it before and I'll say it again, these lyrics are describing the Ameri
 
 My favorite description of depression in a work of art to date.
 
-It has a cheerful seeming exterior with a defeated harshness underneath.
+It has an upbeat exterior with a defeated harshness underneath.
 
->It just keeps tumbling down tumbling down tumbling down
+>It just keeps<br>
+Tumbling down<br>
+Tumbling down<br>
+Tumbling down
 
 This lyric means many things at once. The failure of the most important tasks and relationships. It echoes Sisyphus' endless punishment as the stone tumbles down unavoidibly. And in combination with "It all returns to nothing", the heat death of the universe comes to mind. The continual phenomena of all matter to prefer lower energy states and "tumble down".
