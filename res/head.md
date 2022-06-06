@@ -7,5 +7,5 @@ pagetitle: header
 <p><a href="mailto:me@benboyle.ca">me@benboyle.ca</a></p>
 
 +:----------------------------------------:+:----------------------------------------:+:----------------------------------------:+:----------------------------------------:+:---------------------------------------:+
-|[Blog Index](post-index.html)             |[Miscellanea](misc.html)                  |[Resume](https://benboyle.ca/resume)      |[GitHub](https://github.com/wavecommander)|[About](about.html)                      |
+|[Post Index](post-index.html)             |[Miscellanea](misc.html)                  |[Resume](https://benboyle.ca/resume)      |[GitHub](https://github.com/wavecommander)|[About](about.html)                      |
 +:-----------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+-----------------------------------------+
