@@ -59,6 +59,29 @@ pandoc_post = f"pandoc {def_base} {def_content} {def_post} -o "
 post_md_dir = f"{md_dir}posts/"
 
 
+def clean_build():
+    print("Clean Building ...")
+    delete_out_dir()
+    delete_temps()
+    build_head()
+    copy_css()
+    build_posts(post_md_dir)
+    build_blog_index(
+        global_post_list_list,
+        post_md_dir,
+        post_index_md_name,
+        post_index_file,
+        post_index_start,
+    )
+
+    for i, post_list in enumerate(global_post_list_list):
+        find_replace_latest_post_msg(post_list, f"#{i}#", post_type_order[i])
+
+    build_base()
+    copy_images()
+    copy_netlify()
+
+
 def build_blog_index(
     post_list_list, post_md_dir, index_md_name, index_md_file, index_start
 ):
@@ -191,29 +214,6 @@ def copy_netlify():
     print("Copying Netlify TOML ...")
     Path(out_dir).mkdir(parents=True, exist_ok=True)
     shutil.copyfile(src=netlify_file, dst=netlify_out_file)
-
-
-def clean_build():
-    print("Clean Building ...")
-    delete_out_dir()
-    delete_temps()
-    build_head()
-    copy_css()
-    build_posts(post_md_dir)
-    build_blog_index(
-        global_post_list_list,
-        post_md_dir,
-        post_index_md_name,
-        post_index_file,
-        post_index_start,
-    )
-
-    for i, post_list in enumerate(global_post_list_list):
-        find_replace_latest_post_msg(post_list, f"#{i}#", post_type_order[i])
-
-    build_base()
-    copy_images()
-    copy_netlify()
 
 
 if __name__ == "__main__":
