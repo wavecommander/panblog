@@ -1,3 +1,4 @@
-md/blog-index.md
-md/rabbit-holes.md
-md/base/index.md
+/.vscode
+
+/md/post-index.md
+/md/base/index.md
