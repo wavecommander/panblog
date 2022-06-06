@@ -1,4 +1,4 @@
-% The Case for the Teleportal
+% The Case for The Teleportal
 13 Nov 2020
 T2
 
