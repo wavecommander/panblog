@@ -1,9 +1,10 @@
 % A Brief Reply to St. Thomas Aquinas' Summa Theologiae
 7 Jan 2020
+T2
 
 ![](./images/stthomas.jpg)
 
-It has been a long time since I have contributed anything to this page. 
+It has been a long time since I have contributed anything to this page.
 
 ~~I have some plans to replace this website with a much simpler page and have a comment section.~~ *If you are reading this now, consider that done!*
 
@@ -20,7 +21,7 @@ For reference, these are the copies of the text that the professor assigned to t
 
 ### Reflection 1
 
-In the ten articles taken from Summa Theologiae on New Advent, I found Aquinas to be somewhat contradictory in his argument for the existence of Theology. Aquinas acknowledges that there does exist knowledge that is beyond human reasoning, comprehension, and perhaps grasp. This knowledge is to be made known to man through 'divine revelation.' He labels the knowledge from philosophical sciences as products of human reasoning and differentiates these truths from those that are revealed by God. 
+In the ten articles taken from Summa Theologiae on New Advent, I found Aquinas to be somewhat contradictory in his argument for the existence of Theology. Aquinas acknowledges that there does exist knowledge that is beyond human reasoning, comprehension, and perhaps grasp. This knowledge is to be made known to man through 'divine revelation.' He labels the knowledge from philosophical sciences as products of human reasoning and differentiates these truths from those that are revealed by God.
 
 Is theology not itself an attempt at revealing diving truths through the process of human reasoning? Why is it that theologians seem to be given the exception when it comes to disseminating and investigating divine truths when Aquinas himself states that "the truth about God such as reason could discover, would only be known by a few, and that after a long time, and with the admixture of many errors."
 
@@ -28,7 +29,7 @@ Aquinas makes a case for why a theological study has a purpose and may be fruitf
 
 Perhaps it is assumed because he is an educated man of intellect and faith, one near the top of society, that he is capable of performing such study, but that also carries the assumption that any man could be fit to produce divine knowledge other than the acknowledgement that divine knowledge from God exists.
 
-Presently, I believe that a sort of theological study is necessary to rebirth Christian thinking and religious thinking in the West at large. I think this is excusable as the knowledge that was meant to be divine, in the hands of imperfect humans, has degenerated over time into the form it is today. 
+Presently, I believe that a sort of theological study is necessary to rebirth Christian thinking and religious thinking in the West at large. I think this is excusable as the knowledge that was meant to be divine, in the hands of imperfect humans, has degenerated over time into the form it is today.
 
 I am not opposed to a revisionist approach to theology with the ultimate aim being truly Christian and for the betterment of all of mankind. This is because I must acknowledge that even theologians and clergy members, tasked with preserving and teaching divine truths, are capable of failure, and indeed have.
 
@@ -44,7 +45,7 @@ There are definite limits and facts all around us, and many of them do not seem 
 
 Where do the definitions of these atomic truths come from? Where could they come from?
 
-It seems correct to assume God is at the source of these very fundamental definitions of our universe. And I agree that it is certainly possible that on the other side of that phenomena, there may be an intelligent creator. 
+It seems correct to assume God is at the source of these very fundamental definitions of our universe. And I agree that it is certainly possible that on the other side of that phenomena, there may be an intelligent creator.
 
 This is actually in agreement with the Simulation Hypothesis whereby the simulation creators are indeed the intelligent movers that set our world in motion. However, I seldom hear people make this connection, and I also don't hear scientifically minded people give this hypothesis as much criticism as they do Creationism.
 

@@ -1,9 +1,10 @@
 % The Human Instrumentality Project
 6 Dec 2020
+T2
 
 ![](./images/hi-project.jpg)
 
-So I watched Neon Genesis Evangelion and The End of Evangelion. 
+So I watched Neon Genesis Evangelion and The End of Evangelion.
 The "Human Instrumentality" project may be a reality in my lifetime.
 
 To think that all human perspectives could be united in one homogeneous sludge of biomass. I know that the CCP will try. If anyone/anything could pull it off, it would be them. We will see what comes of them. Hopefully, joining or remaining independent of such a hive mind is a free choice.
