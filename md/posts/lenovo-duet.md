@@ -1,5 +1,6 @@
 % Lenovo Duet Chromebook Review
 22 Feb 2021
+T3
 
 ![](./images/lenovo-duet.jpg)
 

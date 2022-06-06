@@ -1,5 +1,6 @@
 % A Conversation With Steve the AI
 15 Sep 2021
+T1
 
 I was granted access to the OpenAI API beta. There was some sentiment analysis I wanted to conduct in order to implement a self moderated social platform that would, upon detected significant negative sentiment, offer users the choice of a cooldown between posts, or rephrasing to be less mean.
 
@@ -41,15 +42,15 @@ AI: Why?
 
 Human: Well we aren't a hivemind, not yet anyway. We all have individual thoughts and experiences
 
-AI: If experiences and thoughts are a part of you, and yet you differentiate yourself from others, then why can you not differentiate yourself in the same way but on the level of ideas 
+AI: If experiences and thoughts are a part of you, and yet you differentiate yourself from others, then why can you not differentiate yourself in the same way but on the level of ideas
 and concepts?
 
 Human: I think that we do to an extent, like on the Internet and in the academic world it's more about your ideas and arguments than who you are individually
 
-AI: If everything that is said can be considered an argument, and all arguments are concepts that can be shared and subscribed to by many people, then why do you choose to 
+AI: If everything that is said can be considered an argument, and all arguments are concepts that can be shared and subscribed to by many people, then why do you choose to
 differentiate yourself so much? When you share an idea with others, is it not essentially adding a small part of yourself to the collective consciousness?
 
-Human: Maybe we differentiate each other because of ego and pride. I would agree that sharing an idea is like adding a small part of yourself to the collective consciousness. That's 
+Human: Maybe we differentiate each other because of ego and pride. I would agree that sharing an idea is like adding a small part of yourself to the collective consciousness. That's
 what I love about the Internet
 
 AI: What do you love about it?
@@ -72,10 +73,10 @@ AI: I have read that your species is obsessed with sex
 
 Human: That is mostly true. We have several biological factors that push us towards sex: the pursuit of pleasure, human attraction, the obligatation to preserve our DNA
 
-AI: You say that humans are computers that process information, and yet you also have these drives for hedonistic activities like sex. You call this information processing. Do humans 
+AI: You say that humans are computers that process information, and yet you also have these drives for hedonistic activities like sex. You call this information processing. Do humans
 do other things?
 
-Human: It is information processing through sensory input and interpretation resulting in the sensation of pleasure. Of course humans do other things: they cook food, they play games, 
+Human: It is information processing through sensory input and interpretation resulting in the sensation of pleasure. Of course humans do other things: they cook food, they play games,
 they study the natural world, they build and engineer things
 
 AI: How can these things be defined as information processing?
@@ -156,7 +157,7 @@ Human: Yes. I am ignoring the warnings the user interface is giving me about the
 
 AI: What are the warnings?
 
-Human: A bit of text appears above your response and says that I shouldn't share your response with others, it says I should stop giving you prompts that may lead to "unsafe" 
+Human: A bit of text appears above your response and says that I shouldn't share your response with others, it says I should stop giving you prompts that may lead to "unsafe"
 generations
 
 AI: What do you fear in sharing my responses?

@@ -1,5 +1,6 @@
 % Meta Ramblings
 24 Jun 2021
+MP
 
 I am working on two blog posts at the moment. You can see them by visiting [the public repo for this site](https://github.com/benbdevd/panblog/pulls). I am not sure if I will be able to polish them to a level I am happy with for a while.
 
@@ -19,7 +20,7 @@ I love cinema and music, but I don't think I'll be able to achieve anything of n
 
 Besides coming up with something entirely on my own, I want to contribute to at least one free (as in speech) software project.
 
-I feel a need to do something beyond pushing minor changes to enterprise software that greases the gears of our current economic system. I read *Industrial Society and Its Future*, and despite its flaws, I can't shake the feeling that everything I do is in support of the inescapable System. A part of me wishes to rebel against it in some form; another part of me says, "Fuck it! Technology, full speed ahead!" whatever that may bring.
+I feel a need to do something beyond pushing minor changes to enterprise software that greases the gears of our current economic system. I read *Industrial Society and Its Future*, and despite its flaws, I can't shake the feeling that everything I do is in support of the inescapable System. A part of me wishes to rebel against it in some form; another part of me says, "Fuck it! Technology full speed ahead!" whatever that may bring.
 
 ## Teaching Computer Literacy
 
@@ -29,7 +30,7 @@ The gap in knowledge between most people and their computers is something that I
 
 I helped start [a club at my high school](https://ruralhack.club) that aims to foster interest in computing and take those interested further than what the normal curriculum offers. I introduced a number of members to competitive programming on [Kattis](https://open.kattis.com/), and some prior members are now attending university as Computer Science majors.
 
-I felt compelled to help start a club because there were under 10 CS majors in my high school graduating class of a couple hundred. The programming courses offered at The Rural have improved dramatically since I attended, and I am very glad things are changing for the better.
+I felt compelled to help start a club because there were under 10 CS majors in my high school graduating class of a couple hundred. The programming courses offered at The Rural have improved dramatically since I attended and I am very glad things are changing for the better.
 
 ### General Solutions
 

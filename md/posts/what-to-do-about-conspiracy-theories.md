@@ -1,5 +1,6 @@
 % What To Do About Conspiracy Theories?
 14 Dec 2020
+T2
 
 I had an existentially worrying experience.
 

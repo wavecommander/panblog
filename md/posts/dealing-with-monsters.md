@@ -1,5 +1,6 @@
 % Dealing With "Monsters"
 31 Jul 2020
+T1
 
 This is the best I can muster. This has been and will be my life-long struggle.
 
@@ -72,7 +73,7 @@ I see a flat-earther not wanting to trust NASA imagery and research.
 
 I see an 'AJ', desperately in need of help, kindness, and forgiveness.
 
-I see my own Grandfather, stuck in the vitriolic and fear-mongering US news cycle. 
+I see my own Grandfather, stuck in the vitriolic and fear-mongering US news cycle.
 
 The real enemy is conspiratorial thinking because it can lead you to distrust your fellow man and misinterpret any kind act as a manipulative one, a PSYOP.
 

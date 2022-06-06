@@ -1,5 +1,6 @@
 % Chromebooks for Serious Use Finally Makes Sense
 10 Nov 2018
+T3
 
 ![](./images/chromebook.jpg)
 
