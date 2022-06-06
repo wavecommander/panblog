@@ -111,7 +111,7 @@ def build_blog_index(
 
 
 def append_latest_post_to_home(post_list, to_replace):
-    print("Appending Homepage Messages ...")
+    print("Finding+Replacing Latest Post Message ...")
     source_file = base_homepage_file
     if os.path.isfile(homepage_file):
         source_file = homepage_file
@@ -120,10 +120,18 @@ def append_latest_post_to_home(post_list, to_replace):
         filedata = file.read()
 
     days_ago = (datetime.date.today() - post_list[0]['date']).days
+    days_str = ''
+
+    if days_ago == 0:
+        days_str = "today"
+    elif days_ago == 1:
+        days_str = "yesterday"
+    else:
+        days_str = f"{days_ago} days ago"
 
     filedata = filedata.replace(
         to_replace,
-        f"[{post_list[0]['title']}]({post_list[0]['path']}) - {days_ago} days ago",
+        f"[{post_list[0]['title']}]({post_list[0]['path']}) - {days_str}",
     )
 
     with open(homepage_file, "w+") as file:
