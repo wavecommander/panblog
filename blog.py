@@ -110,8 +110,8 @@ def build_blog_index(
     os.system(cmd)
 
 
-def append_latest_post_to_home(post_list, to_replace):
-    print("Finding+Replacing Latest Post Message ...")
+def find_replace_latest_post_msg(post_list, to_replace, post_type):
+    print(f"Finding+Replacing Latest {post_type} Post Message ...")
     source_file = base_homepage_file
     if os.path.isfile(homepage_file):
         source_file = homepage_file
@@ -209,7 +209,7 @@ def clean_build():
     )
 
     for i, post_list in enumerate(global_post_list_list):
-        append_latest_post_to_home(post_list, f"#{i}#")
+        find_replace_latest_post_msg(post_list, f"#{i}#", post_type_order[i])
 
     build_base()
     copy_images()
