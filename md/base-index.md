@@ -2,13 +2,13 @@
 pagetitle: Ben Boyle
 ---
 
-# Hi, I'm Ben
+# Hi, I'm Ben 👋
 
 I like working with computers and discussing ideas.
 
 I graduated from [UPEI](https://upei.ca) with a BSc in Computer Science in 2022.
 
-My latest posts are:
+## Latest Posts
 
 ### Tier 1
 #0#
@@ -16,7 +16,7 @@ My latest posts are:
 ### Tier 2
 #1#
 
-### Rabbit Hole:
+### Rabbit Hole
 #2#
 
 ### Meta
