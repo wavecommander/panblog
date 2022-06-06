@@ -23,7 +23,7 @@ netlify_out_file = out_dir + netlify_file[2:]
 
 # RES
 res_dir = "./res/"
-pandoc_head = f"pandoc {def_base} -o "
+pandoc_head = f"pandoc -t html5 -o "
 css_filename = "min.css"
 css_file = res_dir + css_filename
 css_out_file = res_out_dir + css_filename
