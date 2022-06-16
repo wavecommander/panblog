@@ -53,6 +53,9 @@ post_type_dict = {
     "MP": {"name": "Meta Post", "desc": "Posts about me and this site"},
     "T3": {"name": "Tier 3", "desc": "Why did I spend time writing this?"},
 }
+js_file = "./days-ago.js"
+js_out_dir = f"{out_dir}js/"
+js_out_file = js_out_dir + js_file[2:]
 
 # POSTS
 pandoc_post = f"pandoc {def_base} {def_content} {def_post} -o "
@@ -73,11 +76,8 @@ def clean_build():
         post_index_file,
         post_index_start,
     )
-
-    for i, post_list in enumerate(global_post_list_list):
-        find_replace_latest_post_msg(post_list, f"#{i}#", post_type_order[i])
-
     build_base()
+    copy_js()
     copy_images()
     copy_netlify()
 
@@ -115,10 +115,14 @@ def build_blog_index(
                 )
 
         for key in post_dict.keys():
-            post_dict[key] = sorted(post_dict[key], key=lambda x: x["date"], reverse=True)
+            post_dict[key] = sorted(
+                post_dict[key], key=lambda x: x["date"], reverse=True
+            )
 
         for key in post_type_order:
-            output_str += f"### {post_type_dict[key]['name']} - {post_type_dict[key]['desc']}\n\n"
+            output_str += (
+                f"### {post_type_dict[key]['name']} - {post_type_dict[key]['desc']}\n\n"
+            )
 
             for post in post_dict[key]:
                 date = f"{str(post['date'].day)} {calendar.month_name[post['date'].month][:3]} {str(post['date'].year)}"
@@ -132,8 +136,14 @@ def build_blog_index(
     cmd = f"{pandoc_base} {out_dir}{index_md_name[:-2]}html {index_md_file}"
     os.system(cmd)
 
+    for i, post_list in enumerate(global_post_list_list):
+        find_replace_latest_post_msg(post_list[0], f"#{i}#", post_type_order[i])
 
-def find_replace_latest_post_msg(post_list, to_replace, post_type):
+    with open(homepage_file, "a+") as file:
+        file.write(f'\n\n<script type="text/javascript" src="js/{js_file}"></script>\n')
+
+
+def find_replace_latest_post_msg(latest_post, to_replace, post_type):
     print(f"Finding+Replacing Latest {post_type} Post Message ...")
     source_file = base_homepage_file
     if os.path.isfile(homepage_file):
@@ -142,19 +152,9 @@ def find_replace_latest_post_msg(post_list, to_replace, post_type):
     with open(source_file, "r") as file:
         filedata = file.read()
 
-    days_ago = (datetime.date.today() - post_list[0]['date']).days
-    days_str = ''
-
-    if days_ago == 0:
-        days_str = "today"
-    elif days_ago == 1:
-        days_str = "yesterday"
-    else:
-        days_str = f"{days_ago} days ago"
-
     filedata = filedata.replace(
         to_replace,
-        f"[{post_list[0]['title']}]({post_list[0]['path']}) - {days_str}",
+        f"[{latest_post['title']}]({latest_post['path']}) - {latest_post['date']}",
     )
 
     with open(homepage_file, "w+") as file:
@@ -200,6 +200,12 @@ def build_posts(posts_md_dir):
     for post in posts:
         cmd = f"{pandoc_post} {out_dir + post[:-2]}html {posts_md_dir + post}"
         os.system(cmd)
+
+
+def copy_js():
+    print("Copying JS ...")
+    Path(js_out_dir).mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(src=js_file, dst=js_out_file)
 
 
 def copy_images():
