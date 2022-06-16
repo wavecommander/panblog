@@ -24,7 +24,7 @@ jobs:
      - name: Commit changes
        uses: EndBug/add-and-commit@v7
        with:
-        author_name: Ben Boyle(automated)
+        author_name: GitHub Action(automated)
         author_email: me+auto@benboyle.ca
         message: 'build site'
         add: './*'
