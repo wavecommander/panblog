@@ -1,4 +1,5 @@
 /.vscode
+/.venv
 
 /md/post-index.md
 /md/base/index.md
