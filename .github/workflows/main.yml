@@ -1,8 +1,6 @@
 name: Pandoc Build Site
 
 on:
-  schedule:
-    - cron: "1 0 * * *"
   push:
   workflow_dispatch:
 
@@ -26,8 +24,8 @@ jobs:
      - name: Commit changes
        uses: EndBug/add-and-commit@v7
        with:
-        author_name: Ben Boyle
-        author_email: me@benboyle.ca
+        author_name: Ben Boyle(automated)
+        author_email: me+auto@benboyle.ca
         message: 'build site'
         add: './*'
         push: true
