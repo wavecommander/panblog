@@ -1,6 +1,6 @@
 // Fuck JavaScript
 
-const DATE_STR_LEN = 10
+const DATE_STR_LEN = 10;
 const _MS_PER_DAY = 1000 * 60 * 60 * 24;
 
 // https://stackoverflow.com/a/15289883/7789162
@@ -13,11 +13,21 @@ function dateDiffInDays(a, b) {
 
 headers = document.getElementsByTagName("h3")
 for(let header of headers) {
-    let innerHTML = header.nextElementSibling.innerHTML
-    let postTitle = innerHTML.substring(0, innerHTML.length - DATE_STR_LEN)
+    let innerHTML = header.nextElementSibling.innerHTML;
+    let postTitle = innerHTML.substring(0, innerHTML.length - DATE_STR_LEN);
 
-    let postDate = new Date(innerHTML.substring(innerHTML.length - DATE_STR_LEN))
-    let numDays = dateDiffInDays(postDate, new Date())
+    let postDate = new Date(innerHTML.substring(innerHTML.length - DATE_STR_LEN));
+    let numDays = dateDiffInDays(postDate, new Date());
 
-    header.nextElementSibling.innerHTML = postTitle + numDays + " days ago"
+    let fullText = postTitle;
+
+    if(numDays == 0) {
+      fullText += "today";
+    } else if(numDays == 1) {
+      fullText += "yesterday";
+    } else {
+      fullText += numDays + " days ago";
+    }
+
+    header.nextElementSibling.innerHTML = fullText;
 }
