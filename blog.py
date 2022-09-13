@@ -48,7 +48,7 @@ post_type_dict = {
 
 # POSTS
 pandoc_post = f"pandoc {default_base} {default_content} {default_post} -o "
-post_md_dir = md_dir + "posts/"
+posts_md_dir = md_dir + "posts/"
 
 # JS
 js_dict = { homepage_file: [ "days-ago.js" ] }
@@ -57,10 +57,10 @@ def clean_build():
     print("Clean Building ...")
     mk_clean_dirs(stateful_dirs)
     build_head()
-    build_posts(post_md_dir)
+    build_posts()
     build_blog_index(
         global_post_list_list,
-        post_md_dir,
+        posts_md_dir,
         post_index_md_name,
         post_index_file,
         post_index_start,
@@ -162,25 +162,23 @@ def build_head():
     exec_pandoc(f"{pandoc_head} {head_foot_dir}head.html", head_foot_dir + "head.md")
 
 
+def build_md_dir_html(file_type, md_dir, pandoc_default):
+    print(f"Building {file_type} ...")
+    md_files = os.listdir(md_dir)
+    for md_file in md_files:
+        exec_pandoc(f"{pandoc_default} {out_dir + md_file[:-2]}html", md_dir + md_file)
+
+
 def build_base():
-    print("Building Base Files ...")
-    base_files = os.listdir(base_md_dir)
-    for base_file in base_files:
-        exec_pandoc(f"{pandoc_base} {out_dir + base_file[:-2]}html", base_md_dir + base_file)
+    build_md_dir_html("Base Files", base_md_dir, pandoc_base)
 
 
 def build_dynamic():
-    print("Building Dynamically Generated Files ...")
-    dyn_files = os.listdir(tmp_dir)
-    for dyn_file in dyn_files:
-        exec_pandoc(f"{pandoc_base} {out_dir + dyn_file[:-2]}html", tmp_dir + dyn_file)
+    build_md_dir_html("Dynamically Generated Files", tmp_dir, pandoc_base)
 
 
-def build_posts(posts_md_dir):
-    print("Building Posts ...")
-    posts = os.listdir(posts_md_dir)
-    for post in posts:
-        exec_pandoc(f"{pandoc_post} {out_dir + post[:-2]}html", posts_md_dir + post)
+def build_posts():
+    build_md_dir_html("Posts", posts_md_dir, pandoc_post)
 
 
 def copy_verbatim():
