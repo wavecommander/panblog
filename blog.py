@@ -8,9 +8,10 @@ abbr_to_num = {name: num for num, name in enumerate(calendar.month_abbr) if num}
 global_post_list_list = []
 
 # PANDOC DEFAULT FILES
-def_base = "--defaults ./base.yaml"
-def_content = "--defaults ./content.yaml"
-def_post = "--defaults ./post.yaml"
+default = "--defaults ./defaults/"
+default_base = default + "base.yaml"
+default_content = default + "content.yaml"
+default_post = default + "post.yaml"
 
 # SITE
 md_dir = "./md/"
@@ -23,10 +24,10 @@ head_foot_dir = "./head-foot/"
 pandoc_head = "pandoc -t html5 -o "
 
 # BASE
-pandoc_base = f"pandoc {def_base} {def_content} -o "
-base_md_dir = f"{md_dir}base/"
-base_homepage_file = f"{md_dir}base-index.md"
-homepage_file = f"{base_md_dir}index.md"
+pandoc_base = f"pandoc {default_base} {default_content} -o "
+base_md_dir = md_dir + "base/"
+base_homepage_file = md_dir + "base-index.md"
+homepage_file = tmp_dir + "index.md"
 
 # POST INDEX
 post_index_md_name = "post-index.md"
@@ -49,8 +50,8 @@ js_out_dir = f"{out_dir}js/"
 js_out_file = js_out_dir + js_file[2:]
 
 # POSTS
-pandoc_post = f"pandoc {def_base} {def_content} {def_post} -o "
-post_md_dir = f"{md_dir}posts/"
+pandoc_post = f"pandoc {default_base} {default_content} {default_post} -o "
+post_md_dir = md_dir + "posts/"
 
 
 def clean_build():
