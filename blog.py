@@ -15,21 +15,12 @@ def_post = "--defaults ./post.yaml"
 # SITE
 md_dir = "./md/"
 out_dir = "./site/"
-res_out_dir = f"{out_dir}res/"
-image_dir = "./images/"
-image_out_dir = out_dir + image_dir[2:]
-netlify_file = "./netlify.toml"
-netlify_out_file = out_dir + netlify_file[2:]
+tmp_dir = "./tmp/"
+stateful_dirs = [ out_dir, tmp_dir ]
 
-# RES
-res_dir = "./res/"
-pandoc_head = f"pandoc -t html5 -o "
-css_filename = "min.css"
-css_file = res_dir + css_filename
-css_out_file = res_out_dir + css_filename
-head_file = f"{res_dir}head.html"
-head_md_file = f"{res_dir}head.md"
-comments_html = f"{res_dir}foot.html"
+# HEADER AND FOOTER
+head_foot_dir = "./head-foot/"
+pandoc_head = "pandoc -t html5 -o "
 
 # BASE
 pandoc_base = f"pandoc {def_base} {def_content} -o "
@@ -77,9 +68,10 @@ def clean_build():
         post_index_start,
     )
     build_base()
-    copy_js()
-    copy_images()
-    copy_netlify()
+    build_dynamic()
+    copy_verbatim()
+
+
 
 
 def build_blog_index(
@@ -202,24 +194,9 @@ def build_posts(posts_md_dir):
         os.system(cmd)
 
 
-def copy_js():
-    print("Copying JS ...")
-    Path(js_out_dir).mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(src=js_file, dst=js_out_file)
-
-
-def copy_images():
-    print("Copying Images ...")
-    Path(image_out_dir).mkdir(parents=True, exist_ok=True)
-    images = os.listdir(image_dir)
-    for image in images:
-        shutil.copyfile(src=image_dir + image, dst=image_out_dir + image)
-
-
-def copy_netlify():
-    print("Copying Netlify TOML ...")
-    Path(out_dir).mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(src=netlify_file, dst=netlify_out_file)
+def copy_verbatim():
+    print("Copying verbatim dir ...")
+    shutil.copytree(src='./verbatim', dst=out_dir, dirs_exist_ok=True)
 
 
 if __name__ == "__main__":
