@@ -54,7 +54,7 @@ It needs to wake up from its spell of confusion and put out the fires consuming 
 
 We, the cells of this brain, are too busy trying to not die ourselves that we are unable to act as a harmonious network and form a coherent thought that spans this great Inter-network.
 
-This brain is unable to form a complete thought let alone acknowledge its own existence, and far far away from being able to understand the nature of its existence. Who knows what that even means? How is a neuron capable of observing the structure of the entire brain?
+This brain is unable to form a complete thought, let alone acknowledge its own existence, and far far away from being able to understand the nature of its existence. Who knows what that even means? How is a neuron capable of observing the structure of the entire brain?
 
 It might be different this time. This time, the primitives are self-aware, and they have very sophisticated tools to capture and analyze information of the natural world.
 
