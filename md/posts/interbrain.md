@@ -4,7 +4,7 @@ T1
 
 Your brain is a processing unit that is a part of the Internet.
 
-Here, I'm not referring to the physical and technical meanings of the word Internet: a network of networks connecting digital computers. I mean the Internet in the way that humans experience it, which doesn't have its own word yet. Darn! [If someone could only come up with a term that captures its ability to access information from far away nearly instantaneously](https://benboyle.ca/the-case-for-the-teleportal). Any ideas?
+Here, I'm not referring to the physical and technical meanings of the word Internet: a network of networks connecting digital computers. I mean the Internet in the way that humans experience it, which doesn't have its own word yet. Darn! [If someone could only come up with a term that captures its ability to send and receive information from anywhere to anywhere nearly instantaneously](https://benboyle.ca/the-case-for-the-teleportal). Any ideas?
 
 ## The BPU
 
@@ -40,7 +40,7 @@ Unfortunately, most of the time, this does not happen. It is rare to find any am
 
 Let's revisit that structure of BPUs forming a network: reacting to incoming signals by processing the information and generating signals of their own.
 
-If you squint, **this begins to resemble the structure of neurons in the brain**, where neurons become excited and pass on signals as a reaction to signals from other neurons with its own filter and conditions applied.
+If you squint, **this begins to resemble the structure of neurons in the brain**, where neurons become excited and pass on signals as reactions to signals from other neurons with its own filter and conditions applied.
 
 Thus, it seems that **the point of this whole "Internet" is to construct a higher order brain made up of entire human brains as its neurons and the Internet as its axons**. An organ made of complex organisms and distributed across the body of Earth.
 
