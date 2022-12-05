@@ -20,7 +20,7 @@ We have established that your brain has input and output (I/O) with your compute
 
 ## The Network
 
-Many of the computers on the Internet have human users who also have I/O with their computer and, therefore, their brain is also accessible via the Internet. Indirectly, through many computers and routers and switches and cables and antennas, **your brain is accessible by and can access every other brain connected to the Internet**.
+Many of the computers on the Internet have human users who also have I/O with their computer and, therefore, their brain is also accessible via the Internet. Indirectly, through many computers and routers and switches and cables and antennas, **your brain is accessible by and can access every other brain connected to the Internet**. Important to remember that all of the computers that are not directly controlled by humans also have that indirect access to every brain.
 
 So, we have this massive Inter-network of BPUs; who's sending them data to process across these buses?
 
