@@ -1,20 +1,18 @@
 % Interbrain
-4 Dec 2022
+5 Dec 2022
 T1
 
 Your brain is a processing unit that is a part of the Internet.
 
-Here, I'm not referring to the physical and technical meanings of the word Internet: a network of networks connecting digital computers. I mean the Internet in the way that humans experience it, which doesn't have its own word yet. Darn! [If someone could only come up with a term that captures its ability to send and receive information from anywhere to anywhere nearly instantaneously](https://benboyle.ca/the-case-for-the-teleportal). Any ideas?
+Here, I'm not referring to the physical and technical meanings of the word Internet: a network of networks connecting digital computers. I mean the Internet in the way that humans experience it, which doesn't have its own word yet. Darn! [If only someone could come up with a term that captures its ability to send and receive information from anywhere to anywhere nearly instantaneously](https://benboyle.ca/the-case-for-the-teleportal). Any ideas?
 
 ## The BPU
 
-In a way, your brain is connected via a bus like a [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) is connected via [PCIe](https://en.wikipedia.org/wiki/PCI_Express). It is a *BPU*: *brain processing unit* or, perhaps, *biological processing unit*.
+In a way, your brain is connected via a bus like a [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) is connected via [PCIe](https://en.wikipedia.org/wiki/PCI_Express). It is a *BPU*: *bio**logical** processing unit*.
 
-Your brain gives and receives information via [Human Interface Devices (HIDs)](https://en.wikipedia.org/wiki/Human_interface_device). It gives information to your computer with touchscreens, mice, keyboards, controllers, cameras, microphones, etc., and receives information in the form of light from the display, sound from the speakers (or headphones), and vibration from the haptics device (some may not consider all of these as proper HIDs: I don't care. I like the term and I'm rolling with it).
+Your brain gives and receives information via [Human Interface Devices (HIDs)](https://en.wikipedia.org/wiki/Human_interface_device). It gives information to your computer with touchscreens, mice, keyboards, controllers, cameras, microphones, etc., and receives information in the form of light from the display, sound from the speakers (or headphones), and vibration from the haptics device (some may not consider all of these as proper HIDs: I don't care).
 
-> Note: smartphones are computers too
-
-The bandwidths of these human interface buses are not well-defined and indeed vary from human to human (not the bandwidth of HID to computer; that is well-defined. The bandwidth of brain to computer).
+The bandwidths of these human interface buses are not well-defined and indeed vary from human to human (not the bandwidths of HIDs to computers; those are well-defined. The bandwidths of brains to computers).
 
 Some people, like myself, are slow at reading. Some can listen to speech at high speeds. Some can pay better attention when they have an audio, visual, and textual presentation, like a captioned video. Some people are slow at typing or have difficulty seeing small differences of light.
 
@@ -38,17 +36,17 @@ Unfortunately, most of the time, this does not happen. It is rare to find any am
 
 ## The Interbrain
 
-Let's revisit that structure of BPUs forming a network. If you squint, **this begins to resemble the structure of neurons in the brain**, where neurons become excited and pass on signals as reactions to signals from other close neurons with its own filter and conditions applied.
+Let's revisit that structure of BPUs forming a network. If you squint, **this begins to resemble the structure of neurons in the brain**, where neurons become excited and pass on signals as reactions to signals from other close neurons with their own filters and conditions applied.
 
 Thus, it seems that **the point of this whole "Internet" is to construct a *higher order* brain made up of entire human brains as its neurons and the Internet as its axons**. An organ made of complex organisms and distributed across the body of Earth. A *brain of brains* built on a network of networks.
 
-Right now, this brain is not well-developed. Large cortices of neurons don't communicate with each other because they don't know how to interpret the other's signals, or they misinterpret the other's signals, or the connection between the cortices is damaged, or a connection hasn't been made yet.
+Right now, this brain is underdeveloped. Large cortices of neurons don't communicate with each other because they don't know how to interpret the other's signals, or they misinterpret the other's signals, or the connection between the cortices is damaged, or a connection hasn't been made yet.
 
-As hinted at above, the nervous system connected to this brain is also in development. This brain will be able to remember and react to more and more as its memory and sensory infrastructure is built.
+As hinted above, the nervous system connected to this brain is also in development. This brain will be able to remember and react to more and more as its memory and sensory infrastructure is built.
 
 This brain is confused. It needs to wake up from its spell of confusion and put out the fires consuming its body.
 
-We, the cells of this brain, are too busy trying to not die ourselves that we are often unable to act as a harmonious network and form a coherent thought that spans this great Inter-network.
+We, the cells of this brain, are too busy sustaining ourselves that we are often unable to act as a harmonious network and form a coherent thought that spans this great Inter-network.
 
 It is not yet conscious of itself, and far far away from being able to understand the nature of its existence. Who knows what that even means? How is a neuron capable of observing the structure of the entire brain?
 
