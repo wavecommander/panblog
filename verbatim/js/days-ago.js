@@ -3,12 +3,12 @@
 const DATE_STR_LEN = 10;
 const _MS_PER_DAY = 1000 * 60 * 60 * 24;
 
-headers = document.getElementsByTagName("h3");
+headers = document.getElementsByTagName("h3")
 for (let header of headers) {
   let innerHTML = header.nextElementSibling.innerHTML;
   let postTitle = innerHTML.substring(0, innerHTML.length - DATE_STR_LEN);
 
-  let postDate = new Date(innerHTML.substring(innerHTML.length - DATE_STR_LEN));
+  let postDate = new Date(innerHTML.substring(innerHTML.length - DATE_STR_LEN) + 'T00:00');
   let numDays = Math.floor((new Date() - postDate) / _MS_PER_DAY);
 
   let fullText = postTitle;
