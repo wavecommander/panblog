@@ -34,17 +34,17 @@ Analyzing what happens on these platforms, each BPU processes what it sees local
 
 Social media could, *ideally*, serve as a [priority queue](https://www.youtube.com/watch?v=t0Cq6tVNRBA) where the highest priority things bubble up to the top. The Network could perceive as much of the natural world as possible via cameras, microphones, fitness trackers, weather stations, IoT devices, seismometers; sensors of all kinds. It could then **compute the most important thing that everyone should be acting on *right now* by having a massive network of BPUs aided by AI models filtering and prioritizing everything happening in parallel at each level of social closeness**. Echoes of this actually happen now and again, like with the Black Lives Matter protests following the murder of George Floyd, and of course, the COVID-19 pandemic.
 
-Unfortunately, most of the time, this does not happen. It is rare to find any amount of unanimous consensus on today's platforms. We have a terrible blight of misinformation and not enough credible information to overcome it. The things that make it to the top are rarely optimal when considering what should most humans be paying attention to *right now*. It is more often what is most likely to excite the emotional weak points in these BPUs which causes them to generate infected, malformed signals that cause cascading disruptions and damage to the Network.
+Unfortunately, most of the time, this does not happen. It is rare to find any amount of unanimous consensus on today's platforms. We have a terrible blight of misinformation and no easy way to overcome it. The things that make it to the top are rarely optimal when considering what should most humans be paying attention to *right now*. It is more often what is most likely to excite the emotional weak points in these BPUs which causes them to short circuit and generate knee-jerk, infected, malformed signals that cause cascading disruptions and damage to the Network.
 
 ## The Interbrain
 
 Let's revisit that structure of BPUs forming a network. If you squint, **this begins to resemble the structure of neurons in the brain**, where neurons become excited and pass on signals as reactions to signals from other close neurons with its own filter and conditions applied.
 
-Thus, it seems that **the point of this whole "Internet" is to construct a higher order brain made up of entire human brains as its neurons and the Internet as its axons**. An organ made of complex organisms and distributed across the body of Earth. A *brain of brains* built on a network of networks.
+Thus, it seems that **the point of this whole "Internet" is to construct a *higher order* brain made up of entire human brains as its neurons and the Internet as its axons**. An organ made of complex organisms and distributed across the body of Earth. A *brain of brains* built on a network of networks.
 
 Right now, this brain is not well-developed. Large cortices of neurons don't communicate with each other because they don't know how to interpret the other's signals, or they misinterpret the other's signals, or the connection between the cortices is damaged, or a connection hasn't been made yet.
 
-As hinted at above, the nervous system connected to this brain is also in development. This brain will be able to remember and react to more and more as its sensory and memory infrastructure is built.
+As hinted at above, the nervous system connected to this brain is also in development. This brain will be able to remember and react to more and more as its memory and sensory infrastructure is built.
 
 This brain is confused. It needs to wake up from its spell of confusion and put out the fires consuming its body.
 
