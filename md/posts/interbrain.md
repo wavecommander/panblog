@@ -40,7 +40,7 @@ Unfortunately, most of the time, this does not happen. It is rare to find any am
 
 Let's revisit that structure of BPUs forming a network. If you squint, **this begins to resemble the structure of neurons in the brain**, where neurons become excited and pass on signals as reactions to signals from other close neurons with its own filter and conditions applied.
 
-Thus, it seems that **the point of this whole "Internet" is to construct a higher order brain made up of entire human brains as its neurons and the Internet as its axons**. An organ made of complex organisms and distributed across the body of Earth.
+Thus, it seems that **the point of this whole "Internet" is to construct a higher order brain made up of entire human brains as its neurons and the Internet as its axons**. An organ made of complex organisms and distributed across the body of Earth. A *brain of brains* built on a network of networks.
 
 Right now, this brain is not well-developed. Large cortices of neurons don't communicate with each other because they don't know how to interpret the other's signals, or they misinterpret the other's signals, or the connection between the cortices is damaged, or a connection hasn't been made yet.
 
