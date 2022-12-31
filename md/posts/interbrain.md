@@ -1,6 +1,23 @@
 % Interbrain
-5 Dec 2022
+31 Dec 2022
 T1
+
+### Personal Update
+
+> It's been a long time since I posted yet again. I was going to work on this a bit more before publishing, but I will leave that to a later post and get this out for feedback and leave 2022 with what I consider to be a new Tier 1 post.
+>
+> I've just been working away at my job which has been pretty good. I am now messing around with serverless containers on GCP Cloud Run and learning Rust.
+>
+> I have a hypothesis that needs testing: all of the benefits of containerized microservices can be had with plain Erlang and probably with lower overall overhead and latency.
+>
+> So, I am making a test app with Rust containers and will eventually try to match feature parity with Erlang (or Elixir perhaps) and load test them to get some rough numbers on at least the order of magnitide they are on relative to each other.
+>
+> Happy New Year!
+>
+> \- Ben
+>
+> Now, onto the main affair
+
 
 Your brain is a processing unit that is a part of the Internet.
 
@@ -20,9 +37,9 @@ We have established that your brain has input and output (I/O) with your compute
 
 ## The Network
 
-Many of the computers on the Internet have human users who also have I/O with their computer and, therefore, their brain is also accessible via the Internet. Indirectly, through many computers and routers and switches and cables and antennas, **your brain is accessible by and can access every other brain connected to the Internet**. Important to remember that all of the computers that are not directly controlled by humans also have that indirect access to every brain.
+Many of the computers on the Internet have human users who also have I/O with their computer and, therefore, their brain is also accessible via the Internet. Indirectly, through many computers and routers and switches and cables and antennas, **your brain is accessible by and can access every other brain connected to the Internet**. It is important to remember that all of the computers connected to the Internet that are not directly controlled by humans also have that indirect access to every brain.
 
-So, we have this massive Inter-network of BPUs; who's sending them data to process across these buses?
+So, we have this massive Inter-network of computers, many of them connected to BPUs via HID buses; who's sending them data to process across these buses?
 
 Judging by the volume of traffic: TikTok, YouTube, Google, Instagram, Facebook, Twitter, Reddit, etc. **The shareholders and executives of these platforms wield a Godly amount of power, as they have influence over the perception of reality for a significant number of the humans on Earth by influencing what information gets sent to them over the Internet**.
 
@@ -34,13 +51,28 @@ Social media could, *ideally*, serve as a [priority queue](https://www.youtube.c
 
 Unfortunately, most of the time, this is nowhere close to happening. It is rare to find any amount of unanimous consensus on today's platforms. We have a terrible blight of misinformation and no easy way to overcome it. The things that make it to the top are rarely optimal when considering what should most humans be paying attention to *right now*. It is more often what is most likely to excite the emotional weak points in these BPUs which causes them to short circuit and generate knee-jerk, infected, malformed signals that cause cascading disruptions and damage to the Network.
 
+## Higher Order Organisms
+
+> Some characteristics of living things:
+> * Organisation: being structurally composed of one or more cells
+> * Metabolism: transformation of energy by converting chemicals and energy into cellular components
+> * Growth: A growing organism increases in size in all of its parts, rather than simply accumulating matter
+> * Adaptation: the evolutionary process whereby an organism becomes better able to live in its habitat or habitats
+> * Response to stimuli
+>
+> from ["Life" - Wikipedia](https://en.wikipedia.org/wiki/Life#Biology)
+
+Cities and nations exhibit these characteristics at a macro scale. This is because they are the combined needs of the many organisms that make up the city or nation and they work together to meet their needs.
+
+In a sense, these large groups of humans are a kind of *higher order* organism that live and die.
+
 ## The Interbrain
 
 Let's revisit that structure of BPUs forming a network. If you squint, **this begins to resemble the structure of neurons in the brain**, where neurons become excited and pass on signals as reactions to signals from other close neurons with their own filters and conditions applied.
 
 Thus, it seems that **the point of this whole "Internet" is to construct a *higher order* brain made up of entire human brains as its neurons and the Internet as its axons**. An organ made of complex organisms and distributed across the body of Earth. A *brain of brains* built on a network of networks.
 
-Right now, this brain is underdeveloped. Large cortices of neurons don't communicate with each other because they don't know how to interpret the other's signals, or they misinterpret the other's signals, or the connection between the cortices is damaged, or a connection hasn't been made yet.
+Keeping with this analogy, this brain is underdeveloped right now. Large cortices of neurons don't communicate with each other because they don't know how to interpret the other's signals, or they misinterpret the other's signals, or the connection between the cortices is damaged, or a connection hasn't been made yet.
 
 As hinted above, the nervous system connected to this brain is also in development. This brain will be able to remember and react to more and more as its memory and sensory infrastructure is built.
 
@@ -53,3 +85,14 @@ It is not yet conscious of itself, and far far away from being able to understan
 It might be different this time. This time, the primitives are self-aware, and they have very sophisticated tools to capture and analyze information of the natural world.
 
 Hope is an infectious thing, after all.
+
+
+### Further Reading
+
+Upon recommendation, I have been looking into *Communication Theory*, and I independently came across the idea of [the *Noosphere*](https://en.wikipedia.org/wiki/Noosphere). I have some looking into to do for these and similar ideas.
+
+The lovely jREG (short for "jREGULAR" (he's regular now)) posted a video that has a similiar lense presented. Also I just have a soft spot for his stuff.
+
+<div style="position:relative;padding-bottom:50%;height:0;overflow:hidden;max-width: 100%;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://www.youtube-nocookie.com/embed/er6aIaoxl8M"></iframe>
+</div>
