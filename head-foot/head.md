@@ -29,9 +29,6 @@ pagetitle: header
                 <a href="misc.html">Miscellanea</a>
             </td>
             <td style="text-align: center;">
-                <a href="patronage.html">Patronage</a>
-            </td>
-            <td style="text-align: center;">
                 <a href="about.html">About</a>
             </td>
         </tr>

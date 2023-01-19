@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Depth</title>
+
+  <link rel="stylesheet" type="text/css" href="sketch-style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.min.js"></script>
+</head>
+
+<body>
+  <script>
+    let t = 0
+
+    visualViewport.onresize = setup
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight)
+
+      rectMode(CENTER)
+      stroke(0)
+      strokeWeight(15)
+    }
+
+    function draw() {
+      background(0, 150, 250, 255)
+
+      for (let i = 0; i < 100; i++) {
+        rotate((PI / 16.0) * i * t)
+        rect(windowWidth / 2.0, windowHeight / 2.0, 100)
+      }
+
+      myUpdate()
+    }
+
+    function myUpdate() {
+      t += deltaTime * 0.000001
+    }
+
+  </script>
+</body>
+
+</html>
