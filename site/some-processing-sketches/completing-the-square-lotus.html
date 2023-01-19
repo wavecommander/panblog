@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Completing the Square Lotus</title>
+
+  <link rel="stylesheet" type="text/css" href="sketch-style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.min.js"></script>
+</head>
+
+<body>
+  <script>
+    const NUM_SQUARES = 50
+    var initWeight = 20
+
+    let maxLen = 15
+
+    let t = 0;
+
+    visualViewport.onresize = setup
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight)
+
+      strokeWeight(initWeight)
+      rectMode(CENTER)
+
+      maxLen = (min(windowWidth, windowHeight) * 0.75) / NUM_SQUARES
+
+      initWeight = 20 * (maxLen / 20)
+    }
+
+    function draw() {
+      background(0, 150, 250, 255)
+
+      translate(windowWidth / 2.0, windowHeight / 2.0)
+
+      for (let i = NUM_SQUARES; i > 0; i--) {
+        rotate((PI / 8.0) * i * t)
+        strokeWeight(initWeight * pow(.98, (50 - i)))
+        rect(0, 0, maxLen * i)
+      }
+
+      myUpdate()
+    }
+
+    function myUpdate() {
+      t += deltaTime * 0.000001
+    }
+
+  </script>
+</body>
+
+</html>

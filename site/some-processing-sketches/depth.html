@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Depth</title>
+
+  <link rel="stylesheet" type="text/css" href="sketch-style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.min.js"></script>
+</head>
+
+<body>
+  <script>
+    const NUM_SQUARES = 15
+    var initWeight = 15
+
+    let t = 0
+    let colors = []
+
+    visualViewport.onresize = setup
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight)
+
+      rectMode(CENTER)
+
+      for (let i = 0; i < NUM_SQUARES + 2; i++) {
+        colors.push(color(random(0, 255), random(0, 255), random(0, 255), 255))
+      }
+
+      maxLen = min(windowWidth, windowHeight)
+
+      initWeight = 0.25 * (maxLen / 15)
+    }
+
+    function draw() {
+      background(0, 150, 250, 255)
+
+      translate(windowWidth / 2.0, windowHeight / 2.0)
+
+      for (let i = 0; i < NUM_SQUARES; i++) {
+        let colorMix1 = lerpColor(colors[i + 1], colors[i + 2], sin(t / 4 + i / 10.0))
+        let colorMix2 = lerpColor(colorMix1, colors[0], sin(t + i / 10.0))
+        fill(colorMix2)
+
+        strokeWeight(initWeight * pow(0.88, i))
+        rect(0, 0, maxLen * pow(0.75, i))
+        rotate((sin(t) / 100) + sqrt(i) / 10.0)
+      }
+
+      myUpdate()
+    }
+
+    function myUpdate() {
+      t += deltaTime * 0.001
+    }
+
+  </script>
+</body>
+
+</html>
