@@ -20,4 +20,6 @@ Enjoy!
 
 ## [Depth](some-processing-sketches/depth.html)
 
+You can reload the page for new colors
+
 <iframe src="some-processing-sketches/depth.html" style="width: 100%;height: 590px;"></iframe>
