@@ -8,30 +8,20 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
   </style>
   <link rel="stylesheet" href="res/min.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
-  Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
-  me@benboyle.ca </a>
-  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
-  Resume </a> <a href="https://github.com/wavecommander">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
-  GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -48,9 +38,6 @@
   </tr>
   </tbody>
   </table>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -58,49 +45,26 @@
 </header>
 <h3 id="tier-1---important">Tier 1 - Important</h3>
 <p>31 Dec 2022 - <a href="interbrain.html">Interbrain</a></p>
-<p>15 Sep 2021 - <a href="a-conversation-with-steve-the-ai.html">A
-Conversation With Steve the AI</a></p>
-<p>31 Jul 2020 - <a href="dealing-with-monsters.html">Dealing With
-“Monsters”</a></p>
+<p>15 Sep 2021 - <a href="a-conversation-with-steve-the-ai.html">A Conversation With Steve the AI</a></p>
+<p>31 Jul 2020 - <a href="dealing-with-monsters.html">Dealing With “Monsters”</a></p>
 <h3 id="tier-2---might-interest-you">Tier 2 - Might interest you</h3>
-<p>19 Jan 2023 - <a href="some-processing-sketches.html">Some Processing
-Sketches</a></p>
-<p>19 Sep 2021 - <a href="spotify-set-operations.html">Spotify Set
-Operations Demo</a></p>
-<p>14 Dec 2020 - <a
-href="what-to-do-about-conspiracy-theories.html">What To Do About
-Conspiracy Theories?</a></p>
-<p>6 Dec 2020 - <a href="the-human-instrumentality-project.html">The
-Human Instrumentality Project</a></p>
-<p>13 Nov 2020 - <a href="the-case-for-the-teleportal.html">The Case for
-The Teleportal</a></p>
-<p>7 Jan 2020 - <a href="a-reply-to-summa-theologiae.html">A Brief Reply
-to St. Thomas Aquinas’ Summa Theologiae</a></p>
-<p>5 Dec 2018 - <a href="mark-zuckerberg-owns-boomer-senators.html">Mark
-Zuckerberg Owns Boomer Senators, Like and Share!</a></p>
-<h3
-id="rabbit-hole---posts-that-are-more-a-stream-of-consciousness">Rabbit
-Hole - Posts that are more <a
-href="https://www.youtube.com/watch?v=GFQbLwaElt4&amp;t=293s">a stream
-of consciousness</a></h3>
-<p>17 Aug 2021 - <a
-href="01110101-01110000-00100000-01100100-01101111-01110111-01101110.html">01110101
-01110000 00100000 01100100 01101111 01110111 01101110</a></p>
-<h3 id="meta-post---posts-about-me-and-this-site">Meta Post - Posts
-about me and this site</h3>
-<p>6 Jun 2022 - <a href="an-apology-and-a-personal-update.html">An
-Apology and a Personal Update</a></p>
+<p>19 Jan 2023 - <a href="some-processing-sketches.html">Some Processing Sketches</a></p>
+<p>19 Sep 2021 - <a href="spotify-set-operations.html">Spotify Set Operations Demo</a></p>
+<p>14 Dec 2020 - <a href="what-to-do-about-conspiracy-theories.html">What To Do About Conspiracy Theories?</a></p>
+<p>6 Dec 2020 - <a href="the-human-instrumentality-project.html">The Human Instrumentality Project</a></p>
+<p>13 Nov 2020 - <a href="the-case-for-the-teleportal.html">The Case for The Teleportal</a></p>
+<p>7 Jan 2020 - <a href="a-reply-to-summa-theologiae.html">A Brief Reply to St. Thomas Aquinas’ Summa Theologiae</a></p>
+<p>5 Dec 2018 - <a href="mark-zuckerberg-owns-boomer-senators.html">Mark Zuckerberg Owns Boomer Senators, Like and Share!</a></p>
+<h3 id="rabbit-hole---posts-that-are-more-a-stream-of-consciousness">Rabbit Hole - Posts that are more <a href="https://www.youtube.com/watch?v=GFQbLwaElt4&amp;t=293s">a stream of consciousness</a></h3>
+<p>17 Aug 2021 - <a href="01110101-01110000-00100000-01100100-01101111-01110111-01101110.html">01110101 01110000 00100000 01100100 01101111 01110111 01101110</a></p>
+<h3 id="meta-post---posts-about-me-and-this-site">Meta Post - Posts about me and this site</h3>
+<p>6 Jun 2022 - <a href="an-apology-and-a-personal-update.html">An Apology and a Personal Update</a></p>
 <p>24 Jun 2021 - <a href="meta-ramblings-1.html">Meta Ramblings</a></p>
-<p>7 Jul 2020 - <a href="personal-health-update.html">Personal Health
-Update</a></p>
-<h3 id="tier-3---why-did-i-spend-time-writing-this">Tier 3 - Why did I
-spend time writing this?</h3>
-<p>22 Feb 2021 - <a href="lenovo-duet.html">Lenovo Duet Chromebook
-Review</a></p>
+<p>7 Jul 2020 - <a href="personal-health-update.html">Personal Health Update</a></p>
+<h3 id="tier-3---why-did-i-spend-time-writing-this">Tier 3 - Why did I spend time writing this?</h3>
+<p>22 Feb 2021 - <a href="lenovo-duet.html">Lenovo Duet Chromebook Review</a></p>
 <p>29 Dec 2020 - <a href="apple-II.html">Apple II</a></p>
-<p>2 Jun 2019 - <a href="apple-and-their-macintoshes.html">Apple and
-Their Macintoshes</a></p>
-<p>10 Nov 2018 - <a href="chromebooks.html">Chromebooks for Serious Use
-Finally Makes Sense</a></p>
+<p>2 Jun 2019 - <a href="apple-and-their-macintoshes.html">Apple and Their Macintoshes</a></p>
+<p>10 Nov 2018 - <a href="chromebooks.html">Chromebooks for Serious Use Finally Makes Sense</a></p>
 </body>
 </html>
