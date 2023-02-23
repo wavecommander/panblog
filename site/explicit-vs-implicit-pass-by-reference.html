@@ -8,16 +8,10 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -56,7 +50,7 @@
     code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
     code span.at { color: #7d9029; } /* Attribute */
     code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { color: #008000; } /* BuiltIn */
+    code span.bu { } /* BuiltIn */
     code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #4070a0; } /* Char */
     code span.cn { color: #880000; } /* Constant */
@@ -69,7 +63,7 @@
     code span.ex { } /* Extension */
     code span.fl { color: #40a070; } /* Float */
     code span.fu { color: #06287e; } /* Function */
-    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.im { } /* Import */
     code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
     code span.kw { color: #007020; font-weight: bold; } /* Keyword */
     code span.op { color: #666666; } /* Operator */
@@ -83,19 +77,14 @@
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="res/min.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
-  Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
-  me@benboyle.ca </a>
-  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
-  Resume </a> <a href="https://github.com/wavecommander">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
-  GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -112,9 +101,6 @@
   </tr>
   </tbody>
   </table>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -124,52 +110,22 @@
 <h1 id="this-sucks">This sucks</h1>
 <h1 id="i-dont-recommend-reading-it">I don’t recommend reading it</h1>
 <h1 id="it-is-so-minute-and-lame">It is so minute and lame</h1>
-<h1 id="i-regret-spending-the-time-writing-it">I regret spending the
-time writing it</h1>
+<h1 id="i-regret-spending-the-time-writing-it">I regret spending the time writing it</h1>
 <h1 id="it-is-truly-tier-3">It is truly ‘Tier 3’</h1>
 <h1 id="still-here-why">Still here? Why?</h1>
-<p>In programming, many of the online discussions involving the terms
-‘pass by reference’ and ‘pass by value’ are muddy and silly.</p>
-<p>Look at the utter confusion and miscommunication in <a
-href="https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language/">this
-thread on StackOverflow</a></p>
-<p>You may be able to wade through the confusion and experimentally
-prove the behavior is as you expect, and that’s great. But, shouldn’t we
-be able to communicate this sort of idea more clearly?</p>
-<p>The people saying, “It’s pass by value! It’s just that the value is a
-reference!” don’t seem to understand what is being asked, or they do and
-are more concerned with being faithful to rigid definitions rather than
-have the other person understand what is going on.</p>
-<p>The terms people should probably be using when asking this specific
-kind of question are ‘<em>explicit</em> pass by reference’ and
-‘<em>implicit</em> pass by reference’.</p>
-<p>What the people asking these sorts of questions care about is when
-code looks like it could be either ‘pass by value’ or ‘pass by
-reference’, depending on language specifics which they are not familiar
-with (not the formal definition of ‘pass by reference’, but what they
-think it means which I am defining as ‘<em>implicit</em> pass by
-reference’).</p>
-<p><em>I’m going to use the word ‘symbol’, but you can substitute it
-with ‘identifier’ if you like</em></p>
-<p>An ambiguity arises from switching between several programming
-languages and having to ask “If I pass this symbol into a new
-function/context/namespace, is the computer going to copy the value in
-memory that the symbol refers to into a new memory allocation isolated
-from the original (or at least function as if it had)? Or is the new
-local symbol going to simply point to the existing memory that the
-original symbol refers to, effectively aliasing/referencing/pointing to
-the original memory?”</p>
+<p>In programming, many of the online discussions involving the terms ‘pass by reference’ and ‘pass by value’ are muddy and silly.</p>
+<p>Look at the utter confusion and miscommunication in <a href="https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language/">this thread on StackOverflow</a></p>
+<p>You may be able to wade through the confusion and experimentally prove the behavior is as you expect, and that’s great. But, shouldn’t we be able to communicate this sort of idea more clearly?</p>
+<p>The people saying, “It’s pass by value! It’s just that the value is a reference!” don’t seem to understand what is being asked, or they do and are more concerned with being faithful to rigid definitions rather than have the other person understand what is going on.</p>
+<p>The terms people should probably be using when asking this specific kind of question are ‘<em>explicit</em> pass by reference’ and ‘<em>implicit</em> pass by reference’.</p>
+<p>What the people asking these sorts of questions care about is when code looks like it could be either ‘pass by value’ or ‘pass by reference’, depending on language specifics which they are not familiar with (not the formal definition of ‘pass by reference’, but what they think it means which I am defining as ‘<em>implicit</em> pass by reference’).</p>
+<p><em>I’m going to use the word ‘symbol’, but you can substitute it with ‘identifier’ if you like</em></p>
+<p>An ambiguity arises from switching between several programming languages and having to ask “If I pass this symbol into a new function/context/namespace, is the computer going to copy the value in memory that the symbol refers to into a new memory allocation isolated from the original (or at least function as if it had)? Or is the new local symbol going to simply point to the existing memory that the original symbol refers to, effectively aliasing/referencing/pointing to the original memory?”</p>
 <h2 id="concrete-examples">Concrete Examples</h2>
 <h3 id="c">C</h3>
-<p>This is going to be rather simplified as I am not a C language spec
-expert.</p>
-<p>In C, by the terms I am trying to define, there is no
-<em>implicit</em> pass by reference.</p>
-<p>If you have a symbol ‘a’ and you invoke <code>f(a)</code>, that new
-function local symbol (‘x’ in this example) will simply represent the
-same value that the symbol ‘a’ represents in the calling context at the
-time of the invocation with no further connection to the previous
-symbol.</p>
+<p>This is going to be rather simplified as I am not a C language spec expert.</p>
+<p>In C, by the terms I am trying to define, there is no <em>implicit</em> pass by reference.</p>
+<p>If you have a symbol ‘a’ and you invoke <code>f(a)</code>, that new function local symbol (‘x’ in this example) will simply represent the same value that the symbol ‘a’ represents in the calling context at the time of the invocation with no further connection to the previous symbol.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">int</span> x<span class="op">)</span> <span class="op">{</span></span>
@@ -178,27 +134,16 @@ symbol.</p>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">()</span> <span class="op">{</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> a <span class="op">=</span> <span class="dv">42</span><span class="op">;</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;a: </span><span class="sc">%d\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">);</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;a: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">);</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    f<span class="op">(</span>a<span class="op">);</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;a: </span><span class="sc">%d\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">);</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;a: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">);</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Output:</p>
 <pre><code>a: 42
 a: 42</code></pre>
-<p>At the time of the call to <code>f(int)</code>, the new symbol ‘x’
-represents a new stack allocation that is <code>sizeof(int)</code> words
-in size that is initialized to 42 in binary (at least at some level.
-Obviously there are levels where you could argue this is not what is
-“really” happening. Then again, most programs are not “really” happening
-as they are written because of compiler/interpreter optimizations and
-out of order execution at the CPU level).</p>
-<p>If ‘b’ is a struct or a union, the new symbol will still represent
-the value the original symbol represents at the time of the function
-call just like with the <code>int</code>. This is because the language
-will implicitly copy the memory starting at the underlying memory
-address associated with the symbol until it reaches the memory address
-of <code>&amp;b + sizeof(b)</code>.</p>
+<p>At the time of the call to <code>f(int)</code>, the new symbol ‘x’ represents a new stack allocation that is <code>sizeof(int)</code> words in size that is initialized to 42 in binary (at least at some level. Obviously there are levels where you could argue this is not what is “really” happening. Then again, most programs are not “really” happening as they are written because of compiler/interpreter optimizations and out of order execution at the CPU level).</p>
+<p>If ‘b’ is a struct or a union, the new symbol will still represent the value the original symbol represents at the time of the function call just like with the <code>int</code>. This is because the language will implicitly copy the memory starting at the underlying memory address associated with the symbol until it reaches the memory address of <code>&amp;b + sizeof(b)</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="kw">struct</span> MyStruct <span class="op">{</span></span>
@@ -211,21 +156,16 @@ of <code>&amp;b + sizeof(b)</code>.</p>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">()</span> <span class="op">{</span></span>
 <span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> MyStruct ms <span class="op">=</span> <span class="op">{</span><span class="dv">42</span><span class="op">};</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;ms.a: </span><span class="sc">%d\n</span><span class="st">&quot;</span><span class="op">,</span> ms<span class="op">.</span>a<span class="op">);</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;ms.a: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> ms<span class="op">.</span>a<span class="op">);</span></span>
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    f<span class="op">(</span>ms<span class="op">);</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;ms.a: </span><span class="sc">%d\n</span><span class="st">&quot;</span><span class="op">,</span> ms<span class="op">.</span>a<span class="op">);</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;ms.a: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> ms<span class="op">.</span>a<span class="op">);</span></span>
 <span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Output:</p>
 <pre><code>ms.a: 42
 ms.a: 42</code></pre>
-<p>In both situations, a new stack allocation is performed and the new
-symbol has no connection to what the original symbol represents after
-its initialization. Clearly, pass by value.</p>
-<p>However, if you don’t want to copy the entire arbitrary block of
-memory the represents but merely refer to it, you can
-<em>explicitly</em> pass the underlying memory address associated with
-the symbol by referencing the symbol: <code>f(&amp;a)</code>.</p>
+<p>In both situations, a new stack allocation is performed and the new symbol has no connection to what the original symbol represents after its initialization. Clearly, pass by value.</p>
+<p>However, if you don’t want to copy the entire arbitrary block of memory the represents but merely refer to it, you can <em>explicitly</em> pass the underlying memory address associated with the symbol by referencing the symbol: <code>f(&amp;a)</code>.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> f<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>x<span class="op">)</span> <span class="op">{</span></span>
@@ -234,22 +174,16 @@ the symbol by referencing the symbol: <code>f(&amp;a)</code>.</p>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">()</span> <span class="op">{</span></span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> a <span class="op">=</span> <span class="dv">42</span><span class="op">;</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;a: </span><span class="sc">%d\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">);</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;a: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">);</span></span>
 <span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    f<span class="op">(&amp;</span>a<span class="op">);</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;a: </span><span class="sc">%d\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">);</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;a: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> a<span class="op">);</span></span>
 <span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Output:</p>
 <pre><code>a: 42
 a: 0</code></pre>
-<p>You then have to <em>explicitly</em> dereference the new symbol to
-refer to or mutate the value that the original symbol represented in the
-new function context: <code>*x = 0</code>. Again, it is clearly pass by
-value. And, it is <em>explicit</em> pass by reference because what value
-we are passing is clearly notated in the code itself.</p>
-<p>The same is true if we modified the struct example above to
-<em>explictly</em> reference the struct represented by the symbol
-<code>ms</code>:</p>
+<p>You then have to <em>explicitly</em> dereference the new symbol to refer to or mutate the value that the original symbol represented in the new function context: <code>*x = 0</code>. Again, it is clearly pass by value. And, it is <em>explicit</em> pass by reference because what value we are passing is clearly notated in the code itself.</p>
+<p>The same is true if we modified the struct example above to <em>explictly</em> reference the struct represented by the symbol <code>ms</code>:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">struct</span> MyStruct <span class="op">{</span></span>
@@ -262,16 +196,15 @@ we are passing is clearly notated in the code itself.</p>
 <span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">()</span> <span class="op">{</span></span>
 <span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> MyStruct ms <span class="op">=</span> <span class="op">{</span><span class="dv">42</span><span class="op">};</span></span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;ms.a: </span><span class="sc">%d\n</span><span class="st">&quot;</span><span class="op">,</span> ms<span class="op">.</span>a<span class="op">);</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;ms.a: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> ms<span class="op">.</span>a<span class="op">);</span></span>
 <span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    f<span class="op">(&amp;</span>ms<span class="op">);</span></span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;ms.a: </span><span class="sc">%d\n</span><span class="st">&quot;</span><span class="op">,</span> ms<span class="op">.</span>a<span class="op">);</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;ms.a: %d</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> ms<span class="op">.</span>a<span class="op">);</span></span>
 <span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Output:</p>
 <pre><code>ms.a: 42
 ms.a: 0</code></pre>
-<p>The only place where it may be unclear for people learning C is when
-working with arrays.</p>
+<p>The only place where it may be unclear for people learning C is when working with arrays.</p>
 <h4 id="arrays">Arrays</h4>
 <div class="sourceCode" id="cb9"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -284,16 +217,16 @@ working with arrays.</p>
 <span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">()</span> <span class="op">{</span></span>
 <span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> my_array<span class="op">[</span><span class="dv">1</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">42</span><span class="op">};</span></span>
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array: </span><span class="sc">%p\n</span><span class="st">&quot;</span><span class="op">,</span> my_array<span class="op">);</span></span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array[0]: </span><span class="sc">%d\n\n</span><span class="st">&quot;</span><span class="op">,</span> my_array<span class="op">[</span><span class="dv">0</span><span class="op">]);</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array: %p</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> my_array<span class="op">);</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array[0]: %d</span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">,</span> my_array<span class="op">[</span><span class="dv">0</span><span class="op">]);</span></span>
 <span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    f<span class="op">(</span>my_array<span class="op">,</span> <span class="kw">sizeof</span><span class="op">(</span>my_array<span class="op">)</span> <span class="op">/</span> <span class="kw">sizeof</span><span class="op">(</span><span class="dt">int</span><span class="op">));</span></span>
 <span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array: </span><span class="sc">%p\n</span><span class="st">&quot;</span><span class="op">,</span> my_array<span class="op">);</span></span>
-<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array[0]: </span><span class="sc">%d\n\n</span><span class="st">&quot;</span><span class="op">,</span> my_array<span class="op">[</span><span class="dv">0</span><span class="op">]);</span></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array: %p</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> my_array<span class="op">);</span></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array[0]: %d</span><span class="sc">\n\n</span><span class="st">&quot;</span><span class="op">,</span> my_array<span class="op">[</span><span class="dv">0</span><span class="op">]);</span></span>
 <span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;&amp;(my_array[0]): </span><span class="sc">%p\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="op">&amp;(</span>my_array<span class="op">[</span><span class="dv">0</span><span class="op">]));</span></span>
-<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array == &amp;(my_array[0]) : </span><span class="sc">%s</span><span class="st">&quot;</span><span class="op">,</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;&amp;(my_array[0]): %p</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">,</span> <span class="op">&amp;(</span>my_array<span class="op">[</span><span class="dv">0</span><span class="op">]));</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>    printf<span class="op">(</span><span class="st">&quot;my_array == &amp;(my_array[0]) : %s&quot;</span><span class="op">,</span></span>
 <span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>            my_array <span class="op">==</span> <span class="op">&amp;(</span>my_array<span class="op">[</span><span class="dv">0</span><span class="op">])</span> <span class="op">?</span> <span class="st">&quot;True&quot;</span> <span class="op">:</span> <span class="st">&quot;False&quot;</span><span class="op">);</span></span>
 <span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 <p>Output:</p>
@@ -305,23 +238,12 @@ my_array[0]: 0
 
 &amp;(my_array[0]): 0x16b246d1c
 my_array == &amp;(my_array[0]) : True</code></pre>
-<p>It may look as though passing the symbol of an array as a function
-parameter should result in the value the symbol represents being copied
-into the new context, and it does. Those that are learning just need to
-learn that arrays are pointers and array access notation is an alternate
-way of pointer dereferencing.</p>
-<p>This is still not <em>implicit</em> pass by reference by my
-definition because it is explicit in the notation that you are working
-with an array.</p>
-<p>In other programming languages, what happens when passing a symbol
-into a new context is often not represented in the code notation itself
-at all.</p>
+<p>It may look as though passing the symbol of an array as a function parameter should result in the value the symbol represents being copied into the new context, and it does. Those that are learning just need to learn that arrays are pointers and array access notation is an alternate way of pointer dereferencing.</p>
+<p>This is still not <em>implicit</em> pass by reference by my definition because it is explicit in the notation that you are working with an array.</p>
+<p>In other programming languages, what happens when passing a symbol into a new context is often not represented in the code notation itself at all.</p>
 <h3 id="python">Python</h3>
-<p>In Python, a simple int passed as a parameter will behave as it does
-in C: copy the memory into a new allocation isolated from the
-original.</p>
-<div class="sourceCode" id="cb11"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x: <span class="bu">int</span>):</span>
+<p>In Python, a simple int passed as a parameter will behave as it does in C: copy the memory into a new allocation isolated from the original.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x: <span class="bu">int</span>):</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="dv">0</span></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">42</span></span>
@@ -332,12 +254,8 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a h
 <p>Output:</p>
 <pre><code>a: 42
 a: 42</code></pre>
-<p>But, if I create a class with an int member and pass a symbol
-representing an instance of said class to a function as a parameter, the
-original symbol now represents the value as it was mutated in the
-function context.</p>
-<div class="sourceCode" id="cb13"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MyClass:</span>
+<p>But, if I create a class with an int member and pass a symbol representing an instance of said class to a function as a parameter, the original symbol now represents the value as it was mutated in the function context.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MyClass:</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, val: <span class="bu">int</span>):</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.a <span class="op">=</span> val</span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -352,34 +270,14 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a h
 <p>Output:</p>
 <pre><code>mc.a: 42
 mc.a: 0</code></pre>
-<p>A similar behavior happens when applying this pattern to JavaScript
-objects.</p>
-<p>Python (and JavaScript), in terms of what C does and my own terms,
-performs an <em>implicit</em> pass by reference and <em>implicitly</em>
-dereferences that reference when I try to refer to or mutate that new
-function local symbol.</p>
-<p>This is the question people are really asking when they are asking if
-a particular programming language is ‘pass by value’ or ‘pass by
-reference’: “Is it like C where the computer will only act on the
-original memory when I explicitly instruct it to? Or is it like
-Python/JS where the computer will act on the original memory
-implicitly?”</p>
-<p>Now, part of the allure of these languages is the simplicity that
-comes with not having to explicitly write what to do with a variable in
-terms of memory. And that’s great. I definitely think that Python and
-JavaScript are fine for having made that design decision.</p>
-<p>These language specifics are things that people will just have to
-learn when they are picking them up, but when using terms that describe
-multiple programming languages, it may be easier if we didn’t use terms
-that only really apply to languages and paradigms that few people use
-anymore.</p>
+<p>A similar behavior happens when applying this pattern to JavaScript objects.</p>
+<p>Python (and JavaScript), in terms of what C does and my own terms, performs an <em>implicit</em> pass by reference and <em>implicitly</em> dereferences that reference when I try to refer to or mutate that new function local symbol.</p>
+<p>This is the question people are really asking when they are asking if a particular programming language is ‘pass by value’ or ‘pass by reference’: “Is it like C where the computer will only act on the original memory when I explicitly instruct it to? Or is it like Python/JS where the computer will act on the original memory implicitly?”</p>
+<p>Now, part of the allure of these languages is the simplicity that comes with not having to explicitly write what to do with a variable in terms of memory. And that’s great. I definitely think that Python and JavaScript are fine for having made that design decision.</p>
+<p>These language specifics are things that people will just have to learn when they are picking them up, but when using terms that describe multiple programming languages, it may be easier if we didn’t use terms that only really apply to languages and paradigms that few people use anymore.</p>
 <h3 id="recommendation">Recommendation</h3>
-<p>Consider using <em>explicit</em> and <em>implicit</em> pass by
-reference in future discussions to avoid a quagmire of arguing over
-reified terms that are easily misunderstood by those that may be a bit
-newer.</p>
-<h1 id="now-get-off-of-this-page-and-do-something-good">Now get off of
-this page and do something good</h1>
+<p>Consider using <em>explicit</em> and <em>implicit</em> pass by reference in future discussions to avoid a quagmire of arguing over reified terms that are easily misunderstood by those that may be a bit newer.</p>
+<h1 id="now-get-off-of-this-page-and-do-something-good">Now get off of this page and do something good</h1>
 <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
