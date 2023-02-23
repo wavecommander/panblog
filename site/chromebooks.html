@@ -8,20 +8,30 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="res/min.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
+  Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
+  me@benboyle.ca </a>
+  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
+  Resume </a> <a href="https://github.com/wavecommander">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
+  GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -38,6 +48,9 @@
   </tr>
   </tbody>
   </table>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -45,24 +58,60 @@
 </header>
 <p>10 Nov 2018 T3</p>
 <p><img src="./images/chromebook.jpg" /></p>
-<p>For a very long time, I’ve criticized Chromebooks as a serious option for a laptop.</p>
-<p>I still partially feel this way to most new laptops because of how easy it is to acquire cheap second-hand laptops with equivalent or better specs for the same price. I know this because I have purchased lots of cheap Thinkpads on eBay (<a href="https://www.truefla.me/free-stuff/used-thinkpad-buyers-guide">Useful Price Guide</a>).</p>
-<p>And similarly, this is where most of my loathing for MacBooks comes from: comparably poor price-to-performance efficiency.</p>
-<p>For day-to-day productivity, cheaper cost efficient laptops are great. I used a Thinkpad, that was at least 7 years old with SSD and RAM upgrades as my daily driver since the start of Grade 10 up until last month in my second year of university.</p>
-<p>The primary reason I switched was that I wanted a machine that could play video games really well and increase my local power for running virtual machines and compute heavy programming environments since we started using RAM heavy IDEs such as IntelliJ and Android Studio.</p>
-<p>These reasons guided my purchasing decision, but if I didn’t care as much about gaming use, and even then, there may have been a better option.</p>
+<p>For a very long time, I’ve criticized Chromebooks as a serious option
+for a laptop.</p>
+<p>I still partially feel this way to most new laptops because of how
+easy it is to acquire cheap second-hand laptops with equivalent or
+better specs for the same price. I know this because I have purchased
+lots of cheap Thinkpads on eBay (<a
+href="https://www.truefla.me/free-stuff/used-thinkpad-buyers-guide">Useful
+Price Guide</a>).</p>
+<p>And similarly, this is where most of my loathing for MacBooks comes
+from: comparably poor price-to-performance efficiency.</p>
+<p>For day-to-day productivity, cheaper cost efficient laptops are
+great. I used a Thinkpad, that was at least 7 years old with SSD and RAM
+upgrades as my daily driver since the start of Grade 10 up until last
+month in my second year of university.</p>
+<p>The primary reason I switched was that I wanted a machine that could
+play video games really well and increase my local power for running
+virtual machines and compute heavy programming environments since we
+started using RAM heavy IDEs such as IntelliJ and Android Studio.</p>
+<p>These reasons guided my purchasing decision, but if I didn’t care as
+much about gaming use, and even then, there may have been a better
+option.</p>
 <h3 id="enter-cloud-computing">Enter Cloud Computing</h3>
 <h3 id="section"><img src="./images/gcp.png" /></h3>
-<p>Funnily enough, I stumbled upon it when looking to see if there was a way to offload a video game’s GPU demand to a powerful computer and stream the result (<a href="https://nexus.vert.gg/gaming-on-amazon-s-ec2-83b178f47a34">Gaming on an EC2 Blog Post</a>).</p>
-<p>Now what if you wanted to offload, everything; your whole desktop environment? VNC/SSH into a cloud desktop with just enough cores and RAM from any PC including your low-power laptop.</p>
-<p>Obviously you don’t need cloud computing to do this; you could own a powerful PC and use it as a server and VNC over the internet etc. But cloud computing platforms make it more accessible and (possibly) more cost-effective.</p>
-<p>The biggest drawback to this is the always online requirement to achieve most of the functionality on your low-power client.</p>
-<p>Maybe, you get a low power laptop with a decent amount storage space to backup your most essential work folders so you can at least do some things offline like editing, and when you gain re-connection, you can push it for compiling, etc.</p>
+<p>Funnily enough, I stumbled upon it when looking to see if there was a
+way to offload a video game’s GPU demand to a powerful computer and
+stream the result (<a
+href="https://nexus.vert.gg/gaming-on-amazon-s-ec2-83b178f47a34">Gaming
+on an EC2 Blog Post</a>).</p>
+<p>Now what if you wanted to offload, everything; your whole desktop
+environment? VNC/SSH into a cloud desktop with just enough cores and RAM
+from any PC including your low-power laptop.</p>
+<p>Obviously you don’t need cloud computing to do this; you could own a
+powerful PC and use it as a server and VNC over the internet etc. But
+cloud computing platforms make it more accessible and (possibly) more
+cost-effective.</p>
+<p>The biggest drawback to this is the always online requirement to
+achieve most of the functionality on your low-power client.</p>
+<p>Maybe, you get a low power laptop with a decent amount storage space
+to backup your most essential work folders so you can at least do some
+things offline like editing, and when you gain re-connection, you can
+push it for compiling, etc.</p>
 <h3 id="cost-efficient">Cost efficient?</h3>
-<p>Just for a quick cost comparison, let’s say you have a $1600 CAD budget for a new laptop and you want to be able to do some medium-heavy computation with it. At this price point, you should be able to get an i7 8750H 6 core CPU with 16GiB and probably a decent GPU as well.</p>
-<p>At the time of writing, an 8 core 30GiB RAM VM instance on Google Cloud Platform costs ~$0.267 CAD per hour (not counting extra disks and storage).</p>
-<p>At 6 hours a day (generous) * 7 days a week (also generous) * 4 weeks * 12 months = ~2000 hrs/yr of compute time, or ~534 CAD/yr.</p>
-<p>And if you make it preemptible, meaning that you are put into a lower priority and can get booted off by other higher paying customers, you can take that price down to ~$0.081 CAD per hour or ~$162/yr</p>
+<p>Just for a quick cost comparison, let’s say you have a $1600 CAD
+budget for a new laptop and you want to be able to do some medium-heavy
+computation with it. At this price point, you should be able to get an
+i7 8750H 6 core CPU with 16GiB and probably a decent GPU as well.</p>
+<p>At the time of writing, an 8 core 30GiB RAM VM instance on Google
+Cloud Platform costs ~$0.267 CAD per hour (not counting extra disks and
+storage).</p>
+<p>At 6 hours a day (generous) * 7 days a week (also generous) * 4 weeks
+* 12 months = ~2000 hrs/yr of compute time, or ~534 CAD/yr.</p>
+<p>And if you make it preemptible, meaning that you are put into a lower
+priority and can get booted off by other higher paying customers, you
+can take that price down to ~$0.081 CAD per hour or ~$162/yr</p>
 <p>Not bad.</p>
 <p>Some major benefits to the cloud computing option are:</p>
 <ul>
@@ -71,13 +120,18 @@
 <li>easy to drop into more advanced cloud computing activity</li>
 <li>encouragement to gain cloud platform experience</li>
 </ul>
-<p>The major con is of course that an internet connection is always required.</p>
+<p>The major con is of course that an internet connection is always
+required.</p>
 <h3 id="should-you-give-it-a-try">Should you give it a try?</h3>
-<p>Google Cloud Platform offers $300 USD of credit that expires after 12 months with every new account that signs up.</p>
-<p>That is far more than enough to run a powerful preemptible VM for ~2000 hrs.</p>
+<p>Google Cloud Platform offers $300 USD of credit that expires after 12
+months with every new account that signs up.</p>
+<p>That is far more than enough to run a powerful preemptible VM for
+~2000 hrs.</p>
 <p>So, no matter what kind of PC you have, go and try it.</p>
-<p>And don’t stop there. Check out AWS and Azure, though GCP has become my personal go-to and favorite.</p>
-<p>Maybe you can put off spending a lump sum on a flashy new laptop, <em>and</em> still get serious work done!</p>
+<p>And don’t stop there. Check out AWS and Azure, though GCP has become
+my personal go-to and favorite.</p>
+<p>Maybe you can put off spending a lump sum on a flashy new laptop,
+<em>and</em> still get serious work done!</p>
 <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
