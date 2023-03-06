@@ -8,30 +8,20 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
   </style>
   <link rel="stylesheet" href="res/min.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
-  Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
-  me@benboyle.ca </a>
-  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
-  Resume </a> <a href="https://github.com/wavecommander">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
-  GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -48,9 +38,6 @@
   </tr>
   </tbody>
   </table>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -59,231 +46,69 @@
 <p>2 Jun 2019 T3</p>
 <p><img src="./images/macbook.jpeg" /></p>
 <hr />
-<p>Disclaimer: I am not proud of writing this up. I think that I spend
-too much time focusing on meaningless things in life, consumer
-electronics being one of the biggest. Realistically, you shouldn’t give
-a fuck about what computer you are using if it serves your needs. Just
-move on, save you have a moral issue with the computer in question. I
-think that Apple computers are right on that edge as I could never stand
-behind their business practices and designs. I believe they are not
-motivated by a desire to do good, rather a desire to extract the most
-profit. The current Apple Inc, that is. As much of an ass as Steve Jobs
-may have been, he was the lifeblood of what made Apple different.</p>
-<p>However, if you ever wanted to explore the pros and cons of Mac
-computers and Apple products at large, allow me to indulge since I wrote
-most of this before coming to this conclusion.</p>
+<p>Disclaimer: I am not proud of writing this up. I think that I spend too much time focusing on meaningless things in life, consumer electronics being one of the biggest. Realistically, you shouldn’t give a fuck about what computer you are using if it serves your needs. Just move on, save you have a moral issue with the computer in question. I think that Apple computers are right on that edge as I could never stand behind their business practices and designs. I believe they are not motivated by a desire to do good, rather a desire to extract the most profit. The current Apple Inc, that is. As much of an ass as Steve Jobs may have been, he was the lifeblood of what made Apple different.</p>
+<p>However, if you ever wanted to explore the pros and cons of Mac computers and Apple products at large, allow me to indulge since I wrote most of this before coming to this conclusion.</p>
 <p>Fair warning, it’s a long ramble.</p>
 <hr />
 <h2 id="macs-macs-macs-macs-macs">Macs macs macs macs macs…</h2>
 <p>Where to start with Macs?</p>
-<p>I should start by saying that I have never purchased a
-<strong>new</strong> computer, with the exception of my Dell G7 laptop,
-which I bought in the Fall semester this year. Up until then, I had
-either assembled my own desktop or bought used laptops for cheap on eBay
-(I now have a thing for ThinkPads, more blog posts to come).</p>
-<p>So I have not properly bought a Mac from Apple, and cannot speak to
-that whole experience, and I don’t think I will any time soon. However,
-I would like to gab about my experience with Mac hardware and software
-and toss two cents into the silly OS ‘flamewar’ as it were.</p>
-<p>The first time I was actually able to sit and personally use a Mac
-was when I traded laptops with a friend at the end of this Fall
-semester. I gave him my ThinkPad X201, and he gave me his 13” MacBook
-Pro 2012 (Unibody, non-retina).</p>
-<p><em>For any of you thinking that was a bad trade on his part</em>,
-the eBay values of those two products may be ~$300 CAD in the
-difference, but I had upgraded my ThinkPad. It had 8GB DDR3, the Mac had
-4GB; it had a 256GB SSD, the Mac had a 500GB HDD; it had a 94Whr
-battery, the Mac had a 72Whr and had decayed significantly. Other than
-that, the Mac CPU was a bit faster, and the screen resolutions were the
-same.</p>
-<p>Not the point, anyway. I enjoyed using that MacBook. It was exciting
-and new for me. I upgraded it as much as I could: I fit in a 512GB SSD
-and a 2TB HDD and 8GB RAM. It was fairly fast, light, and had a nice
-metallic feel.</p>
-<p>I was going to write up a Mac experience blog post because of that
-Mac, but then it died, for reasons I’ll get into later.</p>
-<p>Now, I have a summer job at SpryPoint, and they have lent me a 13”
-MacBook Pro 2015 for work. So I thought I would kickstart this again
-since I haven’t written a post in a while and would like to share some
-thoughts.</p>
-<h2 id="how-could-i-have-had-a-good-experience">How Could
-<strong><em>I</em></strong> Have Had a Good Experience?</h2>
-<p>I am not an Apple fan. I must say that. There are several unwavering
-reasons as to why: I do not approve of their business practices, their
-“support” programs, or their secretive and corporate nature. I think
-that their designs, while elegant and simple, encourage
-<strong>ignorance</strong> about computers, and <strong>do not deliver
-on value</strong>.</p>
-<p>And yet despite these issues I will discuss, I enjoyed parts of using
-the MacBook Pros and macOS. But let’s criticize Macs first.</p>
-<h3 id="on-ignorance---fisher-price-computing-maybe">On Ignorance -
-Fisher-Price Computing, Maybe</h3>
-<p><strong>I don’t think using a Mac automatically makes you
-dumb.</strong></p>
-<p>I get that many consumers have the mindset that their computer should
-just get out of the way and let them do what they want, and that is
-fine. But, in the middle of this digital age, I feel it is paramount
-that children, teens, and young adults arm themselves with knowledge of
-computers while they can easily absorb information. I believe, and I
-think many others would agree, computers are the most powerful tools we
-have created as humans.</p>
-<p>I believe that those young minds are not guided to those skills and
-knowledge sets with Apple products, leaving them to believe it’s a bunch
-of hidden Jony Ive magic sauce that makes it work. Using Windows won’t
-necessarily push them in that direction either, and Linux may still be
-in a state that it isn’t really all that user-friendly to unfamiliar
-consumers. And maybe people just don’t have all that much time to
-assemble their own systems and do all of the learning and research
-involved.</p>
-<p>So I’m not saying that a perfect option exists to fit this belief,
-but it is a belief I honestly hold, and Apple products are clearly not
-oriented towards making this a reality.</p>
+<p>I should start by saying that I have never purchased a <strong>new</strong> computer, with the exception of my Dell G7 laptop, which I bought in the Fall semester this year. Up until then, I had either assembled my own desktop or bought used laptops for cheap on eBay (I now have a thing for ThinkPads, more blog posts to come).</p>
+<p>So I have not properly bought a Mac from Apple, and cannot speak to that whole experience, and I don’t think I will any time soon. However, I would like to gab about my experience with Mac hardware and software and toss two cents into the silly OS ‘flamewar’ as it were.</p>
+<p>The first time I was actually able to sit and personally use a Mac was when I traded laptops with a friend at the end of this Fall semester. I gave him my ThinkPad X201, and he gave me his 13” MacBook Pro 2012 (Unibody, non-retina).</p>
+<p><em>For any of you thinking that was a bad trade on his part</em>, the eBay values of those two products may be ~$300 CAD in the difference, but I had upgraded my ThinkPad. It had 8GB DDR3, the Mac had 4GB; it had a 256GB SSD, the Mac had a 500GB HDD; it had a 94Whr battery, the Mac had a 72Whr and had decayed significantly. Other than that, the Mac CPU was a bit faster, and the screen resolutions were the same.</p>
+<p>Not the point, anyway. I enjoyed using that MacBook. It was exciting and new for me. I upgraded it as much as I could: I fit in a 512GB SSD and a 2TB HDD and 8GB RAM. It was fairly fast, light, and had a nice metallic feel.</p>
+<p>I was going to write up a Mac experience blog post because of that Mac, but then it died, for reasons I’ll get into later.</p>
+<p>Now, I have a summer job at SpryPoint, and they have lent me a 13” MacBook Pro 2015 for work. So I thought I would kickstart this again since I haven’t written a post in a while and would like to share some thoughts.</p>
+<h2 id="how-could-i-have-had-a-good-experience">How Could <strong><em>I</em></strong> Have Had a Good Experience?</h2>
+<p>I am not an Apple fan. I must say that. There are several unwavering reasons as to why: I do not approve of their business practices, their “support” programs, or their secretive and corporate nature. I think that their designs, while elegant and simple, encourage <strong>ignorance</strong> about computers, and <strong>do not deliver on value</strong>.</p>
+<p>And yet despite these issues I will discuss, I enjoyed parts of using the MacBook Pros and macOS. But let’s criticize Macs first.</p>
+<h3 id="on-ignorance---fisher-price-computing-maybe">On Ignorance - Fisher-Price Computing, Maybe</h3>
+<p><strong>I don’t think using a Mac automatically makes you dumb.</strong></p>
+<p>I get that many consumers have the mindset that their computer should just get out of the way and let them do what they want, and that is fine. But, in the middle of this digital age, I feel it is paramount that children, teens, and young adults arm themselves with knowledge of computers while they can easily absorb information. I believe, and I think many others would agree, computers are the most powerful tools we have created as humans.</p>
+<p>I believe that those young minds are not guided to those skills and knowledge sets with Apple products, leaving them to believe it’s a bunch of hidden Jony Ive magic sauce that makes it work. Using Windows won’t necessarily push them in that direction either, and Linux may still be in a state that it isn’t really all that user-friendly to unfamiliar consumers. And maybe people just don’t have all that much time to assemble their own systems and do all of the learning and research involved.</p>
+<p>So I’m not saying that a perfect option exists to fit this belief, but it is a belief I honestly hold, and Apple products are clearly not oriented towards making this a reality.</p>
 <h3 id="on-value---the-apple-tax">On Value - The Apple Tax</h3>
-<p>The “Apple Tax” is very, very real. There is no denying or getting
-around it.</p>
-<p>iPhones have had only really one value-oriented model (the 5c, and
-the SE if you count it), MacBooks, iMacs and Mac Pros are outperformed
-in performance per dollar by Windows OEM computers of similar spec, and
-Hackintoshes running macOS with the same spec.</p>
-<p>At best, Macs and iPhones cost on par with their market competitors,
-and what you get in return is not raw performance, but a limited amount
-of Apple goodies. Goodies like a color corrected screen out-of-the-box,
-iCloud and proprietary Apple product integrations, optimized proprietary
-software like Final Cut, premium-feeling build materials, and the status
-of it being an Apple product.</p>
-<p>But to me, most of those things aren’t worth all that much, and
-probably most people. Content creators and seniors may rejoice at
-feature sets like that, but I am either comfortable dealing with the
-loss in compromising or don’t see any value in those things at all.</p>
+<p>The “Apple Tax” is very, very real. There is no denying or getting around it.</p>
+<p>iPhones have had only really one value-oriented model (the 5c, and the SE if you count it), MacBooks, iMacs and Mac Pros are outperformed in performance per dollar by Windows OEM computers of similar spec, and Hackintoshes running macOS with the same spec.</p>
+<p>At best, Macs and iPhones cost on par with their market competitors, and what you get in return is not raw performance, but a limited amount of Apple goodies. Goodies like a color corrected screen out-of-the-box, iCloud and proprietary Apple product integrations, optimized proprietary software like Final Cut, premium-feeling build materials, and the status of it being an Apple product.</p>
+<p>But to me, most of those things aren’t worth all that much, and probably most people. Content creators and seniors may rejoice at feature sets like that, but I am either comfortable dealing with the loss in compromising or don’t see any value in those things at all.</p>
 <p>Especially that last one; let’s talk about that one.</p>
 <h3 id="the-trillion-dollar-brand">The Trillion Dollar Brand</h3>
-<p>That is the issue I have with Apple products. Their status among
-consumers. They have such a valuable brand, and all of their products
-are sought after like mad, and I personally believe that it’s rather
-undeserved. I understand that Apple has been an industry leader many
-times in the past, and I respect those innovations in the consumer
-electronics industry and software at large. But that Apple is dead.</p>
-<p>The iPhone is where most of their revenue now comes from, and they
-have let their brand name carry the weight of maintaining sales figures.
-Apple has been stuck playing catch-up on features with Android in the
-mobile race since they added the fingerprint sensor to the iPhone 5S,
-and slo-mo video recording on the iPhone 6, their last meaningful
-contributions to the state-of-the-art (you might think gimmicks such as
-Animojis are ground-breaking, but not me).</p>
-<p>The design of modern Macs is anti-consumerist. #DongleGate is no
-joke. Why would you force all of your customers to buy additional
-accessories just to get the same functionality they had in the previous
-generation? Bravery? No, that’s called nickel-and-diming.</p>
-<p>And the iPhone for that matter. Want to listen to music? Buy $200+
-AirPods or even pricier Beats. Yes, cheap Bluetooth options exist, but
-it is much easier to find cheap and decent sounding wired headphones.
-Plus, headphones are easy to lose. Wired headphones are less expensive
-to replace, and there is no need to worry about the battery of yet
-another device.</p>
+<p>That is the issue I have with Apple products. Their status among consumers. They have such a valuable brand, and all of their products are sought after like mad, and I personally believe that it’s rather undeserved. I understand that Apple has been an industry leader many times in the past, and I respect those innovations in the consumer electronics industry and software at large. But that Apple is dead.</p>
+<p>The iPhone is where most of their revenue now comes from, and they have let their brand name carry the weight of maintaining sales figures. Apple has been stuck playing catch-up on features with Android in the mobile race since they added the fingerprint sensor to the iPhone 5S, and slo-mo video recording on the iPhone 6, their last meaningful contributions to the state-of-the-art (you might think gimmicks such as Animojis are ground-breaking, but not me).</p>
+<p>The design of modern Macs is anti-consumerist. #DongleGate is no joke. Why would you force all of your customers to buy additional accessories just to get the same functionality they had in the previous generation? Bravery? No, that’s called nickel-and-diming.</p>
+<p>And the iPhone for that matter. Want to listen to music? Buy $200+ AirPods or even pricier Beats. Yes, cheap Bluetooth options exist, but it is much easier to find cheap and decent sounding wired headphones. Plus, headphones are easy to lose. Wired headphones are less expensive to replace, and there is no need to worry about the battery of yet another device.</p>
 <p>Why not leave the option for both?</p>
-<h3 id="the-used-market---a-far-cry-from-thinkpads">The Used Market - A
-Far cry from ThinkPads</h3>
-<p>One thing that irks me is when people say, <em>“Macs hold their
-resale value.”</em></p>
+<h3 id="the-used-market---a-far-cry-from-thinkpads">The Used Market - A Far cry from ThinkPads</h3>
+<p>One thing that irks me is when people say, <em>“Macs hold their resale value.”</em></p>
 <p>That may be, but for two reasons and two reasons only:</p>
-<h4
-id="used-macs-are-a-cheaper-way-to-get-at-macos-specific-features-without-going-the-sometimes-arduous-hackintosh-route">1.
-Used Macs are a cheaper way to get at macOS specific features without
-going the sometimes arduous Hackintosh route</h4>
-<p>macOS is the only platform where you can develop for iOS, and iOS is
-a cash cow of a market. It is the only platform where you can use Logic,
-Final Cut, and the other content creator specific features Apple
-includes in macOS. That has value. It could be argued that intellectual
-property, copyright, and patent law may need some reworking, but as it
-stands, Apple holds all those cards, and they are valuable. And,</p>
-<h4
-id="this-argument-is-a-self-fulfilling-prophecy-that-affects-consumers-expectations-and-therefore-their-purchasing-decisions-personal-market-speculation">2.
-This argument is a self-fulfilling prophecy that affects consumers
-expectations and therefore their purchasing decisions (personal market
-speculation)</h4>
-<p>If people tell you that Macs hold their resale value, and you believe
-them, then you expect Macs that you buy to be more expensive than other
-used computers, and you expect to be able to sell your used Macs for
-more than other used computers. Repeat that myth and spread it across
-the used consumer market and boom, all of a sudden everyone thinks it is
-true and acts as if it is without knowing why.</p>
-<h4 id="used-macs-can-be-other-peoples-headaches">Used Macs can be other
-people’s headaches</h4>
-<p>I acquired a well used Mac myself as previously mentioned. I got it
-from a friend, and both the keyboard and screen had sustained some
-damage. I opted to repair the keyboard, which had no working number keys
-and a broken ‘k’ key since it was getting pretty annoying
-copy-and-pasting numbers and ’k’s. I followed an iFixit guide for the
-MacBook Pro model that was released one year earlier, not thinking much
-of it.</p>
-<p>The process is very lengthy as you have to remove everything from the
-laptop to even get at the keyboard, unlike a classic ThinkPad, which has
-marked screws that allow only the keyboard to slip out and be serviced.
-This ended up in me breaking the logic board of the MacBook because a
-component that was previously detachable was replaced by a soldered chip
-in the same spot in this particular design. I mistook it for the
-connector, and I ripped the solder off.</p>
-<p>It is my fault for not noticing the guide not matching up with the
-product, but that doesn’t excuse the fact that it is near impossible to
-user replace the keyboard on a $2000+ “PRO” laptop.</p>
-<h2 id="but-ben-didnt-you-say-you-had-a-good-experience"><em>“But Ben,
-didn’t you say you had a <strong>good</strong></em>
-experience?<em>“</em></h2>
-<p>Yes. I had a surprisingly enjoyable experience with macOS when I used
-it first on that 2012 MacBook Pro, and I am having an even better
-experience with my current work MacBook Pro.</p>
+<h4 id="used-macs-are-a-cheaper-way-to-get-at-macos-specific-features-without-going-the-sometimes-arduous-hackintosh-route">1. Used Macs are a cheaper way to get at macOS specific features without going the sometimes arduous Hackintosh route</h4>
+<p>macOS is the only platform where you can develop for iOS, and iOS is a cash cow of a market. It is the only platform where you can use Logic, Final Cut, and the other content creator specific features Apple includes in macOS. That has value. It could be argued that intellectual property, copyright, and patent law may need some reworking, but as it stands, Apple holds all those cards, and they are valuable. And,</p>
+<h4 id="this-argument-is-a-self-fulfilling-prophecy-that-affects-consumers-expectations-and-therefore-their-purchasing-decisions-personal-market-speculation">2. This argument is a self-fulfilling prophecy that affects consumers expectations and therefore their purchasing decisions (personal market speculation)</h4>
+<p>If people tell you that Macs hold their resale value, and you believe them, then you expect Macs that you buy to be more expensive than other used computers, and you expect to be able to sell your used Macs for more than other used computers. Repeat that myth and spread it across the used consumer market and boom, all of a sudden everyone thinks it is true and acts as if it is without knowing why.</p>
+<h4 id="used-macs-can-be-other-peoples-headaches">Used Macs can be other people’s headaches</h4>
+<p>I acquired a well used Mac myself as previously mentioned. I got it from a friend, and both the keyboard and screen had sustained some damage. I opted to repair the keyboard, which had no working number keys and a broken ‘k’ key since it was getting pretty annoying copy-and-pasting numbers and ’k’s. I followed an iFixit guide for the MacBook Pro model that was released one year earlier, not thinking much of it.</p>
+<p>The process is very lengthy as you have to remove everything from the laptop to even get at the keyboard, unlike a classic ThinkPad, which has marked screws that allow only the keyboard to slip out and be serviced. This ended up in me breaking the logic board of the MacBook because a component that was previously detachable was replaced by a soldered chip in the same spot in this particular design. I mistook it for the connector, and I ripped the solder off.</p>
+<p>It is my fault for not noticing the guide not matching up with the product, but that doesn’t excuse the fact that it is near impossible to user replace the keyboard on a $2000+ “PRO” laptop.</p>
+<h2 id="but-ben-didnt-you-say-you-had-a-good-experience"><em>“But Ben, didn’t you say you had a <strong>good</strong></em> experience?<em>“</em></h2>
+<p>Yes. I had a surprisingly enjoyable experience with macOS when I used it first on that 2012 MacBook Pro, and I am having an even better experience with my current work MacBook Pro.</p>
 <h3 id="hardware-experience">Hardware Experience</h3>
 <p>The hardware on the 13” MacBook Pro 2015 is pretty nice.</p>
 <ul>
 <li>Great battery life</li>
 <li>Gorgeous “Retina” screen (effectively 2K, but 8:5)</li>
-<li>The Force Touchpad feels really <strong>really</strong> good (though
-I think I still prefer a TrackPoint while typing)</li>
+<li>The Force Touchpad feels really <strong>really</strong> good (though I think I still prefer a TrackPoint while typing)</li>
 <li>Light</li>
 <li>Compact</li>
 </ul>
-<p>It has a dual-core i5 5th gen <span class="citation"
-data-cites="2.7GHz">@2.7GHz</span> base clock and 8GB RAM. It does feel
-a tiny bit underpowered for the environment I am running. Still, despite
-the limited RAM, it performs admirably and really smoothly even when
-running <strong>lots</strong> of Chrome tabs and extensions, Electron
-apps, IntelliJ, and PostgreSQL database.</p>
-<p>You may be surprised, but in terms of raw performance, this computer
-is about on par with a Thinkpad X230 laptop from 2012. Now to be fair,
-this is more of an Intel ‘U’ line vs Intel ’M’ line issue and wouldn’t
-help the X230 on the battery life side of things, but still, a 2015
-MacBook can be matched by a 2012 Thinkpad. So it’s not exactly a
-screaming fast workstation, but it is sufficient for even compiling
-large code bases as I have over the last month.</p>
+<p>It has a dual-core i5 5th gen <span class="citation" data-cites="2.7GHz">@2.7GHz</span> base clock and 8GB RAM. It does feel a tiny bit underpowered for the environment I am running. Still, despite the limited RAM, it performs admirably and really smoothly even when running <strong>lots</strong> of Chrome tabs and extensions, Electron apps, IntelliJ, and PostgreSQL database.</p>
+<p>You may be surprised, but in terms of raw performance, this computer is about on par with a Thinkpad X230 laptop from 2012. Now to be fair, this is more of an Intel ‘U’ line vs Intel ’M’ line issue and wouldn’t help the X230 on the battery life side of things, but still, a 2015 MacBook can be matched by a 2012 Thinkpad. So it’s not exactly a screaming fast workstation, but it is sufficient for even compiling large code bases as I have over the last month.</p>
 <h3 id="software-experience">Software Experience</h3>
 <p>The latest macOS is surprisingly nice.</p>
-<p>At first, there were some growing pains. The awkward translation of
-keyboard shortcuts, the sluggish homebrew as a package manager, the
-unwarranted prompts to okay everything in the Security and Privacy panel
-(and people complain about Windows UAC).</p>
-<p>Looking past those things which are easy to get used to with time,
-the overall user experience is quite smooth even for those looking some
-power-user options. I will say that accessing ports on a Mac over LAN
-was very difficult and confusing as macOS currently has 2 different
-firewalls installed, and disabling them both fully did not allow traffic
-to come through. The features and settings of the OS should be better
-documented for advanced users, or if they are, it was not easy to find
-the answer on Google.</p>
-<p>Mojave manages memory extremely well from what I can feel (I don’t
-have much experience with other versions, so other macOS versions may be
-a lot more performant). This 8GB machine pages a lot, no doubt. When I
-am running IntelliJ, Sourcetree, Chrome, Slack, Spotify, etc. on a
-normal workday, it has no memory to spare. Despite that, most of the
-time, everything stays responsive even when switching between apps and
-virtual desktops.</p>
-<p>Native app support is decent. It is definitely between Linux and
-Windows. A bit more mainstream app support than Linux (e.g. Adobe, Apple
-in-house), but <strong>very</strong> limited compared to Windows. It’s
-somewhat interesting looking at some of the neat apps that hardcore Mac
-fans have made for macOS like Alfred, Dash, and OpenEmu. Mac-only apps
-benefit from very nice looking user interfaces, but unfortunately, that
-is pretty much it. Most of the difference is just in their looks and not
-in functionality.</p>
+<p>At first, there were some growing pains. The awkward translation of keyboard shortcuts, the sluggish homebrew as a package manager, the unwarranted prompts to okay everything in the Security and Privacy panel (and people complain about Windows UAC).</p>
+<p>Looking past those things which are easy to get used to with time, the overall user experience is quite smooth even for those looking some power-user options. I will say that accessing ports on a Mac over LAN was very difficult and confusing as macOS currently has 2 different firewalls installed, and disabling them both fully did not allow traffic to come through. The features and settings of the OS should be better documented for advanced users, or if they are, it was not easy to find the answer on Google.</p>
+<p>Mojave manages memory extremely well from what I can feel (I don’t have much experience with other versions, so other macOS versions may be a lot more performant). This 8GB machine pages a lot, no doubt. When I am running IntelliJ, Sourcetree, Chrome, Slack, Spotify, etc. on a normal workday, it has no memory to spare. Despite that, most of the time, everything stays responsive even when switching between apps and virtual desktops.</p>
+<p>Native app support is decent. It is definitely between Linux and Windows. A bit more mainstream app support than Linux (e.g. Adobe, Apple in-house), but <strong>very</strong> limited compared to Windows. It’s somewhat interesting looking at some of the neat apps that hardcore Mac fans have made for macOS like Alfred, Dash, and OpenEmu. Mac-only apps benefit from very nice looking user interfaces, but unfortunately, that is pretty much it. Most of the difference is just in their looks and not in functionality.</p>
 <h2 id="end-all-be-all">End-all be-all</h2>
 <p>I think that if:</p>
 <ul>
@@ -291,10 +116,8 @@ in functionality.</p>
 <li>You aren’t concerned about the inner workings of your machine</li>
 <li>You don’t care to repair your machine</li>
 <li>You don’t need the widest app support</li>
-<li>You are fine with your machine being just as powerful as a machine
-from 3+ years ago, and/or</li>
-<li>You just want to turn your brain off and hand boat-loads of money to
-a horrible American company</li>
+<li>You are fine with your machine being just as powerful as a machine from 3+ years ago, and/or</li>
+<li>You just want to turn your brain off and hand boat-loads of money to a horrible American company</li>
 </ul>
 <p>Mac computers are the perfect option.</p>
 <!-- begin wwww.htmlcommentbox.com -->
