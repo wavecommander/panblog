@@ -43,8 +43,8 @@ It would require that at some time, in some place, across an unfathomable distan
 But what else could one do?
 The desire to share the warmth of a Sun is not extinguished, even long after its own flames have.
 
-I am relieved to not be living in such a world. I live close to other observers. Communicating over short distances by typical means.
-We bask in the warmth of our Suns together from time to time, and lay and point out shooting stars to one another to pass the time.
+I am relieved to not be living in such a world. I live close to other observers; communicating over short distances by typical means.
+We bask in the warmth of our Suns together, and lay and point out shooting stars to one another to pass the time.
 
 If ever a being does find themselves in such a precarious situation, in such a strange world where they can scream as loud as possible and never be heard, I hope that they could somehow hear my thoughts.
 
