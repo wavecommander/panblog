@@ -16,7 +16,7 @@ I graduated from [UPEI](https://upei.ca) with a BSc in Computer Science in 2022.
 ### Tier 2
 #1#
 
-### Rabbit Hole
+### Something Different
 #2#
 
 ### Meta
