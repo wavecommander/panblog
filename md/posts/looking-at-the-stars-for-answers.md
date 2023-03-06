@@ -4,6 +4,8 @@ SD
 
 It requires a telescopic lens to peer into worlds beyond.
 
+A relatively small amount of glass and metal can be all you need to see things in a new light.
+
 What is an insignificant dot of light in someone else's field of view is one of my Suns.
 I feel its warmth and appreciate the light it has provided me. It illuminated things I didn't know were there.
 It is sad to know there are worlds where my Suns are seen as insignificant and not even worth a glance, or never seen at all.
@@ -12,7 +14,7 @@ Oh, if only I could send them a message containing it's fully glory to show them
 Some sort of modulated wave. A radio wave? A light wave? Perhaps both.
 Who knows what sort of technological and engineering wonder it would take to achieve such a feat?
 Commanding a wave?
-Sending encoded signals between distant worlds instantaneously?
+Sending encoded signals between distant worlds as fast as physics will allow?
 Just the thought of its possibility boggles the mind.
 What a wondrous world that would be.
 
@@ -46,6 +48,6 @@ We bask in the warmth of our Suns together from time to time, and lay and point 
 
 If ever a being does find themselves in such a precarious situation, in such a strange world where they can scream as loud as possible and never be heard, I hope that they could somehow hear my thoughts.
 
-Assuming "I" am still "alive" in the region of 4-volume (or n-volume! [Ford](https://en.wikipedia.org/wiki/Brave_New_World) only knows how deep this rabbit hole goes!) where such a technology exists, I hope that I could somehow transcribe my thoughts, encode them in modulated waves, and offer a universal message to those without anyone to share their light with:
+Assuming "I" am still "alive" in the region of [4-volume](https://en.wikipedia.org/wiki/Spacetime) (or [n-volume](https://en.wikipedia.org/wiki/Extra_dimensions)! [Ford](https://en.wikipedia.org/wiki/Brave_New_World) only knows how deep this rabbit hole goes!) where such a technology exists, I hope that I could somehow transcribe my thoughts, encode them in modulated waves, and offer a universal message to those without anyone to share their light with:
 
 I love you. I see it too.
