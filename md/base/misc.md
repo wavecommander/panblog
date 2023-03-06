@@ -12,6 +12,8 @@
 
 # Ben's Rules for Life
 
+Step aside, JBP, you [ideological](https://www.youtube.com/watch?v=m81q-ZkfBm0) [quack](https://www.youtube.com/watch?v=hSNWkRw53Jo).
+
 The two most difficult things in life are:
 
 * Knowing who/what to trust; assume innocent until proven otherwise
