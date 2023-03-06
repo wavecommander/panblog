@@ -46,6 +46,6 @@ We bask in the warmth of our Suns together from time to time, and lay and point 
 
 If ever a being does find themselves in such a precarious situation, in such a strange world where they can scream as loud as possible and never be heard, I hope that they could somehow hear my thoughts.
 
-Assuming "I" am still "alive" in the region of 4-volume (or n-volume! F(n)ord only knows how deep this rabbit hole goes!) where such a technology exists, I hope that I could somehow transcribe my thoughts to be modulated by wave and offer a universal message to those without anyone to share their light with:
+Assuming "I" am still "alive" in the region of 4-volume (or n-volume! [Ford](https://en.wikipedia.org/wiki/Brave_New_World) only knows how deep this rabbit hole goes!) where such a technology exists, I hope that I could somehow transcribe my thoughts, encode them in modulated waves, and offer a universal message to those without anyone to share their light with:
 
 I love you. I see it too.
