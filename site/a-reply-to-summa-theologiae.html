@@ -8,20 +8,30 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="res/min.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
+  Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
+  me@benboyle.ca </a>
+  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
+  Resume </a> <a href="https://github.com/wavecommander">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
+  GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -38,40 +48,114 @@
   </tr>
   </tbody>
   </table>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">A Brief Reply to St. Thomas Aquinas’ Summa Theologiae</h1>
+<h1 class="title">A Brief Reply to St. Thomas Aquinas’ Summa
+Theologiae</h1>
 </header>
 <p>7 Jan 2020 T2</p>
 <p><img src="./images/stthomas.jpg" /></p>
-<p>It has been a long time since I have contributed anything to this page.</p>
-<p><del>I have some plans to replace this website with a much simpler page and have a comment section.</del> <em>If you are reading this now, consider that done!</em></p>
-<p>In the meantime, I may write another piece to share here if I can think of something interesting and make the time.</p>
-<p>And now, I would like to share some writings I completed as part of a Religious Studies course at UPEI. There is a professor who conducts some truly terrible online courses for Religious Studies and I decided to take two of them for some easier marks.</p>
-<p>As part of the most recent course, I wrote several reflections on key pieces of Catholic theology. I would like to share my two reflections on St. Thomas Aquinas’ Summa Theologiae.</p>
-<p>For reference, these are the copies of the text that the professor assigned to the class:</p>
+<p>It has been a long time since I have contributed anything to this
+page.</p>
+<p><del>I have some plans to replace this website with a much simpler
+page and have a comment section.</del> <em>If you are reading this now,
+consider that done!</em></p>
+<p>In the meantime, I may write another piece to share here if I can
+think of something interesting and make the time.</p>
+<p>And now, I would like to share some writings I completed as part of a
+Religious Studies course at UPEI. There is a professor who conducts some
+truly terrible online courses for Religious Studies and I decided to
+take two of them for some easier marks.</p>
+<p>As part of the most recent course, I wrote several reflections on key
+pieces of Catholic theology. I would like to share my two reflections on
+St. Thomas Aquinas’ Summa Theologiae.</p>
+<p>For reference, these are the copies of the text that the professor
+assigned to the class:</p>
 <ul>
-<li>Reflection 1: <a href="http://www.newadvent.com/summa/1001.htm" title="http://www.newadvent.com/summa/1001.htm">http://www.newadvent.com/summa/1001.htm</a></li>
-<li>Reflection 2: <a href="http://www.newadvent.com/summa/1002.htm" title="http://www.newadvent.com/summa/1002.htm">http://www.newadvent.com/summa/1002.htm</a></li>
+<li>Reflection 1: <a href="http://www.newadvent.com/summa/1001.htm"
+title="http://www.newadvent.com/summa/1001.htm">http://www.newadvent.com/summa/1001.htm</a></li>
+<li>Reflection 2: <a href="http://www.newadvent.com/summa/1002.htm"
+title="http://www.newadvent.com/summa/1002.htm">http://www.newadvent.com/summa/1002.htm</a></li>
 </ul>
 <h3 id="reflection-1">Reflection 1</h3>
-<p>In the ten articles taken from Summa Theologiae on New Advent, I found Aquinas to be somewhat contradictory in his argument for the existence of Theology. Aquinas acknowledges that there does exist knowledge that is beyond human reasoning, comprehension, and perhaps grasp. This knowledge is to be made known to man through ‘divine revelation.’ He labels the knowledge from philosophical sciences as products of human reasoning and differentiates these truths from those that are revealed by God.</p>
-<p>Is theology not itself an attempt at revealing diving truths through the process of human reasoning? Why is it that theologians seem to be given the exception when it comes to disseminating and investigating divine truths when Aquinas himself states that “the truth about God such as reason could discover, would only be known by a few, and that after a long time, and with the admixture of many errors.”</p>
-<p>Aquinas makes a case for why a theological study has a purpose and may be fruitful, but no claim as to why he and other theologians are fit to execute such study.</p>
-<p>Perhaps it is assumed because he is an educated man of intellect and faith, one near the top of society, that he is capable of performing such study, but that also carries the assumption that any man could be fit to produce divine knowledge other than the acknowledgement that divine knowledge from God exists.</p>
-<p>Presently, I believe that a sort of theological study is necessary to rebirth Christian thinking and religious thinking in the West at large. I think this is excusable as the knowledge that was meant to be divine, in the hands of imperfect humans, has degenerated over time into the form it is today.</p>
-<p>I am not opposed to a revisionist approach to theology with the ultimate aim being truly Christian and for the betterment of all of mankind. This is because I must acknowledge that even theologians and clergy members, tasked with preserving and teaching divine truths, are capable of failure, and indeed have.</p>
+<p>In the ten articles taken from Summa Theologiae on New Advent, I
+found Aquinas to be somewhat contradictory in his argument for the
+existence of Theology. Aquinas acknowledges that there does exist
+knowledge that is beyond human reasoning, comprehension, and perhaps
+grasp. This knowledge is to be made known to man through ‘divine
+revelation.’ He labels the knowledge from philosophical sciences as
+products of human reasoning and differentiates these truths from those
+that are revealed by God.</p>
+<p>Is theology not itself an attempt at revealing diving truths through
+the process of human reasoning? Why is it that theologians seem to be
+given the exception when it comes to disseminating and investigating
+divine truths when Aquinas himself states that “the truth about God such
+as reason could discover, would only be known by a few, and that after a
+long time, and with the admixture of many errors.”</p>
+<p>Aquinas makes a case for why a theological study has a purpose and
+may be fruitful, but no claim as to why he and other theologians are fit
+to execute such study.</p>
+<p>Perhaps it is assumed because he is an educated man of intellect and
+faith, one near the top of society, that he is capable of performing
+such study, but that also carries the assumption that any man could be
+fit to produce divine knowledge other than the acknowledgement that
+divine knowledge from God exists.</p>
+<p>Presently, I believe that a sort of theological study is necessary to
+rebirth Christian thinking and religious thinking in the West at large.
+I think this is excusable as the knowledge that was meant to be divine,
+in the hands of imperfect humans, has degenerated over time into the
+form it is today.</p>
+<p>I am not opposed to a revisionist approach to theology with the
+ultimate aim being truly Christian and for the betterment of all of
+mankind. This is because I must acknowledge that even theologians and
+clergy members, tasked with preserving and teaching divine truths, are
+capable of failure, and indeed have.</p>
 <h3 id="reflection-2">Reflection 2</h3>
-<p>There certainly is a compelling argument for the existence of God made by Aquinas here. There may very well be an unmoved mover. And there may also be an intelligent design at play in our universe.</p>
-<p>I must say first that I disagree with any perspective that argues that the theory of evolution is false, or that the earth is fewer than billions of years old. I fully believe in the evidence humanity has collected on the universe, and that the ‘Big Bang Theory’ is the best approximation there is out there. But beyond that, there is a point before the Big Bang where things are not clear.</p>
-<p>Looking at the periodic table, for example: with whole number increments of the number of protons, different chemicals form and can be placed into groups that share similar properties at regular intervals. Even lower, the fundamental laws of physics, the nature of gravity, the speed of light. And even lower still, the nature of mathematics and what is philosophically possible to imagine and discretely label.</p>
-<p>There are definite limits and facts all around us, and many of them do not seem to be able to be broken down any further as to why they are the way they are. They are a sort of atomic level truths.</p>
-<p>Where do the definitions of these atomic truths come from? Where could they come from?</p>
-<p>It seems correct to assume God is at the source of these very fundamental definitions of our universe. And I agree that it is certainly possible that on the other side of that phenomena, there may be an intelligent creator.</p>
-<p>This is actually in agreement with the Simulation Hypothesis whereby the simulation creators are indeed the intelligent movers that set our world in motion. However, I seldom hear people make this connection, and I also don’t hear scientifically minded people give this hypothesis as much criticism as they do Creationism.</p>
-<p>All I can argue in this matter is that we cannot be sure. It is at the absolute limit of not just human understanding, but what is observable inside this universe. We merely cannot observe outside of our own existence, and it may remain unanswered for eternity.</p>
-<p>On the existence of God, I argue that God, as He is described in the Bible, is a symbolic representation that humanity often needs to keep themselves morally obligated. Obeying an eternal judgemental father that will provide for you based on your sacrifice is pragmatically similar to a mindful person who acts and sacrifices correctly so that you can best provide for yourself, your family, and your greater community. I have no issue acknowledging this form of God and someone using these ideas to guide them.</p>
+<p>There certainly is a compelling argument for the existence of God
+made by Aquinas here. There may very well be an unmoved mover. And there
+may also be an intelligent design at play in our universe.</p>
+<p>I must say first that I disagree with any perspective that argues
+that the theory of evolution is false, or that the earth is fewer than
+billions of years old. I fully believe in the evidence humanity has
+collected on the universe, and that the ‘Big Bang Theory’ is the best
+approximation there is out there. But beyond that, there is a point
+before the Big Bang where things are not clear.</p>
+<p>Looking at the periodic table, for example: with whole number
+increments of the number of protons, different chemicals form and can be
+placed into groups that share similar properties at regular intervals.
+Even lower, the fundamental laws of physics, the nature of gravity, the
+speed of light. And even lower still, the nature of mathematics and what
+is philosophically possible to imagine and discretely label.</p>
+<p>There are definite limits and facts all around us, and many of them
+do not seem to be able to be broken down any further as to why they are
+the way they are. They are a sort of atomic level truths.</p>
+<p>Where do the definitions of these atomic truths come from? Where
+could they come from?</p>
+<p>It seems correct to assume God is at the source of these very
+fundamental definitions of our universe. And I agree that it is
+certainly possible that on the other side of that phenomena, there may
+be an intelligent creator.</p>
+<p>This is actually in agreement with the Simulation Hypothesis whereby
+the simulation creators are indeed the intelligent movers that set our
+world in motion. However, I seldom hear people make this connection, and
+I also don’t hear scientifically minded people give this hypothesis as
+much criticism as they do Creationism.</p>
+<p>All I can argue in this matter is that we cannot be sure. It is at
+the absolute limit of not just human understanding, but what is
+observable inside this universe. We merely cannot observe outside of our
+own existence, and it may remain unanswered for eternity.</p>
+<p>On the existence of God, I argue that God, as He is described in the
+Bible, is a symbolic representation that humanity often needs to keep
+themselves morally obligated. Obeying an eternal judgemental father that
+will provide for you based on your sacrifice is pragmatically similar to
+a mindful person who acts and sacrifices correctly so that you can best
+provide for yourself, your family, and your greater community. I have no
+issue acknowledging this form of God and someone using these ideas to
+guide them.</p>
 <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />

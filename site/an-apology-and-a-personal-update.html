@@ -8,20 +8,30 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="res/min.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
+  Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
+  me@benboyle.ca </a>
+  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
+  Resume </a> <a href="https://github.com/wavecommander">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
+  GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -38,6 +48,9 @@
   </tr>
   </tbody>
   </table>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -45,17 +58,49 @@
 </header>
 <p>6 Jun 2022 MP</p>
 <p>It’s been a while. 260 days exactly.</p>
-<p>I would like to apologize to everyone who has visited this website. <a href="https://github.com/wavecommander/panblog/commit/7d228995cf82c1e2ceb2ec205fc8bae85e9d739e">I put Google Analytics tracking on this website on 5 Dec 2020</a>. I wanted to get some data about the number of users visiting this site, what pages they were viewing, how long they were staying etc.</p>
-<p>I have been conflicted about this decision since I made it. I have not been paying my website enough attention, and now that I have restructured it, this was the first change I wanted to make.</p>
-<p>I am sorry. I will not add any invasive tracking Javascript to this website ever again.</p>
+<p>I would like to apologize to everyone who has visited this website.
+<a
+href="https://github.com/wavecommander/panblog/commit/7d228995cf82c1e2ceb2ec205fc8bae85e9d739e">I
+put Google Analytics tracking on this website on 5 Dec 2020</a>. I
+wanted to get some data about the number of users visiting this site,
+what pages they were viewing, how long they were staying etc.</p>
+<p>I have been conflicted about this decision since I made it. I have
+not been paying my website enough attention, and now that I have
+restructured it, this was the first change I wanted to make.</p>
+<p>I am sorry. I will not add any invasive tracking Javascript to this
+website ever again.</p>
 <p>With that out of the way: hello!</p>
-<p>I am doing very well since I last posted a personal update. The biggest news is that I graduated from UPEI with my Bachelor’s in Computer Science! It is wonderful having that done and out of the way. I completed Computer Graphics I and II, as well as Video Game Engine Architecture as electives in my final year. Computer graphics is so so so much fun! I have made <a href="https://github.com/wavecommander/city">my city project public on GitHub</a>. If you want a textbook recommendation, <a href="https://www.realtimerendering.com/"><em>Real-time Rendering</em></a> was an excellent resource.</p>
-<p>I have been taking a break since I finished my schoolwork; my days consist of eating, programming, reading, and meeting with friends.</p>
-<p>I recently reached out to The Rural highschool and will be planning new things for the computing club that has thankfully survived while I was forced to take a break due to personal health and university studies.</p>
-<p>Luckily, I found <a href="meta-ramblings-1.html#something-warm">something warm</a>. It has been six months since our first date. Things have been going very well.</p>
-<p>I will certainly have some more meaty content on here soon. I have had a few posts on the back burner for months and months. I will be cleaning them up and finishing them in the coming months.</p>
-<p>I also have a couple of programs that I will be making open source on my GitHub; I will make accompanying posts here.</p>
-<p>Hopefully you noticed the restructuring of this site. No longer are dates the primary key used to sort posts; it is now the tier of importance or their type. This is an instance of me attempting to do as I say: prioritize the information you broadcast. The next addition will be a minimal tagging system where visitors can Ctrl-F the post index for tags they want to search for.</p>
+<p>I am doing very well since I last posted a personal update. The
+biggest news is that I graduated from UPEI with my Bachelor’s in
+Computer Science! It is wonderful having that done and out of the way. I
+completed Computer Graphics I and II, as well as Video Game Engine
+Architecture as electives in my final year. Computer graphics is so so
+so much fun! I have made <a
+href="https://github.com/wavecommander/city">my city project public on
+GitHub</a>. If you want a textbook recommendation, <a
+href="https://www.realtimerendering.com/"><em>Real-time
+Rendering</em></a> was an excellent resource.</p>
+<p>I have been taking a break since I finished my schoolwork; my days
+consist of eating, programming, reading, and meeting with friends.</p>
+<p>I recently reached out to The Rural highschool and will be planning
+new things for the computing club that has thankfully survived while I
+was forced to take a break due to personal health and university
+studies.</p>
+<p>Luckily, I found <a
+href="meta-ramblings-1.html#something-warm">something warm</a>. It has
+been six months since our first date. Things have been going very
+well.</p>
+<p>I will certainly have some more meaty content on here soon. I have
+had a few posts on the back burner for months and months. I will be
+cleaning them up and finishing them in the coming months.</p>
+<p>I also have a couple of programs that I will be making open source on
+my GitHub; I will make accompanying posts here.</p>
+<p>Hopefully you noticed the restructuring of this site. No longer are
+dates the primary key used to sort posts; it is now the tier of
+importance or their type. This is an instance of me attempting to do as
+I say: prioritize the information you broadcast. The next addition will
+be a minimal tagging system where visitors can Ctrl-F the post index for
+tags they want to search for.</p>
 <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />

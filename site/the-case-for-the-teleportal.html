@@ -8,20 +8,30 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="res/min.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
+  Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
+  me@benboyle.ca </a>
+  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
+  Resume </a> <a href="https://github.com/wavecommander">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
+  GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -38,19 +48,29 @@
   </tr>
   </tbody>
   </table>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">The Case for The Teleportal</h1>
 </header>
 <p>13 Nov 2020 T2</p>
-<div style="position:relative;padding-bottom:50%;height:0;overflow:hidden;max-width: 100%;">
+<div
+style="position:relative;padding-bottom:50%;height:0;overflow:hidden;max-width: 100%;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://www.youtube-nocookie.com/embed/_Xw_Iw4w-vk">
 </iframe>
 </div>
-<p>I made a presentation. I would be most pleased if you gave it just five minutes of your time to reflect on the technology that we use today.</p>
-<p><a href="https://docs.google.com/presentation/d/1GnLJIWtd3i_BHSivkrFHtqiGtYAzSu8_UbieGmkhVsw/edit?usp=sharing">The Case for the Teleportal slide deck</a></p>
-<p>Please also sign-up and read about the <a href="https://www.humanetech.com/">Center for Humane Technology</a> (not affiliated)</p>
+<p>I made a presentation. I would be most pleased if you gave it just
+five minutes of your time to reflect on the technology that we use
+today.</p>
+<p><a
+href="https://docs.google.com/presentation/d/1GnLJIWtd3i_BHSivkrFHtqiGtYAzSu8_UbieGmkhVsw/edit?usp=sharing">The
+Case for the Teleportal slide deck</a></p>
+<p>Please also sign-up and read about the <a
+href="https://www.humanetech.com/">Center for Humane Technology</a> (not
+affiliated)</p>
 <p>Watch the Social Dilemma on Netflix.</p>
 <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
