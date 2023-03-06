@@ -18,11 +18,11 @@ Sending encoded signals between distant worlds as fast as physics will allow?
 Just the thought of its possibility boggles the mind.
 What a wondrous world that would be.
 
-But alas, suppose a distant alien does receive a signal from me.
-Why should they pay it any attention?
+But alas, suppose a distant alien does receive a signal from me:
+why should they pay it any attention?
 Certainly, such an alien communication must be treated with suspicion.
-Who is the sender exactly? What do they want? Why did they send this message? Are they even in their right mind?
-Do they possess any intelligence beyond the precise minimum required for the resulting wave to occur?
+How is it encoded? What language is the message expressed in? Who is the sender exactly? What do they want? Why did they send this message? Are they even in their right mind?
+Does there even exist any intelligence beyond the precise minimum required for the resulting wave to occur?
 
 All is unknown.
 If I wish to know, and that's a precarious "if", I must spend time investigating. I must collect and analyze not just one, but multiple signals from this alien. And ultimately, I must establish two-way communication with this alien, decode their language, and hope they are willing to do the same.
