@@ -8,30 +8,20 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
   </style>
   <link rel="stylesheet" href="res/min.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
-  Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
-  me@benboyle.ca </a>
-  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
-  Resume </a> <a href="https://github.com/wavecommander">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
-  GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -48,9 +38,6 @@
   </tr>
   </tbody>
   </table>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -58,56 +45,17 @@
 </header>
 <p>6 Feb 2023 SD</p>
 <p>It requires a telescopic lens to peer into worlds beyond.</p>
-<p>What is an insignificant dot of light in someone else’s field of view
-is one of my Suns. I feel its warmth and appreciate the light it has
-provided me. It illuminated things I didn’t know were there. It is sad
-to know there are worlds where my Suns are seen as insignificant and not
-even worth a glance, or never seen at all.</p>
-<p>Oh, if only I could send them a message containing it’s fully glory
-to show them what they are missing. Some sort of modulated wave. A radio
-wave? A light wave? Perhaps both. Who knows what sort of technological
-and engineering wonder it would take to achieve such a feat? Commanding
-a wave? Sending encoded signals between distant worlds instantaneously?
-Just the thought of its possibility boggles the mind. What a wondrous
-world that would be.</p>
-<p>But alas, suppose a distant alien does receive a signal from me. Why
-should they pay it any attention? Certainly, such an alien communication
-must be treated with suspicion. Who is the sender exactly? What do they
-want? Why did they send this message? Are they even in their right mind?
-Do they possess any intelligence beyond the precise minimum required for
-the resulting wave to occur?</p>
-<p>All is unknown. If I wish to know, and that’s a precarious “if”, I
-must spend time investigating. I must collect and analyze not just one,
-but multiple signals from this alien. And ultimately, I must establish
-two-way communication with this alien, decode their language, and hope
-they are willing to do the same.</p>
-<p>An awful lot of effort. What are the odds of that? 8 billion to 1?
-Hmm, perhaps not even then. In this hypothetical thought experiment, why
-should I even wish to send a message if my reasoning tells me it is so
-unlikely to be received? What good is it to be able to send a message at
-the speed of light if it will never be seen?</p>
-<p>Can a world even be said to exist if it has only a single observer?
-There is no other to verify. Can one trust one’s own senses? One’s own
-thoughts? One would have to answer yes to have any hope of preserving
-one’s world.</p>
-<p>But to share it? It may be impossible. It would require that at some
-time, in some place, across an unfathomable distance of spacetime, the
-perceptive field of an other would finally intersect with the path of
-the wave. A ridiculously unlikely event if there ever was one.</p>
-<p>But what else could one do? The desire to share the warmth of a Sun
-is not extinguished, even long after its own flames have.</p>
-<p>I am relieved to not be living in such a world. I live close to other
-observers. Communicating over short distances by typical means. We bask
-in the warmth of our Suns together from time to time, and lay and point
-out shooting stars to one another to pass the time.</p>
-<p>If ever a being does find themselves in such a precarious situation,
-in such a strange world where they can scream as loud as possible and
-never be heard, I hope that they could somehow hear my thoughts.</p>
-<p>Assuming “I” am still “alive” in the region of 4-volume (or n-volume!
-F(n)ord only knows how deep this rabbit hole goes!) where such a
-technology exists, I hope that I could somehow transcribe my thoughts to
-be modulated by wave and offer a universal message to those without
-anyone to share their light with:</p>
+<p>What is an insignificant dot of light in someone else’s field of view is one of my Suns. I feel its warmth and appreciate the light it has provided me. It illuminated things I didn’t know were there. It is sad to know there are worlds where my Suns are seen as insignificant and not even worth a glance, or never seen at all.</p>
+<p>Oh, if only I could send them a message containing it’s fully glory to show them what they are missing. Some sort of modulated wave. A radio wave? A light wave? Perhaps both. Who knows what sort of technological and engineering wonder it would take to achieve such a feat? Commanding a wave? Sending encoded signals between distant worlds instantaneously? Just the thought of its possibility boggles the mind. What a wondrous world that would be.</p>
+<p>But alas, suppose a distant alien does receive a signal from me. Why should they pay it any attention? Certainly, such an alien communication must be treated with suspicion. Who is the sender exactly? What do they want? Why did they send this message? Are they even in their right mind? Do they possess any intelligence beyond the precise minimum required for the resulting wave to occur?</p>
+<p>All is unknown. If I wish to know, and that’s a precarious “if”, I must spend time investigating. I must collect and analyze not just one, but multiple signals from this alien. And ultimately, I must establish two-way communication with this alien, decode their language, and hope they are willing to do the same.</p>
+<p>An awful lot of effort. What are the odds of that? 8 billion to 1? Hmm, perhaps not even then. In this hypothetical thought experiment, why should I even wish to send a message if my reasoning tells me it is so unlikely to be received? What good is it to be able to send a message at the speed of light if it will never be seen?</p>
+<p>Can a world even be said to exist if it has only a single observer? There is no other to verify. Can one trust one’s own senses? One’s own thoughts? One would have to answer yes to have any hope of preserving one’s world.</p>
+<p>But to share it? It may be impossible. It would require that at some time, in some place, across an unfathomable distance of spacetime, the perceptive field of an other would finally intersect with the path of the wave. A ridiculously unlikely event if there ever was one.</p>
+<p>But what else could one do? The desire to share the warmth of a Sun is not extinguished, even long after its own flames have.</p>
+<p>I am relieved to not be living in such a world. I live close to other observers. Communicating over short distances by typical means. We bask in the warmth of our Suns together from time to time, and lay and point out shooting stars to one another to pass the time.</p>
+<p>If ever a being does find themselves in such a precarious situation, in such a strange world where they can scream as loud as possible and never be heard, I hope that they could somehow hear my thoughts.</p>
+<p>Assuming “I” am still “alive” in the region of 4-volume (or n-volume! F(n)ord only knows how deep this rabbit hole goes!) where such a technology exists, I hope that I could somehow transcribe my thoughts to be modulated by wave and offer a universal message to those without anyone to share their light with:</p>
 <p>I love you. I see it too.</p>
 <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>

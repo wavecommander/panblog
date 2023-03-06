@@ -8,30 +8,20 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
   </style>
   <link rel="stylesheet" href="res/min.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   <h1 id="ben-boyle" style="margin-bottom: 4px; padding-bottom: 0px;">
-  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave
-  Commander</a>
+  <a style="text-decoration: none;" href="index.html">Ben Boyle - Wave Commander</a>
   </h1>
   <p style="margin-left: 1px; margin-bottom: 24px;">
-  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
-  me@benboyle.ca </a>
-  <a href="https://benboyle.ca/resume" style="margin: 0px 4px;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
-  Resume </a> <a href="https://github.com/wavecommander">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;">
-  GitHub </a>
+  <a href="mailto:me@benboyle.ca" style="margin-right: 1px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: sub; margin-right: -2px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg> me@benboyle.ca </a> <a href="https://benboyle.ca/resume" style="margin: 0px 4px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align: text-top; margin-right: -4px;" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg> Resume </a> <a href="https://github.com/wavecommander"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" style="vertical-align: text-bottom; margin-right: -5px;"> GitHub </a>
   </p>
   <table style="display: table; table-layout:fixed;">
   <tbody>
@@ -48,112 +38,46 @@
   </tr>
   </tbody>
   </table>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Dealing With “Monsters”</h1>
 </header>
 <p>31 Jul 2020 T1</p>
-<p>This is the best I can muster. This has been and will be my life-long
-struggle.</p>
-<p>I see myself as attempting to construct my own <a
-href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a>
-and get people on the same Goddamned page.</p>
-<p>Is it somewhat futile? Yes. Are you going to read this and
-understand? Probably not.</p>
-<p>But one must imagine <a
-href="https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus">Sisyphus</a>
-as happy.</p>
-<p>You may not believe that my intentions are Good with a capital ‘G’; I
-assure you they are. Read on with patience and care.</p>
-<p>On Facebook, <a
-href="https://www.facebook.com/wavecommander/posts/3507687969246894">I
-publicly opened up about darkness in my past</a>, and reached out
-through the screen to anyone that would listen; I do that again now.</p>
-<p>Specifically, I harbored racist ideology during middle school. I
-picked it up on the internet, where people shared skewed perspectives on
-American “Black Crime Statistics.” Particularly the citation that
-“African-Americans, approximately 13% of the population, account for
-over 50% of homicide crimes”. The people stuck in this line of thinking
-like to think that these stats prove that Black people are fundamentally
-different from them and that there is no helping them. They think that
-Black people are doomed to their current fate, and any attempt to help
-their situation is not only futile but an attempt to wreak havoc by an
-international Jewish conspiracy.</p>
-<p>Some would call them the Alt-Right, Neo-Nazis, or White Supremacists.
-They don’t really go by a name, nor fit in the <a
-href="https://en.wikipedia.org/wiki/Straw_man">straw box</a> people want
-to place them in. They have been so far repressed and rejected from the
-public that they don’t even really have a name to call themselves, nor
-would they want one.</p>
-<p>And that is unfortunate in my opinion because it makes it more
-difficult to do anything about it. How can you confront something you
-cannot name and doesn’t want to come out of the dark?</p>
-<p>The term “White Fragility” is thrown around, but it is a misnomer.
-There are self-hating Black and Jewish people in these groups; they
-struggle with their own identity and “accept” that their people are
-inferior, or that there is a Jewish conspiracy at large. The real issue
-is insecurity, fear, and distrust in general.</p>
-<p>They are not for or against a specific political party. Originally
-they supported Donald Trump, but when Trump made kind gestures to Israel
-they rejected him and mocked MAGA with MIGA (Make Israel Great Again) to
-suggest that he was now in on the supposed conspiracy.</p>
-<p>They don’t have a united community or meeting place: /pol/, /r9k/,
-Wiz Chan, Discord. They are only united under fear and hatred. They
-truly are the <a
-href="https://en.wikipedia.org/wiki/2014_Isla_Vista_killings">Elliot
-Rodgers</a>, <a
-href="https://en.wikipedia.org/wiki/Christchurch_mosque_shootings">Brenton
-Tarrants</a>, and <a
-href="https://en.wikipedia.org/wiki/Columbine_High_School_massacre">Dylan
-Kleybolds</a> waiting to happen.</p>
-<p>The key thing to remember, though, is that we are all human, and
-these people don’t have to become homicidal monsters.</p>
-<p>I confronted these “monsters” by going to a private Facebook group of
-600+ members and posting an honest warning. I was expecting to get
-kicked/banned immediately; I’m happy to say that did not happen.</p>
+<p>This is the best I can muster. This has been and will be my life-long struggle.</p>
+<p>I see myself as attempting to construct my own <a href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a> and get people on the same Goddamned page.</p>
+<p>Is it somewhat futile? Yes. Are you going to read this and understand? Probably not.</p>
+<p>But one must imagine <a href="https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus">Sisyphus</a> as happy.</p>
+<p>You may not believe that my intentions are Good with a capital ‘G’; I assure you they are. Read on with patience and care.</p>
+<p>On Facebook, <a href="https://www.facebook.com/wavecommander/posts/3507687969246894">I publicly opened up about darkness in my past</a>, and reached out through the screen to anyone that would listen; I do that again now.</p>
+<p>Specifically, I harbored racist ideology during middle school. I picked it up on the internet, where people shared skewed perspectives on American “Black Crime Statistics.” Particularly the citation that “African-Americans, approximately 13% of the population, account for over 50% of homicide crimes”. The people stuck in this line of thinking like to think that these stats prove that Black people are fundamentally different from them and that there is no helping them. They think that Black people are doomed to their current fate, and any attempt to help their situation is not only futile but an attempt to wreak havoc by an international Jewish conspiracy.</p>
+<p>Some would call them the Alt-Right, Neo-Nazis, or White Supremacists. They don’t really go by a name, nor fit in the <a href="https://en.wikipedia.org/wiki/Straw_man">straw box</a> people want to place them in. They have been so far repressed and rejected from the public that they don’t even really have a name to call themselves, nor would they want one.</p>
+<p>And that is unfortunate in my opinion because it makes it more difficult to do anything about it. How can you confront something you cannot name and doesn’t want to come out of the dark?</p>
+<p>The term “White Fragility” is thrown around, but it is a misnomer. There are self-hating Black and Jewish people in these groups; they struggle with their own identity and “accept” that their people are inferior, or that there is a Jewish conspiracy at large. The real issue is insecurity, fear, and distrust in general.</p>
+<p>They are not for or against a specific political party. Originally they supported Donald Trump, but when Trump made kind gestures to Israel they rejected him and mocked MAGA with MIGA (Make Israel Great Again) to suggest that he was now in on the supposed conspiracy.</p>
+<p>They don’t have a united community or meeting place: /pol/, /r9k/, Wiz Chan, Discord. They are only united under fear and hatred. They truly are the <a href="https://en.wikipedia.org/wiki/2014_Isla_Vista_killings">Elliot Rodgers</a>, <a href="https://en.wikipedia.org/wiki/Christchurch_mosque_shootings">Brenton Tarrants</a>, and <a href="https://en.wikipedia.org/wiki/Columbine_High_School_massacre">Dylan Kleybolds</a> waiting to happen.</p>
+<p>The key thing to remember, though, is that we are all human, and these people don’t have to become homicidal monsters.</p>
+<p>I confronted these “monsters” by going to a private Facebook group of 600+ members and posting an honest warning. I was expecting to get kicked/banned immediately; I’m happy to say that did not happen.</p>
 <p><img src="./images/magnum1.jpg" /></p>
 <p><img src="./images/magnum2.jpg" /></p>
 <p><img src="./images/magnum3.jpg" /></p>
 <p><img src="./images/magnum4.jpg" /></p>
 <p><img src="./images/magnum5.jpg" /></p>
-<p>Again, you may not believe that my intentions are good; they
-certainly didn’t. Many commenters called me out as being part of a
-conspiracy despite my plea that this was no <a
-href="https://en.wikipedia.org/wiki/Psychological_warfare">PSYOP</a>.</p>
-<p>You can find more images of my exchanges with commenters in this <a
-href="https://photos.app.goo.gl/niFvPXNV7en1CK568">Google Photos
-album</a>.</p>
-<p>I want you to imagine a world where instead of offering these lost
-and damned humans the noose they fear, we offer them an embrace and
-forgive them instead.</p>
-<p>I will leave you with one more thing. George Lincoln Rockwell was the
-founder of the American Nazi Party. He was allowed to speak at many
-university campuses in his day. Many today worry about “extremists”
-speaking on campuses and “platforming” those ideas.</p>
+<p>Again, you may not believe that my intentions are good; they certainly didn’t. Many commenters called me out as being part of a conspiracy despite my plea that this was no <a href="https://en.wikipedia.org/wiki/Psychological_warfare">PSYOP</a>.</p>
+<p>You can find more images of my exchanges with commenters in this <a href="https://photos.app.goo.gl/niFvPXNV7en1CK568">Google Photos album</a>.</p>
+<p>I want you to imagine a world where instead of offering these lost and damned humans the noose they fear, we offer them an embrace and forgive them instead.</p>
+<p>I will leave you with one more thing. George Lincoln Rockwell was the founder of the American Nazi Party. He was allowed to speak at many university campuses in his day. Many today worry about “extremists” speaking on campuses and “platforming” those ideas.</p>
 <p>Tell me how scary is he really?</p>
-<div
-style="position:relative;padding-bottom:50%;height:0;overflow:hidden;max-width: 100%;">
+<div style="position:relative;padding-bottom:50%;height:0;overflow:hidden;max-width: 100%;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://drive.google.com/file/d/1ZxkWMfHpu7bJ6frbmxUIw22TjG0VUt2N/preview">
 </iframe>
 </div>
-<p>I hear a man who passionately wants to help change the world, but
-just doesn’t trust the “other” and that the neuroplasticity of the brain
-surpasses any racial genetic difference.</p>
-<p>I see an anti-vaxxer not wanting to trust doctors and modern
-medicine.</p>
-<p>I see a flat-earther not wanting to trust NASA imagery and
-research.</p>
-<p>I see an ‘AJ’, desperately in need of help, kindness, and
-forgiveness.</p>
-<p>I see my own Grandfather, stuck in the vitriolic and fear-mongering
-US news cycle.</p>
-<p>The real enemy is conspiratorial thinking because it can lead you to
-distrust your fellow man and misinterpret any kind act as a manipulative
-one, a PSYOP.</p>
+<p>I hear a man who passionately wants to help change the world, but just doesn’t trust the “other” and that the neuroplasticity of the brain surpasses any racial genetic difference.</p>
+<p>I see an anti-vaxxer not wanting to trust doctors and modern medicine.</p>
+<p>I see a flat-earther not wanting to trust NASA imagery and research.</p>
+<p>I see an ‘AJ’, desperately in need of help, kindness, and forgiveness.</p>
+<p>I see my own Grandfather, stuck in the vitriolic and fear-mongering US news cycle.</p>
+<p>The real enemy is conspiratorial thinking because it can lead you to distrust your fellow man and misinterpret any kind act as a manipulative one, a PSYOP.</p>
 <p>But I fear it is only me thinking this way.</p>
 <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
