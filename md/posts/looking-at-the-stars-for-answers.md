@@ -22,10 +22,10 @@ But alas, suppose a distant alien does receive a signal from me:
 why should they pay it any attention?
 Certainly, such an alien communication must be treated with suspicion.
 How is it encoded? What language is the message expressed in? Who is the sender exactly? What do they want? Why did they send this message? Are they even in their right mind?
-Does there even exist any intelligence beyond the precise minimum required for the resulting wave to occur?
+Is it an intelligent, deliberate signal at all? Or is it unintelligble, chatoic gibberish?
 
 All is unknown.
-If I wish to know, and that's a precarious "if", I must spend time investigating. I must collect and analyze not just one, but multiple signals from this alien. And ultimately, I must establish two-way communication with this alien, decode their language, and hope they are willing to do the same.
+If they wish to know, and that's a precarious "if", they must spend time investigating. they must collect and analyze not just one, but multiple signals from this alien. And ultimately, they must decode the alien language, attempt two-way communication, and hope the alien is willing to do the same.
 
 An awful lot of effort. What are the odds of that? 8 billion to 1?
 Hmm, perhaps not even then.
@@ -38,7 +38,7 @@ Can one trust one's own senses? One's own thoughts?
 One would have to answer yes to have any hope of preserving one's world.
 
 But to share it? It may be impossible.
-It would require that at some time, in some place, across an unfathomable distance of spacetime, the perceptive field of an other would finally intersect with the path of the wave. A ridiculously unlikely event if there ever was one.
+It would require that at some time, in some place, across an unfathomable distance of spacetime, the perceptive field of an other would finally intersect with the path of the wave and be able to interpret its full meaning. A ridiculously unlikely event if there ever was one.
 
 But what else could one do?
 The desire to share the warmth of a Sun is not extinguished, even long after its own flames have.
