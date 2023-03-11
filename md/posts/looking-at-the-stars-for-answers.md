@@ -1,5 +1,5 @@
 % Looking at the Stars for Answers
-6 Mar 2023
+10 Mar 2023
 SD
 
 It requires a telescopic lens to peer into worlds beyond.
