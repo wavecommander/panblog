@@ -39,8 +39,7 @@ post_type_dict = {
     "T2": {"name": "Tier 2", "desc": "Might interest you"},
     "SD": {
         "name": "Something Different",
-        "desc": "Posts that are more "
-        + "[a stream of consciousness](https://www.youtube.com/watch?v=GFQbLwaElt4&t=293s)",
+        "desc": "[Something completely different](https://youtube.com/clip/UgkxsPjk_YNNT-8-RXnFu5vOdOeih8pW5QY_)",
     },
     "MP": {"name": "Meta Post", "desc": "Posts about me and this site"},
     "T3": {"name": "Tier 3", "desc": "Why did I spend time writing this?"},
