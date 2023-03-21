@@ -25,7 +25,7 @@ How is it encoded? What language is the message expressed in? Who is the sender 
 Is it an intelligent, deliberate signal at all? Or is it unintelligble, chatoic gibberish?
 
 All is unknown.
-If they wish to know, and that's a precarious "if", they must spend time investigating. they must collect and analyze not just one, but multiple signals from this alien. And ultimately, they must decode the alien language, attempt two-way communication, and hope the alien is willing to do the same.
+If they wish to know, and that's a precarious "if", they must spend time investigating. They must collect and analyze not just one, but multiple signals from this alien. And ultimately, they must decode the alien language, attempt two-way communication, and hope the alien is willing to do the same.
 
 An awful lot of effort. What are the odds of that? 8 billion to 1?
 Hmm, perhaps not even then.
