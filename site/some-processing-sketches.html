@@ -48,16 +48,26 @@
 <p>These are little bits of Javascript that draw things in the viewport. These ones only draw squares as I was just messing with them.</p>
 <p>They look best in fullscreen so click on their names to load them on their own page if you like. The source code is in script tags in the HTML.</p>
 <p>Enjoy!</p>
+<style>
+.sketch-container {position: relative; width: 100%; height: 0; padding-top: 100%;}
+.sketch-frame {position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;}
+</style>
 <h2 id="orbital"><a href="some-processing-sketches/orbital.html">Orbital</a></h2>
-<iframe src="some-processing-sketches/orbital.html" style="width: 100%;height: 590px;">
+<div class="sketch-container">
+<iframe src="some-processing-sketches/orbital.html" class="sketch-frame">
 </iframe>
+</div>
 <h2 id="completing-the-square-lotus"><a href="some-processing-sketches/completing-the-square-lotus.html">Completing the Square Lotus</a></h2>
-<iframe src="some-processing-sketches/completing-the-square-lotus.html" style="width: 100%;height: 590px;">
+<div class="sketch-container">
+<iframe src="some-processing-sketches/completing-the-square-lotus.html" class="sketch-frame">
 </iframe>
+</div>
 <h2 id="depth"><a href="some-processing-sketches/depth.html">Depth</a></h2>
 <p>You can reload the page for new colors</p>
-<iframe src="some-processing-sketches/depth.html" style="width: 100%;height: 590px;">
+<div class="sketch-container">
+<iframe src="some-processing-sketches/depth.html" class="sketch-frame">
 </iframe>
+</div>
 <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
