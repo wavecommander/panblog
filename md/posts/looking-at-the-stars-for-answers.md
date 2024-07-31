@@ -10,7 +10,7 @@ What is an insignificant dot of light in someone else's field of view is one of 
 I feel its warmth and appreciate the light it has provided me. It illuminated things I didn't know were there.
 It is sad to know there are worlds where my Suns are seen as insignificant and not even worth a glance, or never seen at all.
 
-Oh, if only I could send them a message containing it's fully glory to show them what they are missing.
+Oh, if only I could send them a message containing its full glory to show them what they are missing.
 Some sort of modulated wave. A radio wave? A light wave? Perhaps both.
 Who knows what sort of technological and engineering wonder it would take to achieve such a feat?
 Commanding a wave?
@@ -38,7 +38,7 @@ Can one trust one's own senses? One's own thoughts?
 One would have to answer yes to have any hope of preserving one's world.
 
 But to share it? It may be impossible.
-It would require that at some time, in some place, across an unfathomable distance of spacetime, the perceptive field of an other would finally intersect with the path of the wave and be able to interpret its full meaning. A ridiculously unlikely event if there ever was one.
+It would require that at some time, in some place, across an unfathomable distance of spacetime, the perceptive field of an *other* would finally intersect with the path of the wave and be able to interpret its full meaning. A ridiculously unlikely event if there ever was one.
 
 But what else could one do?
 The desire to share the warmth of a Sun is not extinguished, even long after its own flames have.
