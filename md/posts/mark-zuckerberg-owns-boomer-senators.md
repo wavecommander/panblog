@@ -12,7 +12,7 @@ There is a major reason as to why the blind sharing of this video is an issue in
 
 ### All of the Congress members' questions are relevant and important, yet they are being mocked for asking them.
 
-To sum up the questions the Congress members Zuckerberg with some paraphrasing:
+To parapshrase the questions the Congress members ask Zuckerberg:
 
 * What is Facebook's primary revenue source?
 * Does Facebook automate the sensing of keywords in WhatsApp messaging to deliver relevant ads?
@@ -24,7 +24,7 @@ All of these questions are relevant and important questions for Facebook users t
 
 This video's title and equally patronizing music shoot down the concerns of the Congress members by mocking them; primarily because they aren't very up-to-date with the jargon of the subject (e.g. a Congress member described messaging in WhatsApp as "e-mailing").
 
-Zuckerberg tip-toes around answering these questions or outright deny any allegations, like most of his responses during his questioning, while many tech-savvy people speculate that the answer to all of the above allegations may be yes.
+Zuckerberg tip-toes around answering these questions or outright denies any allegations, like most of his responses during his questioning, while many tech-savvy people speculate that the answer to all of the above allegations may be yes.
 
 Because sites like Facebook and Google rely on advertising as their primary source of revenue, they are faced with the challenge of adding value to online advertising which has been, for most of the history of the internet, pretty worthless. Being able to target specific demographics to advertise to is where the money is, and data harvesting + user profiling is the way to do it.
 
