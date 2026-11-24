@@ -2,7 +2,7 @@
 23 Nov 2026
 SD
 
-<img href="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/The_Call_to_Arms_-_Soldiers_%26_Sailors_Monument_%28Troy%2C_New_York%29.jpg/1280px-The_Call_to_Arms_-_Soldiers_%26_Sailors_Monument_%28Troy%2C_New_York%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail">
+<img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/The_Call_to_Arms_-_Soldiers_%26_Sailors_Monument_%28Troy%2C_New_York%29.jpg/1280px-The_Call_to_Arms_-_Soldiers_%26_Sailors_Monument_%28Troy%2C_New_York%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail">
 > By <a href="//commons.wikimedia.org/wiki/User:Kzirkel" title="User:Kzirkel">Kenneth C. Zirkel</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by/4.0" title="Creative Commons Attribution 4.0">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/Special:Redirect/page/149052260">Link</a>
 
 Dearest Columbia, is that you?
@@ -17,5 +17,5 @@ Now just who raised you young lady?
 
 
 <div style="position:relative;padding-bottom:50%;height:0;overflow:hidden;max-width: 100%;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://music.youtube.com/watch?v=PFK2nRWILSk"></iframe>
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://www.youtube-nocookie.com/embed/Hy70q_awGUk"></iframe>
 </div>
