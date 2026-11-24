@@ -3,7 +3,7 @@
 SD
 
 <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/The_Call_to_Arms_-_Soldiers_%26_Sailors_Monument_%28Troy%2C_New_York%29.jpg/1280px-The_Call_to_Arms_-_Soldiers_%26_Sailors_Monument_%28Troy%2C_New_York%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail">
-> By <a href="//commons.wikimedia.org/wiki/User:Kzirkel" title="User:Kzirkel">Kenneth C. Zirkel</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by/4.0" title="Creative Commons Attribution 4.0">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/Special:Redirect/page/149052260">Link</a>
+> By [Kenneth C. Zirkel](https://commons.wikimedia.org/wiki/User:Kzirkel) - Own work, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), [Original](https://commons.wikimedia.org/wiki/Special:Redirect/page/149052260)
 
 Dearest Columbia, is that you?
 
